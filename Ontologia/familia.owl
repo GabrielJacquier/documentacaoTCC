@@ -1,0 +1,458 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/gabriel/ontologies/2017/6/untitled-ontology-3"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/gabriel/ontologies/2017/6/untitled-ontology-3">
+    <Prefix name="" IRI="http://www.semanticweb.org/gabriel/ontologies/2017/6/untitled-ontology-3#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <ObjectProperty IRI="#éIrmãoDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#éParenteDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#temSexo"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#henrique"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#éTataranetoDe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vô"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Joao"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#masculino"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#éFilhoDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#éPrimoDe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Irmao"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nome"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Andrei"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#matilde"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#éTataravoDe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Mae"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#éSobrinhoDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#éNetoDe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Genitor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#éGenitoDe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Vó"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#éPaiDe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#feminino"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#éGenitorDe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Genito"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sexo"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#éTioDe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pai"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#luquinha"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#éAvoDe"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#gabriel"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Primo"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Genitor"/>
+        <Class IRI="#Genito"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Irmao"/>
+        <Class IRI="#Genito"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Mae"/>
+        <Class IRI="#Genitor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pai"/>
+        <Class IRI="#Genitor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Primo"/>
+        <Class IRI="#Genito"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vó"/>
+        <Class IRI="#Mae"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Vô"/>
+        <Class IRI="#Pai"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#éAvoDe"/>
+                <Class IRI="#Genito"/>
+            </ObjectSomeValuesFrom>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#temSexo"/>
+                <NamedIndividual IRI="#feminino"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+        <Class IRI="#Vó"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#éAvoDe"/>
+                <Class IRI="#Genito"/>
+            </ObjectSomeValuesFrom>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#temSexo"/>
+                <NamedIndividual IRI="#masculino"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+        <Class IRI="#Vô"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#éPaiDe"/>
+                <Class IRI="#Genito"/>
+            </ObjectSomeValuesFrom>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#temSexo"/>
+                <NamedIndividual IRI="#feminino"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+        <Class IRI="#Mae"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectIntersectionOf>
+            <ObjectSomeValuesFrom>
+                <ObjectProperty IRI="#éPaiDe"/>
+                <Class IRI="#Genito"/>
+            </ObjectSomeValuesFrom>
+            <ObjectHasValue>
+                <ObjectProperty IRI="#temSexo"/>
+                <NamedIndividual IRI="#masculino"/>
+            </ObjectHasValue>
+        </ObjectIntersectionOf>
+        <Class IRI="#Pai"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éIrmãoDe"/>
+            <Class IRI="#Genito"/>
+        </ObjectSomeValuesFrom>
+        <Class IRI="#Irmao"/>
+    </SubClassOf>
+    <SubClassOf>
+        <ObjectSomeValuesFrom>
+            <ObjectProperty IRI="#éPrimoDe"/>
+            <Class IRI="#Genito"/>
+        </ObjectSomeValuesFrom>
+        <Class IRI="#Primo"/>
+    </SubClassOf>
+    <ClassAssertion>
+        <Class IRI="#Sexo"/>
+        <NamedIndividual IRI="#feminino"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Sexo"/>
+        <NamedIndividual IRI="#masculino"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#éIrmãoDe"/>
+        <NamedIndividual IRI="#Andrei"/>
+        <NamedIndividual IRI="#Joao"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temSexo"/>
+        <NamedIndividual IRI="#Joao"/>
+        <NamedIndividual IRI="#masculino"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#éPaiDe"/>
+        <NamedIndividual IRI="#Joao"/>
+        <NamedIndividual IRI="#gabriel"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#éSobrinhoDe"/>
+        <NamedIndividual IRI="#henrique"/>
+        <NamedIndividual IRI="#Andrei"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#éFilhoDe"/>
+        <NamedIndividual IRI="#luquinha"/>
+        <NamedIndividual IRI="#Andrei"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#temSexo"/>
+        <NamedIndividual IRI="#matilde"/>
+        <NamedIndividual IRI="#feminino"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#éPaiDe"/>
+        <NamedIndividual IRI="#matilde"/>
+        <NamedIndividual IRI="#henrique"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome"/>
+        <NamedIndividual IRI="#Joao"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Claudio</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nome"/>
+        <NamedIndividual IRI="#matilde"/>
+        <Literal datatypeIRI="http://www.w3.org/2000/01/rdf-schema#Literal">Maria</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#temSexo"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#éAvoDe"/>
+        <ObjectProperty IRI="#éGenitorDe"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#éFilhoDe"/>
+        <ObjectProperty IRI="#éGenitoDe"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#éGenitoDe"/>
+        <ObjectProperty IRI="#éParenteDe"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#éGenitorDe"/>
+        <ObjectProperty IRI="#éParenteDe"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#éIrmãoDe"/>
+        <ObjectProperty IRI="#éParenteDe"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#éNetoDe"/>
+        <ObjectProperty IRI="#éGenitoDe"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#éPaiDe"/>
+        <ObjectProperty IRI="#éGenitorDe"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#éPrimoDe"/>
+        <ObjectProperty IRI="#éParenteDe"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#éSobrinhoDe"/>
+        <ObjectProperty IRI="#éParenteDe"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#éTataranetoDe"/>
+        <ObjectProperty IRI="#éGenitoDe"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#éTataravoDe"/>
+        <ObjectProperty IRI="#éGenitorDe"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#éTioDe"/>
+        <ObjectProperty IRI="#éParenteDe"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#éAvoDe"/>
+        <ObjectProperty IRI="#éNetoDe"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#éFilhoDe"/>
+        <ObjectProperty IRI="#éPaiDe"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#éGenitoDe"/>
+        <ObjectProperty IRI="#éGenitorDe"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#éSobrinhoDe"/>
+        <ObjectProperty IRI="#éTioDe"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#éTataranetoDe"/>
+        <ObjectProperty IRI="#éTataravoDe"/>
+    </InverseObjectProperties>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#éIrmãoDe"/>
+    </SymmetricObjectProperty>
+    <SymmetricObjectProperty>
+        <ObjectProperty IRI="#éPrimoDe"/>
+    </SymmetricObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#temSexo"/>
+        <Class IRI="#Genito"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#éAvoDe"/>
+        <Class IRI="#Genitor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#éFilhoDe"/>
+        <Class IRI="#Genito"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#éGenitorDe"/>
+        <Class IRI="#Genitor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#éIrmãoDe"/>
+        <Class IRI="#Genito"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#éNetoDe"/>
+        <Class IRI="#Genito"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#éPaiDe"/>
+        <Class IRI="#Genitor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#éPrimoDe"/>
+        <Class IRI="#Genito"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#éSobrinhoDe"/>
+        <Class IRI="#Genito"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#éTataranetoDe"/>
+        <Class IRI="#Genito"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#éTataravoDe"/>
+        <Class IRI="#Genitor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#temSexo"/>
+        <Class IRI="#Sexo"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#éAvoDe"/>
+        <Class IRI="#Genito"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#éFilhoDe"/>
+        <Class IRI="#Genitor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#éGenitorDe"/>
+        <Class IRI="#Genito"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#éIrmãoDe"/>
+        <Class IRI="#Genito"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#éNetoDe"/>
+        <Class IRI="#Genitor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#éPaiDe"/>
+        <Class IRI="#Genito"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#éPrimoDe"/>
+        <Class IRI="#Genito"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#éSobrinhoDe"/>
+        <Class IRI="#Genito"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#éTataranetoDe"/>
+        <Class IRI="#Genitor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#éTataravoDe"/>
+        <Class IRI="#Genito"/>
+    </ObjectPropertyRange>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#éGenitoDe"/>
+            <ObjectProperty IRI="#éIrmãoDe"/>
+            <ObjectProperty IRI="#éGenitorDe"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#éPrimoDe"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#éIrmãoDe"/>
+            <ObjectProperty IRI="#éGenitorDe"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#éTioDe"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#éPaiDe"/>
+            <ObjectProperty IRI="#éAvoDe"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#éTataravoDe"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectPropertyChain>
+            <ObjectProperty IRI="#éPaiDe"/>
+            <ObjectProperty IRI="#éPaiDe"/>
+        </ObjectPropertyChain>
+        <ObjectProperty IRI="#éAvoDe"/>
+    </SubObjectPropertyOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.2.8.20170104-2310) https://github.com/owlcs/owlapi -->
+
