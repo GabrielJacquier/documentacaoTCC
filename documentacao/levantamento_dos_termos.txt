@@ -1,0 +1,43 @@
+﻿Lista de termos e informações e descrições sobre eles
+
+MEI
+Micro Empreendedor Individual
+
+Licenças
+Documentos necessários para o funcionamento de uma empresa. Os documentos requeridos variam conforme a área de atuação da empresa (CNAE) e o município em que a empresa se encontra.
+
+
+Atividades
+
+Relacionadas a um CNAE, indica possíveis atividades que um CNAE permite legalmente serem feitas
+Um CNAE pode estar relacionado com N atividades, e uma atividade pertence somente a um CNAE
+
+CNAE 
+
+Código para se identificar o ramo de atuação de uma empresa (MEI) assim como as atividades permitidas para a mesma
+Código de identificação estruturado de forma hierárquica, sendo composto por (Divisão, Grupo, Classe, Subclasse)
+
+
+Divisão 
+composto por  2 dígitos do CNAE 0111-3/01, alguns nomes possíveis para MEIs são: 
+INDÚSTRIAS DE TRANSFORMAÇÃO, 
+COMÉRCIO; REPARAÇÃO DE VEÍCULOS AUTOMOTORES E MOTOCICLETAS
+AGRICULTURA, PECUÁRIA, PRODUÇÃO FLORESTAL, PESCA E QÜICULTURA
+OUTRAS ATIVIDADES DE SERVIÇOS
+
+
+Seção
+Agrupamento de Divisões, interessante para tentar se obter grupos de relações entre as Divisões. utilizado uma letra de A-U para identificar uma seção. Um Seção também possui um nome.
+
+
+Grupo 
+Composto por 1 dígito do CNAE 0111-3/01
+
+
+Classe 
+Composto por 2 dígitos do CNAE 0111-3/01
+
+
+Subclasse
+Composto por 2 dígitos do CNAE 0111-3/01
+

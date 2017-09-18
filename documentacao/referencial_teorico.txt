@@ -1,0 +1,40 @@
+﻿Referencial Teórico
+
+	Neste capítulo será elucidado a base bibliográfica do trabalho. Os temas apresentados neste capítulo compreendem os assuntos relacionados ao desenvolvimento das ontologias. Estão presentes as definições, conceitos, classificação, tipos e seus formatos de representação, linguagens e artefatos utilizados para construção da ontologia deste trabalho.
+
+
+Ontologias
+
+	As
+	Uma ontologia geralmente  é são utilizadas/conceituadas para compor uma estrutura que efetua a captura do conhecimento de uma determinada área , assim, fornecendo conceitos e relacionamentos relevantes.
+
+	Segundo Xavier e Costa (2010), o conhecimento advém da disponibilização da informação, partindo do pressuposto que a geração do conhecimento produzirá mais informação e assim sucessivamente, contudo, nem sempre este conhecimento se torna acessível, para que isto ocorra é necessário que o conhecimento seja registrado, armazenado, organizado e estar disponível para recuperação por quem venha a utiliza-lo.  
+
+ Linkar este paragrafo com o seguinte (falta conteúdo);
+
+Segundo Guarino (2009) uma ontologia pode ser definida como um objeto de informação ou um artefato computacional (...) são um meio para modelar formalmente a estrutura de um sistema, entidades e relações que emergem da observação, que são relevantes para um propósito.
+	
+	
+Uma ontologia é formada/ composta por alguns elementos:
+
+Relacionamentos, que representam um tipo de interação ou associação entre conceitos do domínio. Um relacionamento é como uma função matemática, onde o domínio e a imagem são conceitos. Os atributos das classes são relacionamentos unários, pois possuem como domínio um conceito e a imagem é formada por um tipo de dado (número, data, string).
+
+Axiomas, que modelam sentenças que são sempre verdade. Os axiomas são úteis na inferência de novos conhecimentos e podem ser construídos em lógica de primeira ordem.
+
+ 	Instâncias, que representam elementos de um dado conceito do domínio. 
+
+Linguagens
+
+	
+
+Tipos de Ontologia (Espectro Semântico)
+
+tipo de informação(Domínio, Aplicação, Nível superior)
+
+(Adicional caso necessário)
+
+
+
+conclusão
+
+

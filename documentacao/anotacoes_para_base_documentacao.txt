@@ -1,0 +1,43 @@
+﻿ANOTAÇÕES BASE PARA DOCUMENTAÇÃO
+
+Atualmente, a maior parte dos recursos primários presentes na Web está em linguagem natural, de modo que só podem ser interpretados por seres humanos. Deparamo-nos com essa situação diaria- mente, quando realizamos buscas na Web e somos forçados a “filtrar” informações que, mesmo dentro dos critérios de busca solicitados, pertencem a diferentes contextos. Um exemplo simples é fazer uma pesquisa sobre árvores – carvalhos. O resultado dessa busca, além de páginas referentes a esse tipo de árvore, também traz pessoas cujo sobrenome é Carvalho, empresas de guindastes e escritórios de advocacia. 
+
+BREITMAN (2005) – Livro.
+
+A internet das coisas aumenta o desafio de transformar tudo isso em conhecimento — diz Karin Breitman, executiva líder do Centro de Pesquisa e Desenvolvimento em Big Data da EMC. — Aparecem dados de vários dispositivos, como o recenteAmazon Dash (leitor de código de barras dublê de microfone, ligado ao serviço de entregas Amazon Fresh, que lê os códigos de produtos que estão acabando em casa e os envia automaticamente à Amazon para reposição).
+
+Leia mais: https://oglobo.globo.com/sociedade/tecnologia/estudo-da-emc-preve-que-volume-de-dados-virtuais-armazenados-sera-seis-vezes-maior-em-2020-12147682#ixzz4sZkvx1V1 
+stest 
+https://brazil.emc.com/about/news/press/brazil/2012/08072012.htm - Karin
+
+Sinônimos e significados:
+
+invariavelmente para 1 sentido da palavra invariavelmente: Sempre, sem variação: 1 sempre, sistematicamente, invariadamente, inalteravelmente, inalteradamente, repetidamente, reiteradamente, constantemente, regularmente, continuamente, continuadamente.
+
+17 sinônimos de maioria para 1 sentido da palavra maioria: Grupo preponderante: 1 preponderância, o mais, maior parte, maior número, prevalência, massa, multidão, predomínio, supremacia, aglomeração, superioridade, grosso,pluralidade, multiplicidade, geral, generalidade, comum.
+Conformação:
+substantivo feminino
+1. 1. ação de dar ou de tomar forma.  "a c. do vidro pelo sopro"
+2. 2. ato ou efeito de formar(-se) [um ser ou uma coisa concreta ou abstrata]."a c. do ser humano no útero"
+
+equalizar
+verbo
+1. 1. 
+transitivo direto
+tornar (algo) uniforme, igual; uniformizar, igualar.
+2. 2. 
+transitivo direto
+eletrôn realizar a equalização de.
+Origem
+⊙ ETIM igual sob a f. rad. lat. equal(i)- + -izar, por infl. do ing. to equalize 'id.'
+
+
+Documentos Usados:
+
+Análise de tipos de ontologias nas áreas de Ciência da Informação e Ciência da Computação – Mendeley – Vinicius;
+FOCA: Uma Metodologia que utiliza princípios da Representação do Conhecimento para Avaliação de Ontologias – Mendeley – Vinicius;
+OCN – BRASIL Boituva 2016 – Mendeley – Vinicius;
+
+
+
+

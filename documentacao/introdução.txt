@@ -1,0 +1,42 @@
+﻿Introdução
+
+Com a crescente demanda e expansão da tecnologia novas ideias e soluções surgem para equalizar a exigência por avanços, em função disto a quantidade de dados e por conseguinte informação sofre um processo exponencial de sua quantidade, com isto, temos a necessidade de armazenamento e recuperação de dados e informações.
+
+No contexto da web a constatação do processo de exponenciação é evidente, em contrapasso a isto o tratamento e disponibilização da informação se encontra em processo de conformação, Segundo Breitman (2005) em seu predomínio os recursos presentes na Web se encontram em linguagem natural, que são interpretadas somente por humanos, por meio de diferentes inferências realizadas, como, associação, comparação, ambiente e outros fatores presentes na característica intrinsicamente humana, em seu cotidiano depara-se com a seguinte situação: na realização de uma pesquisa no ambiente web com objetivo de consultar informações à necessidade de filtrar uma informação de acordo com requisitos definidos, sendo que, a mesma informação  invariavelmente está presente em outros contextos.
+
+Atualmente, um grande desafio para a área de Sistemas de Informação, são os conflitos terminológicos das áreas de domínio que se objetiva desenvolver uma solução computacional. A dificuldade para sistemas de informação lidarem com a grande variedade de termos das áreas de interesse, é gerado pela inexistência de um vocabulário padrão, tornando difícil a tarefa do processamento das informações por agentes de software.
+
+	Uma área em que se tem problema com a falta de um vocabulário padrão é a de abertura de MEI (Microempreendedor Individual), para se realizar a abertura é necessário apresentar dados e documentos, um deles é chamado CNAE (Classificação Nacional de Atividades Econômicas), um código que corresponde às atividades realizadas por um MEI, e pode ser encontrado através de documentos fornecidos pelo Governo ou sites especializados no assunto. A definição do CNAE para um MEI se torna difícil, quando é necessário identificá-lo através de um nome informal da atividade, ou seja, um nome que não está contido na especificação dos documentos fornecidos pelo governo, gerando dificuldade na obtenção do CNAE correto para com as atividades do microempreendedor.
+
+	Uma abordagem utilizada para esse gênero de problemas tem sido a utilização de ontologias, segundo Guarino (2009) uma ontologia pode ser definida como um objeto de informação ou um artefato computacional (...) são um meio para modelar formalmente a estrutura de um sistema, entidades e relações que emergem da observação, que são relevantes para um propósito.
+
+	Com esta base, está monografia visa a contemplação de uma solução computacional se utilizando de uma ontologia de aplicação, se utilizando de todas as suas possibilidades para solucionar o problema semântico-estrutural da problemática MEI – CNAE, o mesmo apresenta os seguintes capítulos, 1 Introdução, 1.1 Objetivo Geral e objetivos específicos, 2 Referencial Teótico, 2.1 Ontologias, 2.2 Espectro semântico, 2.3 Linguagens, 2.4 Tipos de Ontologias, 2.5 Tipos de informação, 3 Metodologia, 4 Tecnologias, 4.1 Apache Jena, 4.2 Framework Rest, 4.3 SPARQL, 5 Domínio de Conhecimento, 5.1 CNAE, 5.2 MEI, 6 Aplicação, 6.1 Hierarquia de classes, 6.2 Propriedades das classes, 6.3 Valores das propriedades, 6.4 Instancias, 7 Considerações Finais.
+
+
+
+Objetivos específicos e objetivos gerais
+
+	
+O objetivo geral deste trabalho é o de efetuar a estruturação e representação do conhecimento de CNAE (Classificação Nacional de Atividades Econômicas), com a concepção e desenvolvimento de uma Ontologia de aplicação com foco na aplicabilidade junto as empresas MEI’s (Micro empreendedores individuais).
+
+Os objetivos específicos são:
+
+Análise e estudo do estado da arte da área de MEI’s e sua relação com o CNAE, através de toda documentação disponibilizada pelo governo federal do Brasil;
+
+Levantamento e modelagem dos dados, formando com isso informação para iniciar o processo de estruturação do modelo da ontologia de aplicação;
+
+Validação das informações junto ao sistema web “cnae – ibge”, mantido pelo IBGE (Instituto Brasileiro de Geografia e Estatística);
+
+ Construção da Ontologia de aplicação no ambiente de desenvolvimento PROTÉGÉ;
+
+Validação da estrutura e semântica da ontologia utilizando a linguagem orientada a dados SPARQL;
+
+Efetuar a integração junto a ferramenta Apache Jena;
+
+Desenvolvimento de uma API (Application Programming Interface) para disponibilizar a possibilidade de disponibilização do conhecimento para sistemas terceiros possam consumir;
+
+
+
+
+	
+ 
