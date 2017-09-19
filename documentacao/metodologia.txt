@@ -29,7 +29,73 @@ Quem vai utilizar a ontologia?
 
 
 	
-					Amostra
+					Amostra (Só armazenando dados para usarmos depois)
 
 
-Foi contabilizado aproximadamente 550 CNAEs como permitidos para um MEI se utilizar, pela grande quantidade de CNAEs preferiu-se utilizar uma amostra para de aproximadamente 4%, totalizando 22 CNAEs. O numero de CNAEs escolhido foi o maior possível, em relação ao tamanho do esforço manual necessário para se inserir o CNAEs na ontologia. Para escolha dos CNAEs foi levado em conta a distribuição da população, sendo pego CNAES de todas as divisões possíveis para a um MEI com quantidade de amostra proporcional a porporção da divisão sobre o todo.
+Foi contabilizado aproximadamente 500 CNAEs como permitidos para um MEI se utilizar, pela grande quantidade de CNAEs decidiu-se utilizar uma amostra de aproximadamente 4%, totalizando 20 CNAEs. O numero de CNAEs escolhido foi o maior possível, em relação ao tamanho do esforço manual necessário para se inserir o CNAEs na ontologia.
+
+Para escolha dos CNAEs o método utilizado foi baseado no método de Estágios Múltiplos...
+
+para assegurar a diversidade pretendida na amostra, foi escolhido diferentes seções, onde são os grupos mais genéricos e por sua vez mais heterogenios entre sí.
+
+Secao: A quantidade: 5
+Secao: B quantidade: 1
+Secao: C quantidade: 174
+Secao: D quantidade: 0
+Secao: E quantidade: 13
+Secao: F quantidade: 26
+Secao: G quantidade: 105
+Secao: H quantidade: 26
+Secao: I quantidade: 22
+Secao: J quantidade: 10
+Secao: K quantidade: 0
+Secao: L quantidade: 0
+Secao: M quantidade: 12
+Secao: N quantidade: 36
+Secao: O quantidade: 0
+Secao: P quantidade: 8
+Secao: Q quantidade: 1
+Secao: R quantidade: 11
+Secao: S quantidade: 54
+Secao: T quantidade: 1
+Secao: U quantidade: 0
+
+ordenando podemos ter as cinco seções mais relevantes para o dominio de MEI, e assim selecionar os mesmos 
+
+Secao: C quantidade: 174
+Secao: G quantidade: 105
+Secao: S quantidade: 54
+Secao: N quantidade: 36
+Secao: H quantidade: 26
+
+Tendo a escolha das seções assegurado certa diversidade da amostra, buscou-se após isso obter das seções selcionadas as divisões com maior representatividade do todo.
+Secao: C
+DIVISIÕES COM MAIS CNAEs
+	 Divisão: 10 quantidade: 36
+	 Divisão: 33 quantidade: 29
+
+Secao: G
+DIVISIÕES COM MAIS CNAE
+	 Divisão: 47 quantidade: 89
+	 Divisão: 45 quantidade: 16
+
+Secao: S
+	Divisão: 95 quantidade: 20
+ 	Divisão: 96 quantidade: 34
+
+Secao: N
+	Divisão: 77 quantidade: 15
+	Divisão: 82 quantidade: 10
+
+Secao: H
+	Divisão: 49 quantidade: 12
+ 	Divisão: 50 quantidade: 6
+
+Tendo as divisões de maior representatividade, foi dividido igualmente o numero de CNAEs para cada uma das divisões. A divisão de CNAEs foi igual entre as Divisões para facilitar exemplos práticos de CNAEs de atividades relacionadas
+
+Divisão: 47 quantidade: 89 quantidade de cnaes da amostra : 4
+Divisão: 10 quantidade: 36 quantidade de cnaes da amostra : 4
+Divisão: 96 quantidade: 34 quantidade de cnaes da amostra : 4
+Divisão: 77 quantidade: 15 quantidade de cnaes da amostra : 4
+Divisão: 49 quantidade: 12 quantidade de cnaes da amostra : 4
+
