@@ -1,5 +1,5 @@
 ﻿
-Metodologia
+				Metodologia
 
 
 Uma metodologia perfeita para contrução de qualquer ontologia ainda é desconhecida, tendo isso, acredita-se que para com diferentes ontologias com  finalidades e aplicações especificas, existam recpectivamente diferentes metodologias recomendadas
@@ -11,7 +11,7 @@ Tendo isso, a metodologia desse trabalho é baseada na composição de algumas m
 Essa metodologia é composta por sete estapas sendo a primeira a definição do domínio e o escopo da ontologia, para tal algumas questões podem ser usadas para se chegar a uma boa definição
 
 Que dominio se deseja cobrir com a ontologia?
-	* Requisitos para atividades de um Micro Empreendedor Individual (MEI)
+	* Requisitos de atividades de um Micro Empreendedor Individual (MEI)
 
 Com que propósito será utilizada a ontologia?
 	* Disponibilizar uma estrutura extensivel e reutilizavel para sistemas que desejam obter informações sobre atividades permitidas para MEIs, algumas das finalidades para sistemas utilizarem a ontologia proposta seria facilitar o acesso a informações para futuros MEIs, ou mesmo a validação de se uma determinada atividade que a empresa deseja tercerizar pode ser executada por um MEI.
@@ -23,3 +23,13 @@ Que informações a ontologia deve fornecer?
 
 Quem vai utilizar a ontologia?
  * sites que desejam obter maior semantica na obtenção de informações sobre atividades permitidas para uma dada MEI, assim como validação de sistemas de empresa para com atividades realizadas para um certo MEI.
+
+
+
+
+
+	
+					Amostra
+
+
+Foi contabilizado aproximadamente 550 CNAEs como permitidos para um MEI se utilizar, pela grande quantidade de CNAEs preferiu-se utilizar uma amostra para de aproximadamente 4%, totalizando 22 CNAEs. O numero de CNAEs escolhido foi o maior possível, em relação ao tamanho do esforço manual necessário para se inserir o CNAEs na ontologia. Para escolha dos CNAEs foi levado em conta a distribuição da população, sendo pego CNAES de todas as divisões possíveis para a um MEI com quantidade de amostra proporcional a porporção da divisão sobre o todo.
