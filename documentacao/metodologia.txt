@@ -11,10 +11,10 @@ Tendo isso, a metodologia desse trabalho é baseada na composição de algumas m
 Essa metodologia é composta por sete estapas sendo a primeira a definição do domínio e o escopo da ontologia, para tal algumas questões podem ser usadas para se chegar a uma boa definição
 
 Que dominio se deseja cobrir com a ontologia?
-	* Requisitos de atividades de um Micro Empreendedor Individual (MEI)
+	* Atividades permitidas para o Micro Empreendedor Individual (MEI)
 
 Com que propósito será utilizada a ontologia?
-	* Disponibilizar uma estrutura extensivel e reutilizavel para sistemas que desejam obter informações sobre atividades permitidas para MEIs, algumas das finalidades para sistemas utilizarem a ontologia proposta seria facilitar o acesso a informações para futuros MEIs, ou mesmo a validação de se uma determinada atividade que a empresa deseja tercerizar pode ser executada por um MEI.
+	* Disponibilizar uma estrutura extensivel e reutilizavel para sistemas que desejam obter informações sobre atividades permitidas para MEIs, algumas das finalidades para sistemas utilizarem a ontologia proposta seria facilitar o acesso a informações através de um protal para futuros MEIs, ou mesmo a validação de se uma determinada atividade que uma empresa deseja tercerizar pode ser executada por um MEI.
 
 Que informações a ontologia deve fornecer?
 	* Responder quais  atividades são permitidas dado um CNAE

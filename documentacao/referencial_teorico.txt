@@ -7,6 +7,7 @@ Ontologias
 
 	As
 	Uma ontologia geralmente  é são utilizadas/conceituadas para compor uma estrutura que efetua a captura do conhecimento de uma determinada área , assim, fornecendo conceitos e relacionamentos relevantes.
+segundo Guarino (2009) uma ontologia pode ser definida como um objeto de informação ou um artefato computacional (...) são um meio para modelar formalmente a estrutura de um sistema, entidades e relações que emergem da observação, que são relevantes para um propósito.
 
 	Segundo Xavier e Costa (2010), o conhecimento advém da disponibilização da informação, partindo do pressuposto que a geração do conhecimento produzirá mais informação e assim sucessivamente, contudo, nem sempre este conhecimento se torna acessível, para que isto ocorra é necessário que o conhecimento seja registrado, armazenado, organizado e estar disponível para recuperação por quem venha a utiliza-lo.  
 
