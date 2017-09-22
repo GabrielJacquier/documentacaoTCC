@@ -1,4 +1,4 @@
-					Amostra  Rascunho(Só armazenando dados para usarmos depois)
+﻿					Amostra  Rascunho(Só armazenando dados para usarmos depois)
 
 
 Foi contabilizado aproximadamente 500 CNAEs como permitidos para um MEI se utilizar, pela grande quantidade de CNAEs decidiu-se utilizar uma amostra de aproximadamente 4%, totalizando 20 CNAEs. O numero de CNAEs escolhido foi o maior possível, em relação ao tamanho do esforço manual necessário para se inserir o CNAEs na ontologia. Para escolha dos CNAEs o método utilizado foi baseado no método de Estágios Múltiplos...
@@ -38,23 +38,18 @@ Tendo a escolha das seções assegurado certa diversidade da amostra, buscou-se 
 
 Secao: C
 Divisão: 10 quantidade: 36
-Divisão: 33 quantidade: 29
 
 Secao: G
 Divisão: 47 quantidade: 89
-Divisão: 45 quantidade: 16
 
 Secao: S
 Divisão: 95 quantidade: 20
-Divisão: 96 quantidade: 34
 
 Secao: N
 Divisão: 77 quantidade: 15
-Divisão: 82 quantidade: 10
 
 Secao: H
 Divisão: 49 quantidade: 12
-Divisão: 50 quantidade: 6
 
 Tendo as divisões de maior representatividade, foi dividido igualmente o numero de CNAEs para cada uma das divisões. A divisão de CNAEs foi igual entre as Divisões para facilitar exemplos práticos de CNAEs de atividades relacionadas
 
@@ -66,9 +61,6 @@ Divisão: 49 quantidade: 12 quantidade de cnaes da amostra : 4
 
 Links para entendimento https://www.netquest.com/blog/br/blog/br/amostra-conglomerados
 
-
-
-
 CNAEs escolhidos:
 4781-4/00 COMÉRCIO VAREJISTA DE ARTIGOS DO VESTUÁRIO E ACESSÓRIOS
 4785-7/99 COMÉRCIO VAREJISTA DE OUTROS ARTIGOS USADOS
@@ -77,6 +69,101 @@ CNAEs escolhidos:
 
 
 
+
+
+
+Contrução da ontologia em cima dos passos da metodologia 101
+
+Essa metodologia é composta por sete estapas sendo a primeira a definição do domínio e o escopo da ontologia, para tal algumas questões podem ser usadas para se chegar a uma boa definição
+
+Que dominio se deseja cobrir com a ontologia?
+	* Atividades permitidas para o Micro Empreendedor Individual (MEI)
+
+Com que propósito será utilizada a ontologia?
+	* Disponibilizar uma estrutura extensivel e reutilizavel para sistemas que desejam obter informações sobre atividades permitidas para MEIs, algumas das finalidades para sistemas utilizarem a ontologia proposta seria facilitar o acesso a informações através de um portal para futuros MEIs, ou mesmo a validação de se uma determinada atividade que uma empresa deseja tercerizar pode ser executada por um MEI.
+
+Que informações a ontologia deve fornecer?
+	* Responder quais  atividades são permitidas dado um CNAE
+	* Qual o CNAE corresponde a uma dada profissão
+	* Qual o CNAE corresponde a uma dada descrição de uma atividade
+
+Quem vai utilizar a ontologia?
+ * sites que desejam obter maior semantica na obtenção de informações sobre atividades permitidas para uma dada MEI, assim como validação de sistemas de empresa para com atividades realizadas para um certo MEI.
+
+A segunda etapa é avaliar o reuso de outras ontologias, porem não foi encontrado ontologias para o dominio abordado no projeto.
+
+A terceira etapa consiste no levantamento do termos para inicio da contrução, a lista de termos relevantes levantadas inicialmente é listada a seguir:
+
+Seção
+Divisão
+Grupo
+Classe
+Subclasse
+CNAE
+Atividade
+Ocupação
+
+
+A Quarta etapa é a definição de classe e hierarquia de classes
+
+GrupoDeCNAE
+	Seção
+	Divisão
+	Grupo
+	Classe
+	Subclasse
+CNAE
+Atividade
+Ocupação
+
+
+A Quinta etapa é a definição das propriedades por classe, segue a lista
+
+GrupoDeCNAE
+	codigo
+	descrição
+Seção
+	temSubGrupo
+	possuiCnae
+Divisão
+	temSubGrupo
+	eSubGrupoDe
+	possuiCnae
+Grupo
+	temSubGrupo
+	eSubGrupoDe
+	possuiCnae
+Classe
+	temSubGrupo
+	eSubGrupoDe
+	possuiCnae
+Subclasse
+	eSubGrupoDe
+	possuiCnae
+Atividade
+	descricao
+	permitidaPor
+	realizadaPor
+	possuiCnae
+Ocupacao
+	realiza
+	nome
+	possuiCnae
+CNAE
+	codigo
+	permite
+	pertenceAGrupo
+
+
+a sexta etapa é a definição dos valores das propriedades, no trabalho foi divido a definiçãode dataProperties e de ObjectProperties
+
+DataProperties
+
+codigo		 string
+descrição   string
+nome 		string
+
+Object Properties
 
 
 
