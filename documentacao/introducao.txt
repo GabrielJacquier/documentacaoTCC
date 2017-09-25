@@ -1,6 +1,6 @@
 ﻿Introdução
 
-	Atualmente, um dos grandes desafios para a área de Sistemas de Informação, são as interpretações terminológicas das áreas de domínio que se objetiva desenvolver uma solução computacional, a dificuldade para sistemas de informação lidarem com grande variedade de termos das áreas de interesse, é gerado pela desorganização do conhecimento e a inexistência de um vocabulário padrão, tornando difícil a tarefa do processamento das informações por agentes de software.
+	Atualmente, um dos grandes desafios para a área de Sistemas de Informação, é a efetiva interpretação terminológica das áreas de domínio que se objetiva desenvolver uma solução computacional. A dificuldade para sistemas de informação lidarem com grande variedade de termos das áreas de interesse, é gerado pela desorganização do conhecimento e a inexistência de um vocabulário padrão, tornando difícil a tarefa do processamento das informações por agentes de software.
 
 	No contexto da web o tratamento e disponibilização da informação se encontra em processo de conformação, Segundo Breitman (2005) em seu predomínio os recursos presentes na Web se encontram em linguagem natural, que são interpretadas somente por humanos, por meio de diferentes inferências realizadas, como, associação, comparação, ambiente e outros fatores presentes na característica intrinsicamente humana.
 
