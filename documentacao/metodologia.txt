@@ -13,9 +13,9 @@ Como metodologia desse trabalho, foi utilizado a metodologia descrita no artigo 
 	Definir os valores das propriedades
 	Criar instâncias
 
-Neste trabalho as autoras citam que não existe um jeito correto para modelar um dominio, mas sim que sempre haverá alternativas, e o importante é escolher a que melhor que se adequa a aplicação desejada. É dito também que o desenvolvimento de ontologia é um processo iterativo, sendo que as etapas propostas devem ser realizados de tal forma.  
+Neste trabalho as autoras citam que não existe um jeito correto para modelar um dominio, mas sim que sempre haverá alternativas, e o importante é a escolha da que melhor que se adequa à aplicação desejada. É dito também que o desenvolvimento de ontologia é um processo iterativo, sendo que as etapas propostas acima devem ser realizados de tal forma.  
 
-Além da metodologia, foi utilizado algumas idéias para apoiar o processo de avaliação do resultado da ontologia. Tom Gruber (1995) expõe que para guiar e avaliar uma ontologia, necessitamos de critérios objetivos para com o propósito requerido, e então propõe um conjunto de critérios para que possam ser usados para avaliação de ontologias com propósito de compartilhar conhecimento e interoperar programas, são eles
+Além da metodologia, foi utilizado algumas idéias para apoiar o processo de avaliação do resultado da ontologia. Tom Gruber (1995) expõe que para guiar e avaliar uma ontologia, necessitamos de critérios objetivos para com o propósito requerido, e então propõe um conjunto de critérios para que possam ser usados para avaliação de ontologias que possuam o propósito de compartilhar conhecimento e interoperar programas, são:
 
 	Clareza, uma ontologia deve efetivamente comunicar o significado intencionado nos termos definidios
 
