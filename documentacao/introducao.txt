@@ -14,11 +14,11 @@
 Objetivos específicos e objetivos gerais
 
 	
-	O objetivo geral deste trabalho é o de efetuar a estruturação e representação do conhecimento de CNAE (Classificação Nacional de Atividades Econômicas), com a concepção e desenvolvimento de uma ontologia de aplicação com foco na aplicabilidade junto as empresas MEI’s (Micro empreendedores individuais).
+	O objetivo geral deste trabalho é o de efetuar a modelagem e representação do conhecimento de CNAE (Classificação Nacional de Atividades Econômicas), com a concepção e desenvolvimento de uma ontologia de aplicação com foco na aplicabilidade junto as empresas MEI’s (Micro empreendedores individuais).
 
 Os objetivos específicos são:
 
-Análise e estudo do estado da arte da área de MEI’s e sua relação com o CNAE, através de toda documentação disponibilizada pelo governo federal do Brasil;
+Análise e estudo da área de MEI’s e sua relação com o CNAE, através de toda documentação disponibilizada pelo governo federal do Brasil;
 
 Levantamento e modelagem dos dados, formando com isso informação para iniciar o processo de estruturação do modelo da ontologia de aplicação;
 
