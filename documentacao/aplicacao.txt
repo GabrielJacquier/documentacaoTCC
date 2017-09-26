@@ -1,7 +1,8 @@
 ﻿							
-Neste capítulo será demostrado, a contrução de uma ontologia para a área de dominio de CNAE para MEI em cima dos passos da metodologia 101
+Neste capítulo será demostrado, a contrução de uma ontologia na área de dominio de CNAE para MEI, baseado no passos sugeridos na Metodologia 101. Essa metodologia é composta por sete estapas 
 
-Essa metodologia é composta por sete estapas sendo a primeira a definição do domínio e o escopo da ontologia, para tal algumas questões podem ser usadas para se chegar a uma boa definição
+Escopo
+A primeira etapa e a definição do domínio e o escopo da ontologia, para tal algumas questões podem ser usadas para se chegar a uma boa definição
 
 Que dominio se deseja cobrir com a ontologia?
 	* Atividades permitidas para o Micro Empreendedor Individual (MEI)
@@ -15,9 +16,11 @@ Que informações a ontologia deve fornecer?
 	* Qual o CNAE corresponde a uma dada descrição de uma atividade
 
 Quem vai utilizar a ontologia?
- * sites que desejam obter maior semantica na obtenção de informações sobre atividades permitidas para uma dada MEI, assim como validação de sistemas de empresa para com atividades realizadas para um certo MEI.
+ 	* sites que desejam obter maior semantica na obtenção de informações sobre atividades permitidas para uma dada MEI, assim como validação de sistemas de empresa para com atividades realizadas para um certo MEI.
 
-A segunda etapa é avaliar o reuso de outras ontologias, porem não foi encontrado ontologias para o dominio abordado no projeto.
+Reuso de outras ontologias
+
+A segunda etapa é avaliar o reuso de outras ontologias, é importante a análise da possibilidade de se utilizar outras ontologias para diminuição do trabalho manual, assim também para aumento da qualidade, pois ao utilizar outra ontologia testada por outros desenvolvedores é agregado conhecimento já validado a ontologia em desenvolvimento. Não foi encontrado ontologias para o dominio abordado no projeto.
 
 A terceira etapa consiste no levantamento do termos para inicio da contrução, a lista de termos relevantes levantadas inicialmente é listada a seguir:
 
