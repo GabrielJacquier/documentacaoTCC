@@ -89,20 +89,20 @@ a sexta etapa é a definição dos valores das propriedades, no trabalho foi div
 
 DataProperties
 
-codigo		 string
+codigo	string
 descrição   string
-nome 		string
+nome 	string
 
 Object Properties
 
 
 Instâncias
 
-A última etapa, é criar as intâncias, através das classes e propriedades até aqui definidas. Para esse trabalho, foi tomada a decisão da utilização de uma amostra sob o total de CNAEs existentes, pelo menor esforço e tempo necessário. 
+A última etapa, é utilizada para criar as intâncias, através das classes e propriedades até aqui definidas. Para esse trabalho, foi tomada a decisão da utilização de uma amostra sob o total de CNAEs existentes, para menor gasto de esforço e tempo. 
 
-Apresentamos o processo realizado para a eleição dos CNAEs selecionados, não foi utilizado um método estatístico para a montagem da amostra, pois foi necessário a escolha de CNAEs com atividades de mesmo dominio para expormos exemplos práticos, porém foi tomado o devido cuidado para a amostra possuir diversidade e representatividade aceitáveis dentro de sua totalidade.
+Apresentamos o processo realizado para a eleição dos CNAEs selecionados, não foi utilizado um método estatístico para a montagem da amostra, pois foi necessário a escolha de CNAEs com atividades de mesmo dominio para expormos exemplos práticos, necessitando da escolha manual pelos desenvolvedores. Porém foi tomado o devido cuidado para a amostra possuir diversidade e representatividade aceitáveis.
 
-Foi contabilizado aproximadamente quinhentos CNAEs como permitidos para um MEI se utilizar, decidiu-se utilizar uma amostra de aproximadamente 4%, totalizando 20 CNAEs. O numero de CNAEs escolhido foi o maior possível, em relação ao tamanho do esforço manual e tempo necessário para se inserir os CNAEs na ontologia. Para assegurar a diversidade pretendida na amostra, foi escolhido diferentes seções, que serviram para a seleção dos CNAEs. Foi contabilizado a quantidade de CNAEs em cada seção, para a eleição das com maior representatividade.
+Foi contabilizado aproximadamente quinhentos CNAEs como permitidos para um MEI se utilizar, decidiu-se por uma amostra de aproximadamente 4%, totalizando 20 CNAEs. O numero de CNAEs escolhido foi o maior possível, em relação ao tamanho do esforço manual e tempo disponivel para se inserir os CNAEs na ontologia. Para assegurar a diversidade pretendida na amostra, foi escolhido diferentes seções, que serviram para a seleção dos CNAEs. Foi contabilizada a quantidade de CNAEs em cada seção, para a eleição das com maior representatividade.
 
 Secao: A quantidade: 5
 Secao: B quantidade: 1
@@ -134,7 +134,7 @@ Secao: S quantidade: 54
 Secao: N quantidade: 36
 Secao: H quantidade: 26
 
-Tendo as divisões de maior representatividade, foi dividido igualmente o numero de CNAEs para cada uma das divisões. A divisão de CNAEs foi igual entre as Divisões para facilitar exemplos práticos de CNAEs de atividades relacionadas
+Tendo as divisões de maior representatividade, foi dividido igualmente o numero de CNAEs para cada uma das seções. A divisão de CNAEs foi igual entre as Seções para facilitar exemplos práticos
 
 Secao: C quantidade de cnaes da amostra : 4
 Secao: G quantidade de cnaes da amostra : 4
