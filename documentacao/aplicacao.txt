@@ -1,62 +1,4 @@
 ﻿							
-							Instâncias
-	Amostra
-
-O último passo, é criar as intâncias, através das classes e propriedades até aqui definidas. Para esse trabalho, foi tomada a decisão da utilização de uma amostra sob o total de CNAEs existentes, pelo menor esforço e tempo necessário. 
-
-Apresentamos o processo realizado para a eleição dos CNAEs selecionados, não foi utilizado um método estatístico para a montagem da amostra, pois foi necessário a escolha de CNAEs com atividades de mesmo dominio para expormos exemplos práticos, porém foi tomado o devido cuidado para a amostra possuir diversidade e representatividade aceitáveis dentro de sua totalidade.
-
-Foi contabilizado aproximadamente quinhentos CNAEs como permitidos para um MEI se utilizar, decidiu-se utilizar uma amostra de aproximadamente 4%, totalizando 20 CNAEs. O numero de CNAEs escolhido foi o maior possível, em relação ao tamanho do esforço manual e tempo necessário para se inserir os CNAEs na ontologia. Para assegurar a diversidade pretendida na amostra, foi escolhido diferentes seções, que serviram para a seleção dos CNAEs. Foi contabilizado a quantidade de CNAEs em cada seção, para a eleição das com maior representatividade.
-
-Secao: A quantidade: 5
-Secao: B quantidade: 1
-Secao: C quantidade: 174
-Secao: D quantidade: 0
-Secao: E quantidade: 13
-Secao: F quantidade: 26
-Secao: G quantidade: 105
-Secao: H quantidade: 26
-Secao: I quantidade: 22
-Secao: J quantidade: 10
-Secao: K quantidade: 0
-Secao: L quantidade: 0
-Secao: M quantidade: 12
-Secao: N quantidade: 36
-Secao: O quantidade: 0
-Secao: P quantidade: 8
-Secao: Q quantidade: 1
-Secao: R quantidade: 11
-Secao: S quantidade: 54
-Secao: T quantidade: 1
-Secao: U quantidade: 0
-
-Ordenando as seções, temos a ordem de representatividade das mesmas, foi então selecionado as seis seções com maior representatividade para serem utilizadas na escolha das amostras.
-
-Secao: C quantidade: 174
-Secao: G quantidade: 105
-Secao: S quantidade: 54
-Secao: N quantidade: 36
-Secao: H quantidade: 26
-
-Tendo as divisões de maior representatividade, foi dividido igualmente o numero de CNAEs para cada uma das divisões. A divisão de CNAEs foi igual entre as Divisões para facilitar exemplos práticos de CNAEs de atividades relacionadas
-
-Secao: C quantidade de cnaes da amostra : 4
-Secao: G quantidade de cnaes da amostra : 4
-Secao: S quantidade de cnaes da amostra : 4
-Secao: N quantidade de cnaes da amostra : 4
-Secao: H quantidade de cnaes da amostra : 4
-
-CNAEs escolhidos:
-4781-4/00 COMÉRCIO VAREJISTA DE ARTIGOS DO VESTUÁRIO E ACESSÓRIOS
-4785-7/99 COMÉRCIO VAREJISTA DE OUTROS ARTIGOS USADOS
-4782-2/01 COMÉRCIO VAREJISTA DE CALÇADOS
-4782-2/02 COMÉRCIO VAREJISTA DE ARTIGOS DE VIAGEM
-
-
-
-
-
-
 Contrução da ontologia em cima dos passos da metodologia 101
 
 Essa metodologia é composta por sete estapas sendo a primeira a definição do domínio e o escopo da ontologia, para tal algumas questões podem ser usadas para se chegar a uma boa definição
@@ -149,6 +91,59 @@ descrição   string
 nome 		string
 
 Object Properties
+
+
+Instâncias
+
+A última etapa, é criar as intâncias, através das classes e propriedades até aqui definidas. Para esse trabalho, foi tomada a decisão da utilização de uma amostra sob o total de CNAEs existentes, pelo menor esforço e tempo necessário. 
+
+Apresentamos o processo realizado para a eleição dos CNAEs selecionados, não foi utilizado um método estatístico para a montagem da amostra, pois foi necessário a escolha de CNAEs com atividades de mesmo dominio para expormos exemplos práticos, porém foi tomado o devido cuidado para a amostra possuir diversidade e representatividade aceitáveis dentro de sua totalidade.
+
+Foi contabilizado aproximadamente quinhentos CNAEs como permitidos para um MEI se utilizar, decidiu-se utilizar uma amostra de aproximadamente 4%, totalizando 20 CNAEs. O numero de CNAEs escolhido foi o maior possível, em relação ao tamanho do esforço manual e tempo necessário para se inserir os CNAEs na ontologia. Para assegurar a diversidade pretendida na amostra, foi escolhido diferentes seções, que serviram para a seleção dos CNAEs. Foi contabilizado a quantidade de CNAEs em cada seção, para a eleição das com maior representatividade.
+
+Secao: A quantidade: 5
+Secao: B quantidade: 1
+Secao: C quantidade: 174
+Secao: D quantidade: 0
+Secao: E quantidade: 13
+Secao: F quantidade: 26
+Secao: G quantidade: 105
+Secao: H quantidade: 26
+Secao: I quantidade: 22
+Secao: J quantidade: 10
+Secao: K quantidade: 0
+Secao: L quantidade: 0
+Secao: M quantidade: 12
+Secao: N quantidade: 36
+Secao: O quantidade: 0
+Secao: P quantidade: 8
+Secao: Q quantidade: 1
+Secao: R quantidade: 11
+Secao: S quantidade: 54
+Secao: T quantidade: 1
+Secao: U quantidade: 0
+
+Ordenando as seções, temos a ordem de representatividade das mesmas, foi então selecionado as seis seções com maior representatividade para serem utilizadas na escolha das amostras.
+
+Secao: C quantidade: 174
+Secao: G quantidade: 105
+Secao: S quantidade: 54
+Secao: N quantidade: 36
+Secao: H quantidade: 26
+
+Tendo as divisões de maior representatividade, foi dividido igualmente o numero de CNAEs para cada uma das divisões. A divisão de CNAEs foi igual entre as Divisões para facilitar exemplos práticos de CNAEs de atividades relacionadas
+
+Secao: C quantidade de cnaes da amostra : 4
+Secao: G quantidade de cnaes da amostra : 4
+Secao: S quantidade de cnaes da amostra : 4
+Secao: N quantidade de cnaes da amostra : 4
+Secao: H quantidade de cnaes da amostra : 4
+
+CNAEs escolhidos:
+4781-4/00 COMÉRCIO VAREJISTA DE ARTIGOS DO VESTUÁRIO E ACESSÓRIOS
+4785-7/99 COMÉRCIO VAREJISTA DE OUTROS ARTIGOS USADOS
+4782-2/01 COMÉRCIO VAREJISTA DE CALÇADOS
+4782-2/02 COMÉRCIO VAREJISTA DE ARTIGOS DE VIAGEM
 
 
 
