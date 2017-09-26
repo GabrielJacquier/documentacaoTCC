@@ -1,5 +1,5 @@
 ﻿							
-Contrução da ontologia em cima dos passos da metodologia 101
+Neste capítulo será demostrado, a contrução de uma ontologia para a área de dominio de CNAE para MEI em cima dos passos da metodologia 101
 
 Essa metodologia é composta por sete estapas sendo a primeira a definição do domínio e o escopo da ontologia, para tal algumas questões podem ser usadas para se chegar a uma boa definição
 
