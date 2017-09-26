@@ -1,28 +1,31 @@
 ﻿							
-Neste capítulo será demostrado, a contrução de uma ontologia na área de dominio de CNAE para MEI, baseado no passos sugeridos na Metodologia 101. Essa metodologia é composta por sete estapas 
+Neste capítulo será demostrado, a contrução de uma ontologia na área de dominio de CNAE para MEI, baseado no passos sugeridos na Metodologia 101. A aplicação desta metodologia é realizada através de sete etapas.
 
 Escopo
-A primeira etapa e a definição do domínio e o escopo da ontologia, para tal algumas questões podem ser usadas para se chegar a uma boa definição
+
+Para realizar a definição do domínio e o escopo da ontologia, pode-se utilizar de algumas questões para qualidade do resultado atingido.
 
 Que dominio se deseja cobrir com a ontologia?
-	* Atividades permitidas para o Micro Empreendedor Individual (MEI)
+* Atividades permitidas para o Micro Empreendedor Individual (MEI)
 
 Com que propósito será utilizada a ontologia?
-	* Disponibilizar uma estrutura extensivel e reutilizavel para sistemas que desejam obter informações sobre atividades permitidas para MEIs, algumas das finalidades para sistemas utilizarem a ontologia proposta seria facilitar o acesso a informações através de um portal para futuros MEIs, ou mesmo a validação de se uma determinada atividade que uma empresa deseja tercerizar pode ser executada por um MEI.
+* Disponibilizar uma estrutura extensivel e reutilizavel para sistemas que desejam obter informações sobre atividades permitidas para MEIs, algumas das finalidades para sistemas utilizarem a ontologia proposta seria facilitar o acesso a informações através de um portal para futuros MEIs, ou mesmo a validação de se uma determinada atividade que uma empresa deseja tercerizar pode ser executada por um MEI.
 
 Que informações a ontologia deve fornecer?
-	* Responder quais  atividades são permitidas dado um CNAE
-	* Qual o CNAE corresponde a uma dada profissão
-	* Qual o CNAE corresponde a uma dada descrição de uma atividade
+* Responder quais  atividades são permitidas dado um CNAE
+* Qual o CNAE corresponde a uma dada profissão
+* Qual o CNAE corresponde a uma dada descrição de uma atividade
 
 Quem vai utilizar a ontologia?
- 	* sites que desejam obter maior semantica na obtenção de informações sobre atividades permitidas para uma dada MEI, assim como validação de sistemas de empresa para com atividades realizadas para um certo MEI.
+* Sites que desejam obter maior semantica na obtenção de informações sobre atividades permitidas para uma dada MEI, assim como validação de sistemas de empresa para com atividades realizadas para um certo MEI.
 
 Reuso de outras ontologias
 
-A segunda etapa é avaliar o reuso de outras ontologias, é importante a análise da possibilidade de se utilizar outras ontologias para diminuição do trabalho manual, assim também para aumento da qualidade, pois ao utilizar outra ontologia testada por outros desenvolvedores é agregado conhecimento já validado a ontologia em desenvolvimento. Não foi encontrado ontologias para o dominio abordado no projeto.
+A avaliação do reuso de outras ontologias, é importante para diminuição do trabalho manual, assim como  também para o aumento da qualidade, pois ao utilizar outra ontologia testada por outros desenvolvedores é agregado conhecimento já validado a ontologia em desenvolvimento. Foi realizado a pesquisa em alguns repositórios de ontologias como Knoodl, Schemapedia e no repositório do Protégé, porém não foram encontradas ontologias que poderiam ser utilizadas para o dominio abordado no projeto.
 
-A terceira etapa consiste no levantamento do termos para inicio da contrução, a lista de termos relevantes levantadas inicialmente é listada a seguir:
+Termos relevantes para o domínio
+
+O levantamento de termos relevantes, é importante para o inicio da contrução da ontologia, pois através desses teremos uma melhor compreensão do que a ontologia deve abordar.
 
 Seção
 Divisão
@@ -33,120 +36,79 @@ CNAE
 Atividade
 Ocupação
 
+Hierarquia de classes
 
-A Quarta etapa é a definição de classe e hierarquia de classes
+A definição e hierarquia de classes, foi realizada sobre a abordagem combinada, que realiza a fusão da abordagem bottom-up e top-down, classificando primeiro os termos que mais se destacam, para após realizar o processo de generalização ou especialização. A figura 12 apresenta as classes iniciais implementas através da ferramenta Protégé, com base nos termos de dominio levantados.
 
-GrupoDeCNAE
-	Seção
-	Divisão
-	Grupo
-	Classe
-	Subclasse
-CNAE
-Atividade
-Ocupação
+FiguraClasse1
 
+Propriedades das classes
 
-A Quinta etapa é a definição das propriedades por classe, segue a lista
+As propriedades das classes, representam a ligação entre os indivíduos na base de conhecimento, tendo como domínio e alcance possíveis, as classes definidas anteriormente no projeto, a figura 14 apresenta as propriedades implementadas através da ferramenta Protégé.
 
-GrupoDeCNAE
-	codigo
-	descrição
-Seção
-	temSubGrupo
-	possuiCnae
-Divisão
-	temSubGrupo
-	eSubGrupoDe
-	possuiCnae
-Grupo
-	temSubGrupo
-	eSubGrupoDe
-	possuiCnae
-Classe
-	temSubGrupo
-	eSubGrupoDe
-	possuiCnae
-Subclasse
-	eSubGrupoDe
-	possuiCnae
-Atividade
-	descricao
-	permitidaPor
-	realizadaPor
-	possuiCnae
-Ocupacao
-	realiza
-	nome
-	possuiCnae
-CNAE
-	codigo
-	permite
-	pertenceAGrupo
+FiguraPropriedadeClasse1
 
 
-a sexta etapa é a definição dos valores das propriedades, no trabalho foi divido a definiçãode dataProperties e de ObjectProperties
+Propriedades de valores
 
-DataProperties
+As propriedades de valores, são utilizadas quando a propriedade objetiva ligar um indivíduo da base de conhecimento, com um valor primitivo, e não com um outro indivíduo da ontologia. A figura 1 expõe as propriedades de valores implementados no Protégé.
 
-codigo	string
-descrição   string
-nome 	string
-
-Object Properties
+FiguraPropriedadeValor1
 
 
 Instâncias
 
-A última etapa, é utilizada para criar as intâncias, através das classes e propriedades até aqui definidas. Para esse trabalho, foi tomada a decisão da utilização de uma amostra sob o total de CNAEs existentes, para menor gasto de esforço e tempo. 
+A criação das instâncias da base de conhecimento se faz utilizando-se as classes e propriedades criadas no projeto até essa etapa. Para realização da etapa, foi tomada a decisão da utilização de uma amostra sob o total de CNAEs existentes, para o gasto de esforço e tempo, serem viáveis dentro do tempo desposto para desenvolvimento do projeto.
 
 Apresentamos o processo realizado para a eleição dos CNAEs selecionados, não foi utilizado um método estatístico para a montagem da amostra, pois foi necessário a escolha de CNAEs com atividades de mesmo dominio para expormos exemplos práticos, necessitando da escolha manual pelos desenvolvedores. Porém foi tomado o devido cuidado para a amostra possuir diversidade e representatividade aceitáveis.
 
 Foi contabilizado aproximadamente quinhentos CNAEs como permitidos para um MEI se utilizar, decidiu-se por uma amostra de aproximadamente 4%, totalizando 20 CNAEs. O numero de CNAEs escolhido foi o maior possível, em relação ao tamanho do esforço manual e tempo disponivel para se inserir os CNAEs na ontologia. Para assegurar a diversidade pretendida na amostra, foi escolhido diferentes seções, que serviram para a seleção dos CNAEs. Foi contabilizada a quantidade de CNAEs em cada seção, para a eleição das com maior representatividade.
 
-Secao: A quantidade: 5
-Secao: B quantidade: 1
-Secao: C quantidade: 174
-Secao: D quantidade: 0
-Secao: E quantidade: 13
-Secao: F quantidade: 26
-Secao: G quantidade: 105
-Secao: H quantidade: 26
-Secao: I quantidade: 22
-Secao: J quantidade: 10
-Secao: K quantidade: 0
-Secao: L quantidade: 0
-Secao: M quantidade: 12
-Secao: N quantidade: 36
-Secao: O quantidade: 0
-Secao: P quantidade: 8
-Secao: Q quantidade: 1
-Secao: R quantidade: 11
-Secao: S quantidade: 54
-Secao: T quantidade: 1
-Secao: U quantidade: 0
+Seção: A quantidade: 5
+Seção: B quantidade: 1
+Seção: C quantidade: 174
+Seção: D quantidade: 0
+Seção: E quantidade: 13
+Seção: F quantidade: 26
+Seção: G quantidade: 105
+Seção: H quantidade: 26
+Seção: I quantidade: 22
+Seção: J quantidade: 10
+Seção: K quantidade: 0
+Seção: L quantidade: 0
+Seção: M quantidade: 12
+Seção: N quantidade: 36
+Seção: O quantidade: 0
+Seção: P quantidade: 8
+Seção: Q quantidade: 1
+Seção: R quantidade: 11
+Seção: S quantidade: 54
+Seção: T quantidade: 1
+Seção: U quantidade: 0
 
 Ordenando as seções, temos a ordem de representatividade das mesmas, foi então selecionado as seis seções com maior representatividade para serem utilizadas na escolha das amostras.
 
-Secao: C quantidade: 174
-Secao: G quantidade: 105
-Secao: S quantidade: 54
-Secao: N quantidade: 36
-Secao: H quantidade: 26
+Seção: C quantidade: 174
+Seção: G quantidade: 105
+Seção: S quantidade: 54
+Seção: N quantidade: 36
+Seção: H quantidade: 26
 
-Tendo as divisões de maior representatividade, foi dividido igualmente o numero de CNAEs para cada uma das seções. A divisão de CNAEs foi igual entre as Seções para facilitar exemplos práticos
+Tendo as divisões de maior representatividade, foi dividido igualmente o numero de CNAEs para cada uma das seções. A divisão de CNAEs foi igual entre as Seções para facilitar futuros exemplos práticos.
 
-Secao: C quantidade de cnaes da amostra : 4
-Secao: G quantidade de cnaes da amostra : 4
-Secao: S quantidade de cnaes da amostra : 4
-Secao: N quantidade de cnaes da amostra : 4
-Secao: H quantidade de cnaes da amostra : 4
+Seção: C quantidade de cnaes da amostra : 4
+Seção: G quantidade de cnaes da amostra : 4
+Seção: S quantidade de cnaes da amostra : 4
+Seção: N quantidade de cnaes da amostra : 4
+Seção: H quantidade de cnaes da amostra : 4
 
-CNAEs escolhidos:
+A escolha dos CNAEs foi realizada sob as seções selecionadas, foram escolhidos um grupo por seção garantindo a diversidade dos grupos, e dentro de cada grupo buscou-se selecionar CNAEs com atividades de dominio similares para riqueza dos exemplos práticos.
+
 4781-4/00 COMÉRCIO VAREJISTA DE ARTIGOS DO VESTUÁRIO E ACESSÓRIOS
 4785-7/99 COMÉRCIO VAREJISTA DE OUTROS ARTIGOS USADOS
 4782-2/01 COMÉRCIO VAREJISTA DE CALÇADOS
 4782-2/02 COMÉRCIO VAREJISTA DE ARTIGOS DE VIAGEM
+
 
 
 
