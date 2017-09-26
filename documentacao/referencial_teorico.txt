@@ -1,41 +1,27 @@
-ÔªøReferencial Te√≥rico
+Referencial TeÛrico
 
-	Neste cap√≠tulo ser√° elucidado a base bibliogr√°fica do trabalho. Os temas apresentados neste cap√≠tulo compreendem os assuntos relacionados ao desenvolvimento das ontologias. Est√£o presentes as defini√ß√µes, conceitos, classifica√ß√£o, tipos e seus formatos de representa√ß√£o, linguagens e artefatos utilizados para constru√ß√£o da ontologia deste trabalho.
-
+	Neste capitulo ser· elucidado a base bibliogr·fica do trabalho. Os temas apresentados neste capÌtulo compreendem os assuntos relacionados ao desenvolvimento das ontologias. Est„o presentes as definiÁıes, conceitos, classificaÁ„o, tipos e seus formatos de representaÁ„o, linguagens e artefatos utilizados para construÁ„o da ontologia deste trabalho.
 
 Ontologias
 
-	As
-	Uma ontologia geralmente  √© s√£o utilizadas/conceituadas para compor uma estrutura que efetua a captura do conhecimento de uma determinada √°rea , assim, fornecendo conceitos e relacionamentos relevantes.
-segundo Guarino (2009) uma ontologia pode ser definida como um objeto de informa√ß√£o ou um artefato computacional (...) s√£o um meio para modelar formalmente a estrutura de um sistema, entidades e rela√ß√µes que emergem da observa√ß√£o, que s√£o relevantes para um prop√≥sito.
-
-	Segundo Xavier e Costa (2010), o conhecimento adv√©m da disponibiliza√ß√£o da informa√ß√£o, partindo do pressuposto que a gera√ß√£o do conhecimento produzir√° mais informa√ß√£o e assim sucessivamente, contudo, nem sempre este conhecimento se torna acess√≠vel, para que isto ocorra √© necess√°rio que o conhecimento seja registrado, armazenado, organizado e estar dispon√≠vel para recupera√ß√£o por quem venha a utiliza-lo.  
-
- Linkar este paragrafo com o seguinte (falta conte√∫do);
-
-Segundo Guarino (2009) uma ontologia pode ser definida como um objeto de informa√ß√£o ou um artefato computacional (...) s√£o um meio para modelar formalmente a estrutura de um sistema, entidades e rela√ß√µes que emergem da observa√ß√£o, que s√£o relevantes para um prop√≥sito.
+	Atualmente as ontologias veem sendo utilizadas em diversos ambientes e contextos, a disseminaÁ„o das ontologias est· amparada a sua grande possibilidade de prover o compartilhamento e entendimento comum de ·reas de domÌnio de conhecimento que possa ser comunicado entre pessoas e computadores, est· definiÁ„o ser· amparada ao decorrer deste capÌtulo, expondo a palavra de autores com grande base bibliogr·fica no assunto ìOntologiasî e a vis„o alcanÁada pela busca de um significado que melhor seja aplicado a concepÁ„o e criaÁ„o da ontologia deste trabalho, h· qual ser· aplicada na ·rea de domÌnio da ClassificaÁ„o Nacional de Atividades EconÙmicas (CNAE) inserido ao ambiente/ (ou problem·tica ñ escolher um dos termos em quest„o ou inserir uma outra conjunÁ„o) de Microempreendedor Individual (MEI).
+	De acordo com Tom Gruber (2007), no contexto das ciÍncias da computaÁ„o e ciÍncias da informaÁ„o, uma ontologia È definida por meio de um conjunto de artefatos primitivos com os quais È possÌvel conceber a modelagem de um domÌnio de conhecimento. Os artefatos primitivos que constituem basicamente uma ontologia s„o: classes (ou conjuntos), atributos (ou propriedades) e relacionamentos (relaÁıes entre as classes).
 	
-	
-Uma ontologia √© formada/ composta por alguns elementos:
 
-Relacionamentos, que representam um tipo de intera√ß√£o ou associa√ß√£o entre conceitos do dom√≠nio. Um relacionamento √© como uma fun√ß√£o matem√°tica, onde o dom√≠nio e a imagem s√£o conceitos. Os atributos das classes s√£o relacionamentos un√°rios, pois possuem como dom√≠nio um conceito e a imagem √© formada por um tipo de dado (n√∫mero, data, string).
 
-Axiomas, que modelam senten√ßas que s√£o sempre verdade. Os axiomas s√£o √∫teis na infer√™ncia de novos conhecimentos e podem ser constru√≠dos em l√≥gica de primeira ordem.
 
- 	Inst√¢ncias, que representam elementos de um dado conceito do dom√≠nio. 
 
-Linguagens
+
+
+
+
+	Uschold e Jasper () especificam a conceituaÁ„o de ontologias de uma maneira mais ampla, segundo os autores a ontologia tem a capacidade de apropriar-se de diversos formatos, incluindo-se um vocabul·rio de termos e algumas especificaÁıes de signific‚ncia 
 
 	
 
-Tipos de Ontologia (Espectro Sem√¢ntico)
+	
+ .
 
-tipo de informa√ß√£o(Dom√≠nio, Aplica√ß√£o, N√≠vel superior)
-
-(Adicional caso necess√°rio)
-
-
-
-conclus√£o
+	
 
 
