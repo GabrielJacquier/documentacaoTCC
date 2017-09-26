@@ -2,12 +2,11 @@
 							Instâncias
 	Amostra
 
-O último passo, é criar as intâncias, através das classes e propriedades até aqui definidas. Para esse trabalho, foi tomada a decisão da utilização de uma amostra sob o total de CNAEs existentes, pela alta quantidade de tempo que seria necessaria para utilizar todos os CNAEs. 
+O último passo, é criar as intâncias, através das classes e propriedades até aqui definidas. Para esse trabalho, foi tomada a decisão da utilização de uma amostra sob o total de CNAEs existentes, pelo menor esforço e tempo necessário. 
 
-Apresentamos o processo realizado para a eleição dos CNAEs selecionados, mostrando o cuidado que foi tomado para a amostra possuir diversidade e representatividade aceitáveis para o trabalho.
+Apresentamos o processo realizado para a eleição dos CNAEs selecionados, não foi utilizado um método estatístico para a montagem da amostra, pois foi necessário a escolha de CNAEs com atividades de mesmo dominio para expormos exemplos práticos, porém foi tomado o devido cuidado para a amostra possuir diversidade e representatividade aceitáveis dentro de sua totalidade.
 
-Foi contabilizado aproximadamente quinhentos CNAEs como permitidos para um MEI se utilizar, decidiu-se utilizar uma amostra de aproximadamente 4%, totalizando 20 CNAEs. O numero de CNAEs escolhido foi o maior possível, em relação ao tamanho do esforço manual e tempo necessário para se inserir os CNAEs na ontologia. O método utilizado foi baseado no método de Estágios Múltiplos...
-para assegurar a diversidade pretendida na amostra, foi escolhido diferentes seções
+Foi contabilizado aproximadamente quinhentos CNAEs como permitidos para um MEI se utilizar, decidiu-se utilizar uma amostra de aproximadamente 4%, totalizando 20 CNAEs. O numero de CNAEs escolhido foi o maior possível, em relação ao tamanho do esforço manual e tempo necessário para se inserir os CNAEs na ontologia. Para assegurar a diversidade pretendida na amostra, foi escolhido diferentes seções, que serviram para a seleção dos CNAEs. Foi contabilizado a quantidade de CNAEs em cada seção, para a eleição das com maior representatividade.
 
 Secao: A quantidade: 5
 Secao: B quantidade: 1
@@ -31,7 +30,7 @@ Secao: S quantidade: 54
 Secao: T quantidade: 1
 Secao: U quantidade: 0
 
-ordenando podemos ter as cinco seções mais relevantes para o dominio de MEI, e assim selecionar os mesmos 
+Ordenando as seções, temos a ordem de representatividade das mesmas, foi então selecionado as seis seções com maior representatividade para serem utilizadas na escolha das amostras.
 
 Secao: C quantidade: 174
 Secao: G quantidade: 105
@@ -39,32 +38,13 @@ Secao: S quantidade: 54
 Secao: N quantidade: 36
 Secao: H quantidade: 26
 
-Tendo a escolha das seções assegurado certa diversidade da amostra, buscou-se após isso obter das seções selcionadas as divisões com maior representatividade do todo.
-
-Secao: C
-Divisão: 10 quantidade: 36
-
-Secao: G
-Divisão: 47 quantidade: 89
-
-Secao: S
-Divisão: 95 quantidade: 20
-
-Secao: N
-Divisão: 77 quantidade: 15
-
-Secao: H
-Divisão: 49 quantidade: 12
-
 Tendo as divisões de maior representatividade, foi dividido igualmente o numero de CNAEs para cada uma das divisões. A divisão de CNAEs foi igual entre as Divisões para facilitar exemplos práticos de CNAEs de atividades relacionadas
 
-Divisão: 47 quantidade: 89 quantidade de cnaes da amostra : 4
-Divisão: 10 quantidade: 36 quantidade de cnaes da amostra : 4
-Divisão: 96 quantidade: 34 quantidade de cnaes da amostra : 4
-Divisão: 77 quantidade: 15 quantidade de cnaes da amostra : 4
-Divisão: 49 quantidade: 12 quantidade de cnaes da amostra : 4
-
-Links para entendimento https://www.netquest.com/blog/br/blog/br/amostra-conglomerados
+Secao: C quantidade de cnaes da amostra : 4
+Secao: G quantidade de cnaes da amostra : 4
+Secao: S quantidade de cnaes da amostra : 4
+Secao: N quantidade de cnaes da amostra : 4
+Secao: H quantidade de cnaes da amostra : 4
 
 CNAEs escolhidos:
 4781-4/00 COMÉRCIO VAREJISTA DE ARTIGOS DO VESTUÁRIO E ACESSÓRIOS
