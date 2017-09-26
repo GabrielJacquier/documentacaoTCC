@@ -56,13 +56,13 @@ As propriedades de valores, são utilizadas quando a propriedade objetiva ligar 
 FiguraPropriedadeValor1
 
 
-Instâncias
+Amostra para as instâncias
 
-A criação das instâncias da base de conhecimento se faz utilizando-se as classes e propriedades criadas no projeto até essa etapa. Para realização da etapa, foi tomada a decisão da utilização de uma amostra sob o total de CNAEs existentes, para o gasto de esforço e tempo, serem viáveis dentro do tempo desposto para desenvolvimento do projeto.
+Para realização da criação das intâncias, foi tomada a decisão da utilização de uma amostra sob o total de CNAEs existentes, por motivo do tamanho do esforço e tempo necessário em caso de modelagem de todos os CNAEs, fazendo assim, possível  o desenvolvimento do projeto.
 
-Apresentamos o processo realizado para a eleição dos CNAEs selecionados, não foi utilizado um método estatístico para a montagem da amostra, pois foi necessário a escolha de CNAEs com atividades de mesmo dominio para expormos exemplos práticos, necessitando da escolha manual pelos desenvolvedores. Porém foi tomado o devido cuidado para a amostra possuir diversidade e representatividade aceitáveis.
+Apresentamos o processo realizado para a seleção dos CNAEs. Não foram utilizados métodos estatísticos para a montagem da amostra, pois foi necessário a escolha de CNAEs com atividades similares para problemática dos exemplos práticos, necessitando assim, da escolha manual pelos desenvolvedores. Porém foi tomado o devido cuidado para a amostra possuir diversidade e representatividade aceitáveis.
 
-Foi contabilizado aproximadamente quinhentos CNAEs como permitidos para um MEI se utilizar, decidiu-se por uma amostra de aproximadamente 4%, totalizando 20 CNAEs. O numero de CNAEs escolhido foi o maior possível, em relação ao tamanho do esforço manual e tempo disponivel para se inserir os CNAEs na ontologia. Para assegurar a diversidade pretendida na amostra, foi escolhido diferentes seções, que serviram para a seleção dos CNAEs. Foi contabilizada a quantidade de CNAEs em cada seção, para a eleição das com maior representatividade.
+Foi contabilizado aproximadamente quinhentos CNAEs como permitidos para MEI, decidiu-se por uma amostra de aproximadamente 4%, totalizando 20 CNAEs. O numero de CNAEs escolhido foi o maior possível, em relação ao tamanho do esforço manual e tempo disponivel para se modelar os CNAEs na ontologia. Para assegurar a diversidade pretendida na amostra, foi escolhido diferentes seções, que serviram para a seleção dos CNAEs. Foi contabilizada a quantidade de CNAEs em cada seção, para a eleição das seções com maior representatividade.
 
 Seção: A quantidade: 5
 Seção: B quantidade: 1
@@ -94,7 +94,7 @@ Seção: S quantidade: 54
 Seção: N quantidade: 36
 Seção: H quantidade: 26
 
-Tendo as divisões de maior representatividade, foi dividido igualmente o numero de CNAEs para cada uma das seções. A divisão de CNAEs foi igual entre as Seções para facilitar futuros exemplos práticos.
+Tendo as seções de maior representatividade, foi dividido igualmente o número de CNAEs, para cada uma das seções. A divisão de CNAEs foi igual entre as seções, para que cada seção tivesse um número consideravel de CNAEs, assim facilitando futuros exemplos práticos.
 
 Seção: C quantidade de cnaes da amostra : 4
 Seção: G quantidade de cnaes da amostra : 4
@@ -102,7 +102,7 @@ Seção: S quantidade de cnaes da amostra : 4
 Seção: N quantidade de cnaes da amostra : 4
 Seção: H quantidade de cnaes da amostra : 4
 
-A escolha dos CNAEs foi realizada sob as seções selecionadas, foram escolhidos um grupo por seção garantindo a diversidade dos grupos, e dentro de cada grupo buscou-se selecionar CNAEs com atividades de dominio similares para riqueza dos exemplos práticos.
+A escolha dos CNAEs foi realizada sob as seções selecionadas, foram escolhidos um grupo de CNAEs por seção garantindo a diversidade, e dentro de cada grupo buscou-se selecionar CNAEs com atividades de dominio similares.
 
 4781-4/00 COMÉRCIO VAREJISTA DE ARTIGOS DO VESTUÁRIO E ACESSÓRIOS
 4785-7/99 COMÉRCIO VAREJISTA DE OUTROS ARTIGOS USADOS
@@ -110,6 +110,8 @@ A escolha dos CNAEs foi realizada sob as seções selecionadas, foram escolhidos
 4782-2/02 COMÉRCIO VAREJISTA DE ARTIGOS DE VIAGEM
 
 
+Instâncias
 
+A criação das instâncias da base de conhecimento se faz utilizando-se as classes e propriedades criadas no projeto até essa etapa. A figura 12 apresenta as instâncias criadas utilizando-se a ferramenta Protége.
 
-
+FiguraIntancias1
