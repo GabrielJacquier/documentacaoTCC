@@ -7,7 +7,7 @@ O último passo, é criar as intâncias, através das classes e propriedades at�
 Apresentamos o processo realizado para a eleição dos CNAEs selecionados, mostrando o cuidado que foi tomado para a amostra possuir diversidade e representatividade aceitáveis para o trabalho.
 
 Foi contabilizado aproximadamente quinhentos CNAEs como permitidos para um MEI se utilizar, decidiu-se utilizar uma amostra de aproximadamente 4%, totalizando 20 CNAEs. O numero de CNAEs escolhido foi o maior possível, em relação ao tamanho do esforço manual e tempo necessário para se inserir os CNAEs na ontologia. O método utilizado foi baseado no método de Estágios Múltiplos...
-para assegurar a diversidade pretendida na amostra, foi escolhido diferentes seções, onde são os grupos mais genéricos e por sua vez mais heterogenios entre sí.
+para assegurar a diversidade pretendida na amostra, foi escolhido diferentes seções
 
 Secao: A quantidade: 5
 Secao: B quantidade: 1
