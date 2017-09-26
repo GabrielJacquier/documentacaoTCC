@@ -2,11 +2,11 @@
 							Instâncias
 	Amostra
 
-O último passo, é criar as intâncias, através das classes e propriedades até aqui definidas. Para esse trabalho, foi tomada a decisão da utilização de uma amostra do total de CNAEs existentes, para a utilização da criação das intâncias. 
+O último passo, é criar as intâncias, através das classes e propriedades até aqui definidas. Para esse trabalho, foi tomada a decisão da utilização de uma amostra sob o total de CNAEs existentes, pela alta quantidade de tempo que seria necessaria para utilizar todos os CNAEs. 
 
 Apresentamos o processo realizado para a eleição dos CNAEs selecionados, mostrando o cuidado que foi tomado para a amostra possuir diversidade e representatividade aceitáveis para o trabalho.
 
-Foi contabilizado aproximadamente quinhentos CNAEs como permitidos para um MEI se utilizar, pela grande quantidade de CNAEs decidiu-se utilizar uma amostra de aproximadamente 4%, totalizando 20 CNAEs. O numero de CNAEs escolhido foi o maior possível, em relação ao tamanho do esforço manual necessário para se inserir o CNAEs na ontologia. Para escolha dos CNAEs o método utilizado foi baseado no método de Estágios Múltiplos...
+Foi contabilizado aproximadamente quinhentos CNAEs como permitidos para um MEI se utilizar, decidiu-se utilizar uma amostra de aproximadamente 4%, totalizando 20 CNAEs. O numero de CNAEs escolhido foi o maior possível, em relação ao tamanho do esforço manual e tempo necessário para se inserir os CNAEs na ontologia. O método utilizado foi baseado no método de Estágios Múltiplos...
 para assegurar a diversidade pretendida na amostra, foi escolhido diferentes seções, onde são os grupos mais genéricos e por sua vez mais heterogenios entre sí.
 
 Secao: A quantidade: 5
