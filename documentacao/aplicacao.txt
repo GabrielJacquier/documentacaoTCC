@@ -112,6 +112,6 @@ A escolha dos CNAEs foi realizada sob as seções selecionadas, foram escolhidos
 
 Instâncias
 
-A criação das instâncias da base de conhecimento se faz utilizando-se as classes e propriedades criadas no projeto até essa etapa. A figura 12 apresenta as instâncias criadas utilizando-se a ferramenta Protége.
+A criação das instâncias da base de conhecimento se faz utilizando-se as classes e propriedades criadas no projeto até essa etapa. A figura 12 apresenta as instâncias criadas modelando os CNAEs da seção G, utilizando-se a ferramenta Protége.
 
-FiguraIntancias1
+FiguraIntancia1
