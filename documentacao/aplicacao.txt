@@ -1,5 +1,5 @@
 ﻿							
-Neste capítulo será demostrado, a contrução de uma ontologia na área de dominio de CNAE para MEI, baseado no passos sugeridos na Metodologia 101. A aplicação desta metodologia é realizada através de sete etapas.
+Neste capítulo será demostrado, a contrução de uma ontologia na área de dominio de CNAE para MEI, baseado no passos sugeridos na Metodologia 101. A aplicação desta metodologia é realizada através de sete etapas iniciais, que seram repetidas de forma iterativa, até que sejam atendidos os requisitos levantados na etapa de escopo do projeto.
 
 Escopo
 
@@ -27,33 +27,29 @@ Termos relevantes para o domínio
 
 O levantamento de termos relevantes, é importante para o inicio da contrução da ontologia, pois através desses teremos uma melhor compreensão do que a ontologia deve abordar.
 
-Seção
-Divisão
-Grupo
-Classe
-Subclasse
-CNAE
-Atividade
-Ocupação
+	FiguraTermosRelevantes1
 
 Hierarquia de classes
 
 A definição e hierarquia de classes, foi realizada sobre a abordagem combinada, que realiza a fusão da abordagem bottom-up e top-down, classificando primeiro os termos que mais se destacam, para após realizar o processo de generalização ou especialização. A figura 12 apresenta as classes iniciais implementas através da ferramenta Protégé, com base nos termos de dominio levantados.
-
-FiguraClasse1
+	
+	FiguraClasse1
 
 Propriedades das classes
 
-As propriedades das classes, representam a ligação entre os indivíduos na base de conhecimento, tendo como domínio e alcance possíveis, as classes definidas anteriormente no projeto, a figura 14 apresenta as propriedades implementadas através da ferramenta Protégé.
+As propriedades das classes, representam a ligação entre os indivíduos na base de conhecimento. A Figura 14 apresenta as propriedades implementadas através da ferramenta Protégé.
 
-FiguraPropriedadeClasse1
+	FiguraPropriedadeClasse1
 
+Para realizar inferência na base de conhecimento, a linguagem OWL possui alguns recursos, que permitem adicionar comportamentos as propriedades das classes. A Figura 15 mostra a configuração feita no Protége, para adicionar uma restrição sobre a propriedade “permite”. Foi adicionado uma relação de inversão para com a propriedade “permitidaPor”, indicando que para toda tripla verdadeira “A permite B”, é verdadeiro afirmar “B permitidaPor A”.
+
+	FiguraPropriedadeClasseInverseOf1
 
 Propriedades de valores
 
 As propriedades de valores, são utilizadas quando a propriedade objetiva ligar um indivíduo da base de conhecimento, com um valor primitivo, e não com um outro indivíduo da ontologia. A figura 1 expõe as propriedades de valores implementados no Protégé.
 
-FiguraPropriedadeValor1
+	FiguraPropriedadeValor1
 
 
 Amostra para as instâncias
@@ -64,54 +60,27 @@ Apresentamos o processo realizado para a seleção dos CNAEs. Não foram utiliza
 
 Foi contabilizado aproximadamente quinhentos CNAEs como permitidos para MEI, decidiu-se por uma amostra de aproximadamente 4%, totalizando 20 CNAEs. O numero de CNAEs escolhido foi o maior possível, em relação ao tamanho do esforço manual e tempo disponivel para se modelar os CNAEs na ontologia. Para assegurar a diversidade pretendida na amostra, foi escolhido diferentes seções, que serviram para a seleção dos CNAEs. Foi contabilizada a quantidade de CNAEs em cada seção, para a eleição das seções com maior representatividade.
 
-Seção: A quantidade: 5
-Seção: B quantidade: 1
-Seção: C quantidade: 174
-Seção: D quantidade: 0
-Seção: E quantidade: 13
-Seção: F quantidade: 26
-Seção: G quantidade: 105
-Seção: H quantidade: 26
-Seção: I quantidade: 22
-Seção: J quantidade: 10
-Seção: K quantidade: 0
-Seção: L quantidade: 0
-Seção: M quantidade: 12
-Seção: N quantidade: 36
-Seção: O quantidade: 0
-Seção: P quantidade: 8
-Seção: Q quantidade: 1
-Seção: R quantidade: 11
-Seção: S quantidade: 54
-Seção: T quantidade: 1
-Seção: U quantidade: 0
+	FiguraAmostraSecao1
 
 Ordenando as seções, temos a ordem de representatividade das mesmas, foi então selecionado as seis seções com maior representatividade para serem utilizadas na escolha das amostras.
 
-Seção: C quantidade: 174
-Seção: G quantidade: 105
-Seção: S quantidade: 54
-Seção: N quantidade: 36
-Seção: H quantidade: 26
+	FiguraAmostraSecaoEscolhida1
 
 Tendo as seções de maior representatividade, foi dividido igualmente o número de CNAEs, para cada uma das seções. A divisão de CNAEs foi igual entre as seções, para que cada seção tivesse um número consideravel de CNAEs, assim facilitando futuros exemplos práticos.
 
-Seção: C quantidade de cnaes da amostra : 4
-Seção: G quantidade de cnaes da amostra : 4
-Seção: S quantidade de cnaes da amostra : 4
-Seção: N quantidade de cnaes da amostra : 4
-Seção: H quantidade de cnaes da amostra : 4
+	FiguraAmostraCnaesEscolhidosporSecao1
 
 A escolha dos CNAEs foi realizada sob as seções selecionadas, foram escolhidos um grupo de CNAEs por seção garantindo a diversidade, e dentro de cada grupo buscou-se selecionar CNAEs com atividades de dominio similares.
 
-4781-4/00 COMÉRCIO VAREJISTA DE ARTIGOS DO VESTUÁRIO E ACESSÓRIOS
-4785-7/99 COMÉRCIO VAREJISTA DE OUTROS ARTIGOS USADOS
-4782-2/01 COMÉRCIO VAREJISTA DE CALÇADOS
-4782-2/02 COMÉRCIO VAREJISTA DE ARTIGOS DE VIAGEM
+
+
+	FiguraAmostraCNAES1
 
 
 Instâncias
 
-A criação das instâncias da base de conhecimento se faz utilizando-se as classes e propriedades criadas no projeto até essa etapa. A figura 12 apresenta as instâncias criadas modelando os CNAEs da seção G, utilizando-se a ferramenta Protége.
+A criação das instâncias da base de conhecimento se faz utilizando as classes e propriedades criadas no projeto até essa etapa. A figura 12 apresenta as instâncias criadas modelando os CNAEs da seção G, utilizando-se a ferramenta Protége.
 
-FiguraIntancia1
+	FiguraIndividuos1
+
+
