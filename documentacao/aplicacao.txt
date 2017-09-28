@@ -50,10 +50,17 @@ As propriedades das classes, representam a ligação entre os indivíduos na bas
 
 Para realizar inferências na base de conhecimento, a linguagem OWL possui alguns recursos, que permitem adicionar comportamentos as propriedades das classes.
 
-A Figura 15 mostra a configuração feita no Protége, para adicionar uma restrição sobre a propriedade “permite”. Foi adicionado uma relação de inversão para a propriedade “permitidaPor”, indicando que para toda tripla verdadeira “A permite B”, é verdadeiro afirmar “B permitidaPor A”.
+Para propriedades de classes, podemos indicar qual o dominio e variação da propriedade para restringir os tipos de individuos possíveis, para a propriedade realizar um vínculo. A Figura 15 apresenta a configuração realizada no Protégé, para a propriedade “permite” definindo os valores de dominio e variação respectivamente através dos campos “Domains” e “Ranges”.
+
+	FiguraPropriedadeDomainRange1
+
+A Figura 16 mostra a configuração feita no Protége, para adicionar uma restrição sobre a propriedade “permite”, onde foi adicionado uma relação de inversão para a propriedade “permitidaPor”, indicando que para toda tripla verdadeira “A permite B”, é verdadeiro afirmar “B permitidaPor A”.
 
 	FiguraPropriedadeClasseInverseOf1
 
+Um recurso também oferecido pela linguagem OWL, é o comportamento de transitividade que pode ser aplicado a uma propriedade. Este recurso foi utilizado para a propriedade “temSubGrupo”, onde aplica-se a restrição para se “A temSubGrupo B” e “B temSubGrupo C” então pode-se afirmar que “A temSubGrupo C”. A Figura 16 apresenta a configuração de transitividade realizada.
+
+	FiguraPropriedadeTransitive1
 
 
 Propriedades de valores
@@ -91,7 +98,7 @@ A escolha dos CNAEs foi realizada sob as seções selecionadas, foram escolhidos
 
 Instâncias
 
-A criação das instâncias da base de conhecimento se faz utilizando as classes e propriedades criadas no projeto até essa etapa. A figura 12 apresenta as instâncias criadas modelando os CNAEs da seção G, utilizando-se a ferramenta Protége.
+A criação das instâncias da base de conhecimento se faz utilizando as classes e propriedades criadas no projeto até essa etapa. A figura 12 apresenta as instâncias criadas modelando os CNAEs da seção G, utilizando-se a ferramenta Protégé.
 
 	FiguraIndividuos1
 
