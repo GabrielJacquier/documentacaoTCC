@@ -105,3 +105,8 @@ A criação das instâncias da base de conhecimento se faz utilizando as classes
 Para melhorar o suporte na busca por indivíduos na base, pode se utilizar o recurso da linguagem OWL para se vincular dois indivíduos como o mesmo, de maneira a qualquer restrição que é verdade sobre um, também será verdade sobre outro. A Figura 18 apresenta esse recurso sendo utilizado sobre o indivíduo “lojista”.
 
 	FiguraIndividuosSameAs1
+
+
+Primeira avaliação da modelagem
+
+
