@@ -34,8 +34,17 @@ humanos, possibilita o compartilhar conhecimento sobre um domínio, isto é, compa
 
 	Partindo da conceitualização mais ampla de Uscholde e Jasper (Inserir data correta) e com base na  pesquisa e abordagem criada por BERNERS-LEE, HENDLER; LASSILA (2011), na qual  contempla-se o ambiente da web Semântica, acredita-se que com adoção das ontologias seja possível dar um salto qualitativo na utilização de motores de busca, ou seja, ao em vez da busca ser por palavras-chave, serão utilizados agentes de software inteligentes pelo uso de conceitos, permitindo migrar de uma simples recuperação para a obtenção de respostas precisas a consultas concretas.
 
-Obs: Pensar em talvez utilizar mais conceitos de Breitman nesta primeira parte
+	Mais detalhadamente Guarino e Giaretta (1995) demonstram sete
+interpretações em relação ao termo ‘ontologia’, a partir disto acendendo, diferentes abordagens sobre o tema e a que mais se aproxima desta pesquisa:
 
+1. Ontologia como o vocabulário utilizado por uma teoria lógica. 
+2. Ontologia como um sistema conceitual informal. 
+3. Ontologia como uma descrição semântica formal. 
+4. Ontologia como uma especificação de uma “conceituação.” 
+5. Ontologia como uma representação de um sistema conceitual através de uma teoria lógica. 
+5.1 caracterizada por propriedades formais específicas;
+5.2 caracterizada apenas por propósitos específicos.
+6. Ontologia como uma (meta-nível) especificação de uma teoria lógica.
 
 
 
