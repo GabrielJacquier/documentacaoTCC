@@ -48,7 +48,9 @@ As propriedades das classes, representam a ligação entre os indivíduos na bas
 
 	FiguraPropriedadeClasse1
 
-Para realizar inferência na base de conhecimento, a linguagem OWL possui alguns recursos, que permitem adicionar comportamentos as propriedades das classes. A Figura 15 mostra a configuração feita no Protége, para adicionar uma restrição sobre a propriedade “permite”. Foi adicionado uma relação de inversão para a propriedade “permitidaPor”, indicando que para toda tripla verdadeira “A permite B”, é verdadeiro afirmar “B permitidaPor A”.
+Para realizar inferências na base de conhecimento, a linguagem OWL possui alguns recursos, que permitem adicionar comportamentos as propriedades das classes.
+
+A Figura 15 mostra a configuração feita no Protége, para adicionar uma restrição sobre a propriedade “permite”. Foi adicionado uma relação de inversão para a propriedade “permitidaPor”, indicando que para toda tripla verdadeira “A permite B”, é verdadeiro afirmar “B permitidaPor A”.
 
 	FiguraPropriedadeClasseInverseOf1
 
