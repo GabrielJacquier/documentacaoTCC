@@ -1,4 +1,5 @@
-﻿							
+﻿
+							
 Neste capítulo será demostrado, a contrução de uma ontologia na área de dominio de CNAE para MEI, baseado no passos sugeridos na Metodologia 101. A aplicação desta metodologia é realizada através de sete etapas iniciais, que seram repetidas de forma iterativa, até que sejam atendidos os requisitos levantados na etapa de escopo do projeto.
 
 Escopo
@@ -109,8 +110,24 @@ Para melhorar o suporte na busca por indivíduos na base, pode se utilizar o rec
 
 Avaliação da modelagem
 
-A avaliação da modelagem será feita realizando consultas a base de conhecimento criada, utilizando a linguagem SPARQL, buscando atender os requisitos especificados na etapa de definição do escopo. A Figura 19 apresenta uma query criada para se buscar quais atividades são permitidas dado um CNAE.
+A avaliação da modelagem será feita realizando consultas a base de conhecimento criada, utilizando a linguagem SPARQL, buscando atender os requisitos especificados na etapa de definição do escopo. A Figura 19 apresenta uma query criada para se buscar quais atividades são permitidas, dado um CNAE.
 
 	FiguraSparqlAtividadesPermitidas1
+
+A figura 20 apresenta uma query que realiza a busca de um CNAE dado a descriçao de uma ocupação.
+
+	
+	FiguraSparqlCnaesPorOcupacao1
+
+Observa-se certa flexibilidade gerada pelo recurso “sameAs” da linguagem OWL, gerando maior semântica na busca por ocupações. Esse recurso, permite facilidade para expandir termos relacionados a um indivíduo especifico, simplificando a busca por termos.
+
+A figura 21 apresenta uma query que realiza a busca de um CNAE dado a descrição de uma atividade.
+
+	
+	FiguraSparqlCnaePorAtividade1
+
+O resultado obtido neste teste não foi satisfatório, pois os termos relacionados a atividade se encontram inseridos em uma propriedade de valor em forma de texto, não permitindo aos termos a relação de sinônimos e a criação de inferências. Dessa forma, os critérios de clareza e extensibilidade sugeridos por Tom Gruber (1995) foram utilizados para se chegar a essa conclusão.
+
+Tendo o problema posto, realizou-se uma nova análise em busca de satisfazer os dois critérios observados.
 
 
