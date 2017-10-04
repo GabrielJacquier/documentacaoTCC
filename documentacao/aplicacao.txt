@@ -128,6 +128,6 @@ A figura 21 apresenta uma query que realiza a busca de um CNAE dado a descriçã
 
 O resultado obtido neste teste não foi satisfatório, pois os termos relacionados a atividade se encontram inseridos em uma propriedade de valor em forma de texto, não permitindo aos termos a relação de sinônimos e a criação de inferências. Dessa forma, os critérios de clareza e extensibilidade sugeridos por Tom Gruber (1995) foram utilizados para se chegar a essa conclusão.
 
-Tendo o problema posto, realizou-se uma nova análise em busca de satisfazer os dois critérios observados.
+Tendo o problema posto, realizou-se uma nova análise em busca de satisfazer os dois critérios observados. Foi proposto a decomposição do conceito de atividade
 
 
