@@ -126,8 +126,16 @@ A figura 21 apresenta uma query que realiza a busca de um CNAE dado a descriçã
 	
 	FiguraSparqlCnaePorAtividade1
 
-O resultado obtido neste teste não foi satisfatório, pois os termos relacionados a atividade se encontram inseridos em uma propriedade de valor em forma de texto, não permitindo aos termos a relação de sinônimos e a criação de inferências. Dessa forma, os critérios de clareza e extensibilidade sugeridos por Tom Gruber (1995) foram utilizados para se chegar a essa conclusão.
+O resultado obtido neste teste não foi satisfatório, pois os termos relacionados a atividade se encontram inseridos em uma propriedade de valor, em forma de texto, não permitindo adicionar sinônimos aos termos da atividade, assim como, não permitindo a criação de inferências. Para se chegar a conclusão neste teste, foram utilizados os critérios de clareza e extensibilidade sugeridos por Tom Gruber (1995), mencionados no capítulo de metodologia.
 
-Tendo o problema posto, realizou-se uma nova análise em busca de satisfazer os dois critérios observados. Foi proposto a decomposição do conceito de atividade
+Tendo o problema posto, realizou-se uma nova análise, buscando satisfazer os dois critérios observados. Foi então, proposto a decomposição do conceito de atividade, de modo a oferecer uma estrutura mais inteligente, para busca e validação dos termos da atividade. A figura 20 apresenta as novas classes, adicionadas para suportar a decomposição da atividade.
 
+	FiguraClasseAtividadeDecomposicao2
 
+Foram adicionadas novas propriedades de objetos, permitindo a relação entre os indivíduos das classes componentes da atividade. A figura 21 apresenta as novas propriedades de objetos na ferramenta Protégé.
+
+	FiguraObjectPropertie2
+
+Para aumentar a flexibilidade na busca de informacoes, foram adicinadas propriedades de valor para representar a forma singular e plural caso exista, dos termos componentes da atividade. A figura 22 exibe a implementação das mesmas.
+
+	FiguraPropriedadeValor2
