@@ -39,9 +39,6 @@ A definição e hierarquia de classes, foi realizada sobre a abordagem combinada
 
 FiguraClasse1
 
-
-
-
 Propriedades das classes
 
 As propriedades das classes, representam a ligação entre os indivíduos na base de conhecimento. A Figura 14 apresenta as propriedades implementadas através da ferramenta Protégé.
@@ -106,6 +103,10 @@ Para melhorar o suporte na busca por indivíduos na base, pode se utilizar o rec
 
 FiguraIndividuosSameAs1
 
+Utilizou-se da ferramenta WebVOWL disponível online, para exibir um diagrama das classes e propriedades da ontologia. A figura 18.5 exibe o diagrama com os relacionamentos entre as classes e propriedades
+
+FiguraApresentacaoImplementacao1
+
 
 Avaliação da modelagem
 
@@ -127,7 +128,11 @@ FiguraSparqlCnaePorAtividade1
 
 O resultado obtido neste teste não foi satisfatório, pois os termos relacionados a atividade se encontram inseridos em uma propriedade de valor, em forma de texto, não permitindo adicionar sinônimos aos termos da atividade, assim como, não permitindo a criação de inferências. Para se chegar a conclusão neste teste, foram utilizados os critérios de clareza e extensibilidade sugeridos por Tom Gruber (1995), mencionados no capítulo de metodologia.
 
-Tendo o problema posto, realizou-se uma nova análise, buscando satisfazer os dois critérios observados. Foi então, proposto a decomposição do conceito de atividade, de modo a oferecer uma estrutura mais inteligente, para busca e validação dos termos da atividade. A figura 20 apresenta as novas classes, adicionadas para suportar a decomposição da atividade.
+Tendo o problema posto, realizou-se uma nova análise, buscando satisfazer os dois critérios observados. Foi então, proposto a decomposição do conceito de atividade, de modo a oferecer uma estrutura mais flexível, para busca e validação dos termos da atividade. A figura 20 apresenta  um diagrama com as classes e propriedades de classes essenciais para o entendimento da nova porposta.
+FiguraApresentacaoImplementacao_1_2
+É visto duas novas classes, das até então implementadas
+
+A figura 20 apresenta as novas classes, adicionadas para suportar a decomposição da atividade.
 
 FiguraClasse2
 

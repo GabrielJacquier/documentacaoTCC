@@ -30,6 +30,9 @@ http://www.omneek.com/biblioteca/web-semantica-como-funciona/
 Blog sobre Ontologia bem util, essa pagina ajuda a definir se um conceito é uma classe ou objeto
 http://ontogenesis.knowledgeblog.org/1418
 
+Visualizar a ontologia
+http://vowl.visualdataweb.org/webvowl.html
+
 
 Links:
 
