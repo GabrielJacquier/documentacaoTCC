@@ -103,7 +103,7 @@ Para melhorar o suporte na busca por indivíduos na base, pode se utilizar o rec
 
 FiguraIndividuosSameAs1
 
-Utilizou-se da ferramenta WebVOWL disponível online, para exibir um diagrama das classes e propriedades da ontologia. A figura 18.5 exibe o diagrama com os relacionamentos entre as classes e propriedades
+Utilizou-se da ferramenta WebVOWL disponível online, para exibir um diagrama das classes e propriedades da ontologia. A figura 18.5 exibe o diagrama com os relacionamentos entre as classes e propriedades.
 
 FiguraApresentacaoImplementacao1
 
@@ -130,7 +130,7 @@ O resultado obtido neste teste não foi satisfatório, pois os termos relacionad
 
 Tendo o problema posto, realizou-se uma nova análise, buscando satisfazer os dois critérios observados. Foi então, proposto a decomposição do conceito de atividade, de modo a oferecer uma estrutura mais flexível, para busca e validação dos termos da atividade. A figura 20 apresenta  um diagrama com as classes e propriedades de classes essenciais para o entendimento da nova porposta.
 FiguraApresentacaoImplementacao_1_2
-É visto duas novas classes, das até então implementadas
+É visto duas novas classes, das até então implementadas …
 
 A figura 20 apresenta as novas classes, adicionadas para suportar a decomposição da atividade.
 
