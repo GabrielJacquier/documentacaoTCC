@@ -1,16 +1,15 @@
 ﻿
-							
-Neste capítulo será demostrado, a contrução de uma ontologia na área de dominio de CNAE para MEI, baseado no passos sugeridos na Metodologia 101. A aplicação desta metodologia é realizada através de sete etapas iniciais, que seram repetidas de forma iterativa, até que sejam atendidos os requisitos levantados na etapa de escopo do projeto.
+Neste capítulo será demonstrado, a construção de uma ontologia na área de domínio de CNAE para MEI, baseado no passos sugeridos na Metodologia 101. A aplicação desta metodologia é realizada através de sete etapas iniciais, que serão repetidas de forma iterativa, até que sejam atendidos os requisitos levantados na etapa de escopo do projeto.
 
 Escopo
 
 Para realizar a definição do domínio e o escopo da ontologia, pode-se utilizar de algumas questões para qualidade do resultado atingido.
 
-Que dominio se deseja cobrir com a ontologia?
+Que domínio se deseja cobrir com a ontologia?
 * Atividades permitidas para o Micro Empreendedor Individual (MEI)
 
 Com que propósito será utilizada a ontologia?
-* Disponibilizar uma estrutura extensivel e reutilizavel para sistemas que desejam obter informações sobre atividades permitidas para MEIs, algumas das finalidades para sistemas utilizarem a ontologia proposta seria facilitar o acesso a informações através de um portal para futuros MEIs, ou mesmo a validação de se uma determinada atividade que uma empresa deseja tercerizar pode ser executada por um MEI.
+* Disponibilizar uma estrutura extensível e reutilizavel para sistemas que desejam obter informações sobre atividades permitidas para MEIs, algumas das finalidades para sistemas utilizarem a ontologia proposta seria facilitar o acesso a informações através de um portal para futuros MEIs, ou mesmo a validação de se uma determinada atividade que uma empresa deseja terceirizar pode ser executada por um MEI.
 
 Que informações a ontologia deve fornecer?
 * Quais as atividades permitidas dado um CNAE
@@ -18,27 +17,27 @@ Que informações a ontologia deve fornecer?
 * Qual o CNAE dada uma descrição de uma atividade
 
 Quem vai utilizar a ontologia?
-* Sites que desejam obter maior semantica na obtenção de informações sobre atividades permitidas para uma dada MEI, assim como validação de sistemas de empresa para com atividades realizadas para um certo MEI.
+* Sites que desejam obter maior semântica na obtenção de informações sobre atividades permitidas para uma dada MEI, assim como validação de sistemas de empresa para com atividades realizadas para um certo MEI.
 
 
 Reuso de outras ontologias
 
-A avaliação do reuso de outras ontologias, é importante para diminuição do trabalho manual, assim como  também para o aumento da qualidade, pois ao utilizar outra ontologia testada por outros desenvolvedores é agregado conhecimento já validado a ontologia em desenvolvimento. Foi realizado a pesquisa em alguns repositórios de ontologias como Knoodl, Schemapedia e no repositório do Protégé, porém não foram encontradas ontologias que poderiam ser utilizadas para o dominio abordado no projeto.
+A avaliação do reuso de outras ontologias, é importante para diminuição do trabalho manual, assim como  também para o aumento da qualidade, pois ao utilizar outra ontologia testada por outros desenvolvedores é agregado conhecimento já validado a ontologia em desenvolvimento. Foi realizado a pesquisa em alguns repositórios de ontologias como Knoodl, Schemapedia e no repositório do Protégé, porém não foram encontradas ontologias que poderiam ser utilizadas para o domínio abordado no projeto.
 
 
 Termos relevantes para o domínio
 
-O levantamento de termos relevantes, é importante para o inicio da contrução da ontologia, pois através desses teremos uma melhor compreensão do que a ontologia deve abordar.
+O levantamento de termos relevantes, é importante para o início da construção da ontologia, pois através desses teremos uma melhor compreensão do que a ontologia deve abordar.
 
-	FiguraTermosRelevantes1
+FiguraTermosRelevantes1
 
 
 
 Hierarquia de classes
 
-A definição e hierarquia de classes, foi realizada sobre a abordagem combinada, que realiza a fusão da abordagem bottom-up e top-down, classificando primeiro os termos que mais se destacam, para após realizar o processo de generalização ou especialização. A figura 12 apresenta as classes iniciais implementas através da ferramenta Protégé, com base nos termos de dominio levantados.
-	
-	FiguraClasse1
+A definição e hierarquia de classes, foi realizada sobre a abordagem combinada, que realiza a fusão da abordagem bottom-up e top-down, classificando primeiro os termos que mais se destacam, para após realizar o processo de generalização ou especialização. A figura 12 apresenta as classes iniciais implementadas através da ferramenta Protégé, com base nos termos de domínio levantados.
+
+FiguraClasse1
 
 
 
@@ -47,53 +46,53 @@ Propriedades das classes
 
 As propriedades das classes, representam a ligação entre os indivíduos na base de conhecimento. A Figura 14 apresenta as propriedades implementadas através da ferramenta Protégé.
 
-	FiguraPropriedadeClasse1
+FiguraPropriedadeClasse1
 
 Para realizar inferências na base de conhecimento, a linguagem OWL possui alguns recursos, que permitem adicionar comportamentos as propriedades das classes.
 
-Para propriedades de classes, podemos indicar qual o dominio e variação da propriedade para restringir os tipos de individuos possíveis, para a propriedade realizar um vínculo. A Figura 15 apresenta a configuração realizada no Protégé, para a propriedade “permite” definindo os valores de dominio e variação respectivamente através dos campos “Domains” e “Ranges”.
+Para propriedades de classes, podemos indicar qual o domínio e variação da propriedade para restringir os tipos de indivíduos possíveis, para a propriedade realizar um vínculo. A Figura 15 apresenta a configuração realizada no Protégé, para a propriedade “permite” definindo os valores de domínio e variação respectivamente através dos campos “Domains” e “Ranges”.
 
-	FiguraPropriedadeDomainRange1
+FiguraPropriedadeDomainRange1
 
 A Figura 16 mostra a configuração feita no Protége, para adicionar uma restrição sobre a propriedade “permite”, onde foi adicionado uma relação de inversão para a propriedade “permitidaPor”, indicando que para toda tripla verdadeira “A permite B”, é verdadeiro afirmar “B permitidaPor A”.
 
-	FiguraPropriedadeClasseInverseOf1
+FiguraPropriedadeClasseInverseOf1
 
 Um recurso também oferecido pela linguagem OWL, é o comportamento de transitividade que pode ser aplicado a uma propriedade. Este recurso foi utilizado para a propriedade “temSubGrupo”, onde aplica-se a restrição para se “A temSubGrupo B” e “B temSubGrupo C” então pode-se afirmar que “A temSubGrupo C”. A Figura 16 apresenta a configuração de transitividade realizada.
 
-	FiguraPropriedadeTransitive1
+FiguraPropriedadeTransitive1
 
 
 Propriedades de valores
 
 As propriedades de valores, são utilizadas quando a propriedade objetiva ligar um indivíduo da base de conhecimento, com um valor primitivo. A figura 1 expõe as propriedades de valores implementados no Protégé.
 
-	FiguraPropriedadeValor1
+FiguraPropriedadeValor1
 
 
 
 
 Amostra para as instâncias
 
-Para realização da criação das intâncias, foi tomada a decisão da utilização de uma amostra sob o total de CNAEs existentes, por motivo do tamanho do esforço e tempo necessário em caso de modelagem de todos os CNAEs, fazendo assim, possível  o desenvolvimento do projeto.
+Para realização da criação das instâncias, foi tomada a decisão da utilização de uma amostra sob o total de CNAEs existentes, por motivo do tamanho do esforço e tempo necessário em caso de modelagem de todos os CNAEs, fazendo assim, possível  o desenvolvimento do projeto.
 
 Apresentamos o processo realizado para a seleção dos CNAEs. Não foram utilizados métodos estatísticos para a montagem da amostra, pois foi necessário a escolha de CNAEs com atividades similares para problemática dos exemplos práticos, necessitando assim, da escolha manual pelos desenvolvedores. Porém foi tomado o devido cuidado para a amostra possuir diversidade e representatividade aceitáveis.
 
-Foi contabilizado aproximadamente quinhentos CNAEs como permitidos para MEI, decidiu-se por uma amostra de aproximadamente 4%, totalizando 20 CNAEs. O numero de CNAEs escolhido foi o maior possível, em relação ao tamanho do esforço manual e tempo disponivel para se modelar os CNAEs na ontologia. Para assegurar a diversidade pretendida na amostra, foi escolhido diferentes seções, que serviram para a seleção dos CNAEs. Foi contabilizada a quantidade de CNAEs em cada seção, para a eleição das seções com maior representatividade.
+Foi contabilizado aproximadamente quinhentos CNAEs como permitidos para MEI, decidiu-se por uma amostra de aproximadamente 4%, totalizando 20 CNAEs. O número de CNAEs escolhido foi o maior possível, em relação ao tamanho do esforço manual e tempo disponível para se modelar os CNAEs na ontologia. Para assegurar a diversidade pretendida na amostra, foi escolhido diferentes seções, que serviram para a seleção dos CNAEs. Foi contabilizada a quantidade de CNAEs em cada seção, para a eleição das seções com maior representatividade.
 
-	FiguraAmostraSecao1
+FiguraAmostraSecao1
 
 Ordenando as seções, temos a ordem de representatividade das mesmas, foi então selecionado as seis seções com maior representatividade para serem utilizadas na escolha das amostras.
 
-	FiguraAmostraSecaoEscolhida1
+FiguraAmostraSecaoEscolhida1
 
-Tendo as seções de maior representatividade, foi dividido igualmente o número de CNAEs, para cada uma das seções. A divisão de CNAEs foi igual entre as seções, para que cada seção tivesse um número consideravel de CNAEs, assim facilitando futuros exemplos práticos.
+Tendo as seções de maior representatividade, foi dividido igualmente o número de CNAEs, para cada uma das seções. A divisão de CNAEs foi igual entre as seções, para que cada seção tivesse um número considerável de CNAEs, assim facilitando futuros exemplos práticos.
 
-	FiguraAmostraCnaesEscolhidosporSecao1
+FiguraAmostraCnaesEscolhidosporSecao1
 
-A escolha dos CNAEs foi realizada sob as seções selecionadas, foram escolhidos um grupo de CNAEs por seção garantindo a diversidade, e dentro de cada grupo buscou-se selecionar CNAEs com atividades de dominio similares.
+A escolha dos CNAEs foi realizada sob as seções selecionadas, foram escolhidos um grupo de CNAEs por seção garantindo a diversidade, e dentro de cada grupo buscou-se selecionar CNAEs com atividades de domínio similares.
 
-	FiguraAmostraCNAES1
+FiguraAmostraCNAES1
 
 
 
@@ -101,43 +100,45 @@ Instâncias
 
 A criação das instâncias da base de conhecimento se faz utilizando as classes e propriedades criadas no projeto até essa etapa. A Figura 17 apresenta as instâncias criadas modelando os CNAEs da seção G, utilizando-se a ferramenta Protégé.
 
-	FiguraIndividuos1
+FiguraIndividuos1
 
 Para melhorar o suporte na busca por indivíduos na base, pode se utilizar o recurso da linguagem OWL para se vincular dois indivíduos como iguais, de maneira a qualquer restrição verdadeira sobre um, também será verdadeira sobre o outro. A Figura 18 apresenta esse recurso sendo utilizado sobre o indivíduo “lojista”.
 
-	FiguraIndividuosSameAs1
+FiguraIndividuosSameAs1
 
 
 Avaliação da modelagem
 
 A avaliação da modelagem será feita realizando consultas a base de conhecimento criada, utilizando a linguagem SPARQL, buscando atender os requisitos especificados na etapa de definição do escopo. A Figura 19 apresenta uma query criada para se buscar quais atividades são permitidas, dado um CNAE.
 
-	FiguraSparqlAtividadesPermitidas1
+FiguraSparqlAtividadesPermitidas1
 
-A figura 20 apresenta uma query que realiza a busca de um CNAE dado a descriçao de uma ocupação.
+A figura 20 apresenta uma query que realiza a busca de um CNAE dado a descrição de uma ocupação.
 
-	
-	FiguraSparqlCnaesPorOcupacao1
 
-Observa-se certa flexibilidade gerada pelo recurso “sameAs” da linguagem OWL, gerando maior semântica na busca por ocupações. Esse recurso, permite facilidade para expandir termos relacionados a um indivíduo especifico, simplificando a busca por termos.
+FiguraSparqlCnaesPorOcupacao1
+
+Observa-se certa flexibilidade gerada pelo recurso “sameAs” da linguagem OWL, gerando maior semântica na busca por ocupações. Esse recurso, permite facilidade para expandir termos relacionados a um indivíduo específico, simplificando a busca por termos.
 
 A figura 21 apresenta uma query que realiza a busca de um CNAE dado a descrição de uma atividade.
 
-	
-	FiguraSparqlCnaePorAtividade1
+
+FiguraSparqlCnaePorAtividade1
 
 O resultado obtido neste teste não foi satisfatório, pois os termos relacionados a atividade se encontram inseridos em uma propriedade de valor, em forma de texto, não permitindo adicionar sinônimos aos termos da atividade, assim como, não permitindo a criação de inferências. Para se chegar a conclusão neste teste, foram utilizados os critérios de clareza e extensibilidade sugeridos por Tom Gruber (1995), mencionados no capítulo de metodologia.
 
 Tendo o problema posto, realizou-se uma nova análise, buscando satisfazer os dois critérios observados. Foi então, proposto a decomposição do conceito de atividade, de modo a oferecer uma estrutura mais inteligente, para busca e validação dos termos da atividade. A figura 20 apresenta as novas classes, adicionadas para suportar a decomposição da atividade.
 
-	FiguraClasse2
+FiguraClasse2
 
 Foram adicionadas novas propriedades de objetos, permitindo a relação entre os indivíduos das classes componentes da atividade. A figura 21 e 22 apresenta as novas propriedades de objetos na ferramenta Protégé.
 
-	FiguraPropriedadeClasse_1_2
+FiguraPropriedadeClasse_1_2
 
-	FiguraPropriedadeClasse_2_2
+FiguraPropriedadeClasse_2_2
 
-Para aumentar a flexibilidade na busca de informacoes, foram adicinadas propriedades de valor para representar a forma singular e plural caso exista, dos termos componentes da atividade. A figura 23 exibe a implementação das mesmas.
+Para aumentar a flexibilidade na busca de informações, foram adicionadas propriedades de valor para representar a forma singular e plural caso exista, dos termos componentes da atividade. A figura 23 exibe a implementação das mesmas.
 
-	FiguraPropriedadeValor2
+FiguraPropriedadeValor2
+
+
