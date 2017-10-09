@@ -130,12 +130,14 @@ O resultado obtido neste teste não foi satisfatório, pois os termos relacionad
 
 Tendo o problema posto, realizou-se uma nova análise, buscando satisfazer os dois critérios observados. Foi então, proposto a decomposição do conceito de atividade, de modo a oferecer uma estrutura mais inteligente, para busca e validação dos termos da atividade. A figura 20 apresenta as novas classes, adicionadas para suportar a decomposição da atividade.
 
-	FiguraClasseAtividadeDecomposicao2
+	FiguraClasse2
 
-Foram adicionadas novas propriedades de objetos, permitindo a relação entre os indivíduos das classes componentes da atividade. A figura 21 apresenta as novas propriedades de objetos na ferramenta Protégé.
+Foram adicionadas novas propriedades de objetos, permitindo a relação entre os indivíduos das classes componentes da atividade. A figura 21 e 22 apresenta as novas propriedades de objetos na ferramenta Protégé.
 
-	FiguraObjectPropertie2
+	FiguraPropriedadeClasse_1_2
 
-Para aumentar a flexibilidade na busca de informacoes, foram adicinadas propriedades de valor para representar a forma singular e plural caso exista, dos termos componentes da atividade. A figura 22 exibe a implementação das mesmas.
+	FiguraPropriedadeClasse_2_2
+
+Para aumentar a flexibilidade na busca de informacoes, foram adicinadas propriedades de valor para representar a forma singular e plural caso exista, dos termos componentes da atividade. A figura 23 exibe a implementação das mesmas.
 
 	FiguraPropriedadeValor2
