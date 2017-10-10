@@ -33,6 +33,9 @@ http://ontogenesis.knowledgeblog.org/1418
 Visualizar a ontologia
 http://vowl.visualdataweb.org/webvowl.html
 
+Link sobre o latex, para aprender
+https://github.com/abntex/abntex2/wiki/PorOndeComecar
+
 
 Links:
 
