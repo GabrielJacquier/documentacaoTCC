@@ -1,0 +1,11 @@
+Inferências
+
+Para realizar inferências na base de conhecimento, a linguagem OWL possui alguns recursos, que permitem adicionar comportamentos as propriedades das classes.
+
+A Figura 16 mostra a configuração feita no Protége, para adicionar uma restrição sobre a propriedade “permite”, onde foi adicionado uma relação de inversão para a propriedade “permitidaPor”, indicando que para toda tripla verdadeira “A permite B”, é verdadeiro afirmar “B permitidaPor A”.
+
+FiguraPropriedadeClasseInverseOf1
+
+Um recurso também oferecido pela linguagem OWL, é o comportamento de transitividade que pode ser aplicado a uma propriedade. Este recurso foi utilizado para a propriedade “temSubGrupo”, onde aplica-se a restrição para se “A temSubGrupo B” e “B temSubGrupo C” então pode-se afirmar que “A temSubGrupo C”. A Figura 16 apresenta a configuração de transitividade realizada.
+
+FiguraPropriedadeTransitive1
