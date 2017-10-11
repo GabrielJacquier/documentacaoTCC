@@ -1,0 +1,14 @@
+Tecnologias para representação grafica de instâncias da ontologia. 
+Foram encontradas muito poucas
+
+Navig OWL Protege - Plugin do protege
+SIMILE -  ferramenta disponivel para download
+Lodlive - ferramenta que possui o que era necessario, porém ainda em faze de desenvolvimento, e não aberta a utilização de ontologias por upload, somente de ontologias disponiveis online.
+
+Utilizar Draw.io para representação das intancias por falta de detalhes das ferramentas disponíveis encontradas.
+
+Para visualização de classes da ontologia
+
+Plugin Protege - OWLViz
+Plugin Protege - OntoGraph
+Plugin Protege e disponível Web - VOWL

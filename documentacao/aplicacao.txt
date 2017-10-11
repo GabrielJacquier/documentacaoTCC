@@ -33,9 +33,9 @@ FiguraTermosRelevantes1
 
 
 
-Hierarquia de classes
+Classes
 
-A definição e hierarquia de classes, foi realizada sobre a abordagem combinada, que realiza a fusão da abordagem bottom-up e top-down, classificando primeiro os termos que mais se destacam, para após realizar o processo de generalização ou especialização. A figura 12 apresenta as classes iniciais implementadas através da ferramenta Protégé, com base nos termos de domínio levantados.
+A definição das classes, foi realizada sobre a abordagem combinada, que realiza a fusão da abordagem bottom-up e top-down. Classificou-se primeiro os termos que mais se destacam, para após realizar o processo de generalização ou especialização. A figura 12 apresenta as classes implementadas através da ferramenta Protégé, com base nos termos de domínio levantados.
 
 FiguraClasse1
 
@@ -45,11 +45,10 @@ As propriedades das classes, representam a ligação entre os indivíduos na bas
 
 FiguraPropriedadeClasse1
 
+
+Inferências
+
 Para realizar inferências na base de conhecimento, a linguagem OWL possui alguns recursos, que permitem adicionar comportamentos as propriedades das classes.
-
-Para propriedades de classes, podemos indicar qual o domínio e variação da propriedade para restringir os tipos de indivíduos possíveis, para a propriedade realizar um vínculo. A Figura 15 apresenta a configuração realizada no Protégé, para a propriedade “permite” definindo os valores de domínio e variação respectivamente através dos campos “Domains” e “Ranges”.
-
-FiguraPropriedadeDomainRange1
 
 A Figura 16 mostra a configuração feita no Protége, para adicionar uma restrição sobre a propriedade “permite”, onde foi adicionado uma relação de inversão para a propriedade “permitidaPor”, indicando que para toda tripla verdadeira “A permite B”, é verdadeiro afirmar “B permitidaPor A”.
 
@@ -66,12 +65,18 @@ As propriedades de valores, são utilizadas quando a propriedade objetiva ligar 
 
 FiguraPropriedadeValor1
 
+Visualização da ontologia
+
+Utilizou-se da ferramenta WebVOWL disponível online, para exibir um diagrama das classes e propriedades da ontologia. A figura 18.5 exibe o diagrama com os relacionamentos entre as classes e propriedades.
+
+FiguraApresentacaoImplementacao1
+
 
 
 
 Amostra para as instâncias
 
-Para realização da criação das instâncias, foi tomada a decisão da utilização de uma amostra sob o total de CNAEs existentes, por motivo do tamanho do esforço e tempo necessário em caso de modelagem de todos os CNAEs, fazendo assim, possível  o desenvolvimento do projeto.
+Para realização da criação das instâncias, foi tomada a decisão da utilização de uma amostra sob o total de CNAEs existentes, por motivo do tamanho do esforço e tempo necessário em caso de modelagem de todos os CNAEs, fazendo assim, possível o desenvolvimento do projeto.
 
 Apresentamos o processo realizado para a seleção dos CNAEs. Não foram utilizados métodos estatísticos para a montagem da amostra, pois foi necessário a escolha de CNAEs com atividades similares para problemática dos exemplos práticos, necessitando assim, da escolha manual pelos desenvolvedores. Porém foi tomado o devido cuidado para a amostra possuir diversidade e representatividade aceitáveis.
 
@@ -103,10 +108,6 @@ Para melhorar o suporte na busca por indivíduos na base, pode se utilizar o rec
 
 FiguraIndividuosSameAs1
 
-Utilizou-se da ferramenta WebVOWL disponível online, para exibir um diagrama das classes e propriedades da ontologia. A figura 18.5 exibe o diagrama com os relacionamentos entre as classes e propriedades.
-
-FiguraApresentacaoImplementacao1
-
 
 Avaliação da modelagem
 
@@ -126,10 +127,12 @@ A figura 21 apresenta uma query que realiza a busca de um CNAE dado a descriçã
 
 FiguraSparqlCnaePorAtividade1
 
-O resultado obtido neste teste não foi satisfatório, pois os termos relacionados a atividade se encontram inseridos em uma propriedade de valor, em forma de texto, não permitindo adicionar sinônimos aos termos da atividade, assim como, não permitindo a criação de inferências. Para se chegar a conclusão neste teste, foram utilizados os critérios de clareza e extensibilidade sugeridos por Tom Gruber (1995), mencionados no capítulo de metodologia.
+O resultado obtido neste teste não foi satisfatório, pois os termos relacionados a atividade se encontram inseridos em uma propriedade de valor, em forma de texto, não permitindo adicionar sinônimos aos termos da atividade, isto é, impossibilitando a criação de inferências. Para se chegar a esta conclusão, foram utilizados os critérios de clareza e extensibilidade sugeridos por Tom Gruber (1995), mencionados no capítulo de metodologia.
 
-Tendo o problema posto, realizou-se uma nova análise, buscando satisfazer os dois critérios observados. Foi então, proposto a decomposição do conceito de atividade, de modo a oferecer uma estrutura mais flexível, para busca e validação dos termos da atividade. A figura 20 apresenta  um diagrama com as classes e propriedades de classes essenciais para o entendimento da nova porposta.
+Tendo o problema posto, realizou-se uma nova análise, buscando satisfazer os dois critérios observados. Foi então proposto a decomposição do conceito de atividade, de modo a oferecer flexibilidade na busca e validação dos termos da atividade. A figura 20 apresenta um diagrama com as classes e propriedades de classes essenciais para o entendimento da nova porposta.
+
 FiguraApresentacaoImplementacao_1_2
+
 É visto duas novas classes, das até então implementadas …
 
 A figura 20 apresenta as novas classes, adicionadas para suportar a decomposição da atividade.
