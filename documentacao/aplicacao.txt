@@ -1,28 +1,27 @@
-﻿
-Neste capítulo, apresenta-se a construção de uma ontologia de aplicação, para a área de dominio de atividades para MEIs. O processo de desenvolvimento da ontologia, teve como base os passos sugeridos na Metodologia 101. Os sub-capítulos seguintes, apresentam as etapas realizadas para implementação da ontologia.
+﻿Neste capítulo, apresenta-se a construção de uma ontologia de aplicação, para a área de domínio de atividades para MEIs. O processo de desenvolvimento da ontologia, teve como base os passos sugeridos na Metodologia 101. Os sub-capítulos seguintes, apresentam as etapas realizadas para implementação da ontologia.
 
 Escopo
 
-Para realizar a definição do escopo, utilizou-se questões que permitiram melhor entendimento sobre o dominio. O conteúdo das questões, serviu de base para realização de todas as outras etapas do desenvolvimento da ontologia.
+Para realizar a definição do escopo, utilizou-se questões que permitiram melhor entendimento sobre o domínio. O conteúdo das questões, serviu de base para realização de todas as outras etapas do desenvolvimento da ontologia.
 
 Que domínio se deseja cobrir com a ontologia?
-	A Classificação Nacional de Atividades Econômicas (CNAE) permitidas para o Micro Empreendedor Individual (MEI) no Brasil.
+A Classificação Nacional de Atividades Econômicas (CNAE) permitidas para o Micro Empreendedor Individual (MEI) no Brasil.
 
 Com que propósito será utilizada a ontologia?
-	Disponibilizar uma estrutura extensível e reutilizavel para aplicações que desejam obter informações sobre atividades permitidas para MEIs.
+Disponibilizar uma estrutura extensível e reutilizável para aplicações que desejam obter informações sobre atividades permitidas para MEIs.
 
 Que informações a ontologia deve fornecer?
-	Quais atividades são permitidas para uma CNAE
-	Qual CNAE corresponde a uma ocupação
-	Qual CNAE permitie determinada atividade
+Quais atividades são permitidas para uma CNAE
+Qual CNAE corresponde a uma ocupação
+Qual CNAE permite determinada atividade
 
 Quem vai utilizar a ontologia?
-	Aplicações que necessitam de maior semântica na obtenção de informações sobre atividades permitidas para MEI, assim como a validação se determinadas atividades podem ser realizadas por um CNAE.
+Aplicações que necessitam de maior semântica na obtenção de informações sobre atividades permitidas para MEI, assim como a validação se determinadas atividades podem ser realizadas por um CNAE.
 
 
 Reuso de outras ontologias
 
-A avaliação do reuso de outras ontologias, é importante para a reutilização de conhecimento. Assim permiti-se a diminuição do trabalho manual e a agregação de conceitos já validados por outros desenvolvedores à ontologia em desenvolvimento. 
+A avaliação do reuso de outras ontologias, é importante para a reutilização de conhecimento. Assim permite-se a diminuição do trabalho manual e a agregação de conceitos já validados por outros desenvolvedores à ontologia em desenvolvimento. 
 
 Realizou-se uma pesquisa em repositórios online como Knoodl, Schemapedia e no repositório do Protégé, porém não foram encontradas ontologias que poderiam ser reutilizadas para o domínio abordado no projeto.
 
@@ -36,17 +35,9 @@ FiguraTermosRelevantes1
 
 Experimentação Inicial
 
-Utilizou-se os passos especificados na metodologia 101 para a implementação de uma solução inicial. Esta experimentação, teve como objetivo, a criação de uma ontologia somente se utilizando dos termos levantados, afim de avaliar suficiência para com os requisitos do escopo. A Figura 1 apresenta o diagrama da  solução proposta, através da ferramenta VOWL.
+Utilizou-se os passos especificados na metodologia 101 para a implementação de uma solução inicial. Esta experimentação, teve como objetivo, a criação de uma ontologia somente se utilizando dos termos levantados, a fim de avaliar suficiência para com os requisitos do escopo. A Figura 1 apresenta o diagrama da  solução proposta, através da ferramenta VOWL.
 
 FiguraApresentacaoImplementacao1
-
-
-
-
-
-
-
-
 
 Observou-se nesta implementação inicial, problemas na busca de informações sobre atividades. A deficiência se mostra, quando é necessário relacionar sinônimos aos termos da atividade, ou, realizar qualquer inferência sobre os mesmos. Para se chegar a esta observação, foram utilizados os critérios de clareza e extensibilidade sugeridos por Tom Gruber (1995). A Figura 2 apresenta uma query realizada com a linguagem orientada a dados SPARQL, demonstrando o teste realizado.
 
@@ -55,9 +46,9 @@ FiguraSparqlCnaePorAtividade1
 
 Conceitualização da Solução
 
-Com o conhecimento obtido no experimento realizado, buscou-se uma nova conceitualização, tendo como objetivo, solucionar o problema semântico encontrado na consulta as atividades.
+Com o conhecimento obtido no experimento realizado, buscou-se uma nova conceitualização, tendo como objetivo, solucionar o problema semântico encontrado na consulta às atividades.
 
-Foi então proposto a decomposição do conceito de atividade. A proposta foi realizada através da observação da estrutura das CNAEs, afim de obter para estas, uma representação suficientemente genérica. A Figura 3 apresenta um diagrama exemplificando a solução, utilizou-se para exemplo o CNAE de código 1412-6/02, que possui a descrição “Confecção, sob medida, de artigos do vestuário, exceto roupas íntimas”.
+Foi então proposto a decomposição do conceito de atividade. A proposta foi realizada através da observação da estrutura das CNAEs, a fim de obter para estas, uma representação suficientemente genérica. A Figura 3 apresenta um diagrama exemplificando a solução, utilizou-se para exemplo o CNAE de código 1412-6/02, que possui a descrição “Confecção, sob medida, de artigos do vestuário, exceto roupas íntimas”.
 
 FiguraConceitualizaçãoSolução2
 
@@ -82,17 +73,7 @@ As propriedades de valores, são utilizadas quando a propriedade objetiva ligar 
 FiguraPropriedadeValor2
 
 
-
-
-
-
-
-
-
-
-
 Instâncias
-
 
 Amostra
 
@@ -124,11 +105,11 @@ Avaliação da modelagem
 
 A avaliação da modelagem será feita realizando consultas a base de conhecimento, utilizando-se da linguagem orientada a dados SPARQL. Buscou-se atender os requisitos especificados na etapa de definição do escopo. 
 
-A Figura 11, apresenta uma query criada para se buscar quais atividades são permitidas para determinada  CNAE.
+A Figura 11, apresenta uma query criada para se buscar quais atividades são permitidas para determinada  CNAE.
 
 FiguraSparqlAtividadesPermitidas1
 
-A Figura 12, apresenta uma query que realiza a busca de um CNAE para determinada  ocupação.
+A Figura 12, apresenta uma query que realiza a busca de um CNAE para determinada  ocupação.
 
 FiguraSparqlCnaesPorOcupacao1
 
@@ -137,5 +118,6 @@ Observa-se certa flexibilidade gerada pelo recurso “sameAs” da linguagem OWL
 A Figura 13, apresenta uma query que realiza a busca de uma CNAE, informando o produto e serviço de uma atividade.
 
 FiguraSparqlCnaePorProdutoServico2
+
 
 
