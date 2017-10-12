@@ -106,7 +106,22 @@ utilizando valores de propriedades de diversas classes ou instâncias;
 relacionamentos inversos e relacionamentos do tipo parte-todo.
 	 
 
-	 
+
+	Nota-se a existência de uma barra inclinada na Figura 03, a qual é utilizada para separar os instrumentos comumente utilizados por humanos daqueles que são descritos em linguagens formais, desenvolvidos especificamente para serem utilizados em ambientes computacionais.
+
+	Partindo disto Daconta, Obrst e Smith (2003)entende que “Espectro Ontológico”	 é a apresentação de conceitos relacionados a questões de representação, classificação e especificação semântica. De acordo com os autores, o termo “ontologia” pode assumir diferentes modelos e tipos, como por exemplo: uma simples taxonomia para um modelo mais lógico mais complexo ou ainda um tesauro ou um modelo de lógica descritiva, conforme podemos observar na Figura 04, a qual temos a passagem da semântica mais fraca para a semântica mais forte.
+
+
+Figura 04.
+
+
+
+
+
+
+
+
+
 
 Generalidade
 
