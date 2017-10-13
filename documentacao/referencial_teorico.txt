@@ -27,14 +27,14 @@ Partindo desta concepção Gruber abstrai ontologia com o seguinte dizer:
 	Partindo deste princípio amparado a constante contribuição da Ciência da Computação, relacionada aos avanços no compartilhamento do conhecimento, pelas ontologias, em que o conhecimento representado leva em consideração uma visão comum de agentes inseridos em determinado domínio, utilizando-se de conceitos previamente estabelecidos, possibilita ampliarmos a visão da realidade e considerar além dos espectros físicos e do conhecimento subjetivo, passando a reconhecer um terceiro, relacionado ao conhecimento objetivo e que permite, de fato, sua representação pela visão coletiva.
 
 	Sendo assim, a utilização das ontologias, tanto por máquinas quanto por
-humanos, possibilita o compartilhar conhecimento sobre um domínio, isto é, compartilhar conhecimento a respeito de áreas específicas como medicina e engenharia civil ou a respeito de ações específicas como o conserto de automóveis, fabricação de peças para a indústria, entre outras, como sugerido por Moreiro Gonzáles (2011).
+humanos, possibilita compartilhar conhecimento sobre um domínio, isto é, compartilhar conhecimento a respeito de áreas específicas como medicina e engenharia civil ou a respeito de ações específicas como o conserto de automóveis, fabricação de peças para a indústria, entre outras, como sugerido por Moreiro Gonzáles (2011).
 
 	Uschold e Jasper (1999) especificam a conceituação de ontologias de uma maneira mais ampla, segundo os autores a ontologia tem a capacidade de apropriar-se de diversos formatos, incluindo-se um vocabulário de termos e algumas especificações de significância.
 
-	Partindo da conceitualização mais ampla de Uscholde e Jasper (Inserir data correta) e com base na  pesquisa e abordagem criada por BERNERS-LEE, HENDLER; LASSILA (2011), na qual  contempla-se o ambiente da web Semântica, acredita-se que com adoção das ontologias seja possível dar um salto qualitativo na utilização de motores de busca, ou seja, ao em vez da busca ser por palavras-chave, serão utilizados agentes de software inteligentes pelo uso de conceitos, permitindo migrar de uma simples recuperação para a obtenção de respostas precisas a consultas concretas.
+	Partindo da conceitualização mais ampla de Uscholde e Jasper (Inserir data correta) e com base na  pesquisa e abordagem criada por BERNERS-LEE, HENDLER; LASSILA (2011), na qual  contempla-se o ambiente da web semântica, acredita-se que com adoção das ontologias seja possível dar um salto qualitativo na utilização de motores de busca, ou seja, ao em vez da busca ser por palavras-chave, serão utilizados agentes de software inteligentes pelo uso de conceitos, permitindo migrar de uma simples recuperação para a obtenção de respostas precisas a consultas.
 
 	Mais detalhadamente Guarino e Giaretta (1995) demonstram sete
-interpretações em relação ao termo ‘ontologia’, a partir disto acendendo, diferentes abordagens sobre o tema e a que mais se aproxima desta pesquisa:
+interpretações em relação ao termo ‘ontologia’, a partir disto, expõe-se diferentes abordagens sobre o tema e as que mais se aproximam desta pesquisa:
 
 1. Ontologia como o vocabulário utilizado por uma teoria lógica. 
 2. Ontologia como um sistema conceitual informal. 
@@ -50,19 +50,18 @@ Tipos de ontologia
 
 	As ontologias devem de acordo com Jasper e Uschold (1999) possuir uma variedade de formas, sendo necessário incluir um vocabulário de termos, e juntamente uma especificação de seus significados. A interrelação e definição destes conceitos devem ser explicitadas, incorporando assim, uma estrutura no domínio a qual restringe as possíveis diferentes interpretações relacionadas aos termos.
 
-	Com o decorrer do estudo na área de conhecimento das ontologias Guarino (1998) propõe que a construção das ontologias tenham base em seu nível de generalidade, sendo que, os conceitos de uma ontologia de domínio ou de tarefa sejam especializações de termos de uma ontologia, percebe-se que por meio de uma necessidade iniciou-se o processo de separação das ontologias em tipos, sendo que, as mesmas se comunicam conforme podemos observar na  Figura 02.
+	Com o decorrer do estudo na área de conhecimento das ontologias Guarino (1998) propõe que a construção das ontologias tenham base em seu nível de generalidade, sendo que, os conceitos de uma ontologia de domínio ou de tarefa sejam especializações de termos de uma ontologia. Percebe-se que por meio de uma necessidade iniciou-se o processo de separação das ontologias em tipos, sendo que, as mesmas se organizam conforme podemos observar na  Figura 02.
 
 
 Figura 02
 
-
-
+
 	De outro modo a ontologia de aplicação deve conter por padrão especializações dos termos das ontologias de domínio e de tarefa correspondentes. Pode-se descrever resumidamente cada tipo de ontologia com base na Tabela 01 (Pensando em ser uma tabela ou apenas uma lista como vou colocar abaixo).
 
 
 • Ontologias genéricas (top-level ontologies): Efetuar a descrição de conceitos gerais como espaço, tempo, matéria, objeto, evento, ação, etc., que são independestes de um problema ou domínio particular.
 
-• Ontologias de domínio e tarefa: Efetuar a descrição respectivamente do vocabulário relacionado a um domínio como medicina, direito, etc., ou uma tarefa ou atividade como diagnostico, vendas, especializando os termos introduzidos no nível superior.
+• Ontologias de domínio e tarefa: Efetuar a descrição respectivamente do vocabulário relacionado a um domínio como medicina, direito, etc., ou uma tarefa ou atividade como diagnóstico, vendas, especializando os termos introduzidos no nível superior.
 
 • Ontologias de aplicação: Efetuar a descrição de conceitos que são dependentes de um determinado domínio e tarefa particular. Os conceitos frequentemente correspondem aos papeis desempenhados por entidades do domínio ao executar uma determinada atividade.
 
@@ -70,12 +69,11 @@ Figura 02
 Com a função de efetuar uma classificação de acordo com o nível de expressividade, Lassila e MacGuinnes (2003) elucidam um esquema ao qual intitulam de (“Espectro Ontologico”) que abrange instrumentos de baixo nível de expressividade semântica até instrumentos que possam possibilitar a definição de relações consideradas mais complexas, conforme pode-se observar na Figura 03.
 
 
-
 Figura 03
 
 
 Conforme podemos observar temos diferentes níveis nesta classificação, a qual podemos detalhar:	
-	
+
 • Catálogo: lista de termos e acrônimos de um determinado domínio e suas
 respectivas interpretações.
 
@@ -108,7 +106,7 @@ relacionamentos inversos e relacionamentos do tipo parte-todo.
 
 	Nota-se a existência de uma barra inclinada na Figura 03, a qual é utilizada para separar os instrumentos comumente utilizados por humanos daqueles que são descritos em linguagens formais, desenvolvidos especificamente para serem utilizados em ambientes computacionais.
 
-	Partindo disto Daconta, Obrst e Smith (2003)entende que “Espectro Ontológico”	 é a apresentação de conceitos relacionados a questões de representação, classificação e especificação semântica. De acordo com os autores, o termo “ontologia” pode assumir diferentes modelos e tipos, como por exemplo: uma simples taxonomia para um modelo mais lógico mais complexo ou ainda um tesauro ou um modelo de lógica descritiva, conforme podemos observar na Figura 04, a qual temos a passagem da semântica mais fraca para a semântica mais forte.
+	Partindo disto Daconta, Obrst e Smith (2003) entende que “Espectro Ontológico”	 é a apresentação de conceitos relacionados a questões de representação, classificação e especificação semântica. De acordo com os autores, o termo “ontologia” pode assumir diferentes modelos e tipos, como por exemplo: uma simples taxonomia para um modelo mais lógico mais complexo ou ainda um tesauro ou um modelo de lógica descritiva, conforme podemos observar na Figura 04, a qual temos a passagem da semântica mais fraca para a semântica mais forte.
 
 
 Figura 04.
