@@ -6,7 +6,6 @@
 Ontologias
 
 
-
 	Atualmente as ontologias veem sendo utilizadas em diversos ambientes e contextos, a disseminação das ontologias está amparada a sua grande possibilidade de prover o compartilhamento e entendimento comum de áreas de domínio de conhecimento que possa ser comunicado entre pessoas e computadores, está definição será amparada ao decorrer deste capítulo, expondo a palavra de autores com grande base bibliográfica no assunto “Ontologias” e a visão alcançada pela busca de um significado que melhor seja aplicado a concepção e criação da ontologia deste trabalho, há qual será aplicada na área de domínio da Classificação Nacional de Atividades Econômicas (CNAE) inserido ao ambiente/ (ou problemática – escolher um dos termos em questão ou inserir uma outra conjunção) de Microempreendedor Individual (MEI).
 
 	Segundo Xavier e Costa (2010), o conhecimento advém da disponibilização da informação, partindo do pressuposto que a geração do conhecimento produzirá mais informação e assim sucessivamente, contudo, nem sempre este conhecimento se torna acessível, para que isto ocorra é necessário que o conhecimento seja registrado, armazenado, organizado e estar disponível para recuperação por quem venha a utiliza-lo.
