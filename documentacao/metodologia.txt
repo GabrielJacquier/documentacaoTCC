@@ -1,28 +1,28 @@
 ﻿
 					Metodologia
 
-A existência de metodologias para contrução de ontologias, cada vez mais se mostram necessárias, Conforme Karin Breitman (2001) cientistas de todo mundo, estão buscando por metodologias mais adequadas para o desenvolvimento de ontologias.
+	A existência de metodologias para contrução de ontologias, cada vez mais se mostra necessária. Conforme Karin Breitman (2005) os cientistas tem realizado  buscas por metodologias mais adequadas para o desenvolvimento de ontologias.
 
-Como metodologia desse trabalho, foi utilizado a metodologia descrita no artigo A Metodologia 101 escrito por Deborah McGuiness e Natalia Noy. O trabalho propõe uma metodologia guia, para quem está iniciando na contrução de ontologias. O método propõe para auxilio a utilização de sete etapas
+	Como metodologia desse trabalho, foi utilizado a metodologia descrita por Noy, N e McGuinness, D. (2001). O trabalho propõe, uma metodologia guia para quem está iniciando na contrução de ontologias. O método propõe para auxilio a utilização de sete etapas:
 
-	Determinar o dominio e o escopo da ontologia
-	Considerar o reuso de outras ontologias
-	Enumerar os termos importantes da ontologia
-	Definir classes e a hierarquia de classes
-	Definir as propriedades das classes
-	Definir os valores das propriedades
-	Criar instâncias
+	1. determinar o domínio e o escopo da ontologia;
+	2. considerar o reuso de outras ontologias;
+	3. enumerar os termos importantes da ontologia;
+	4. definir classes e a hierarquia de classes;
+	5. definir as propriedades das classes;
+	6. definir os valores das propriedades;
+	7. criar instâncias.
 
-Neste trabalho as autoras citam que não existe um jeito correto para modelar um dominio, mas sim que sempre haverá alternativas, e o importante é a escolha da que melhor que se adequa à aplicação desejada. É dito também que o desenvolvimento de ontologia é um processo iterativo, sendo que as etapas propostas acima devem ser realizados de tal forma.  
+	Nesse trabalho as autoras citam que não existe uma forma correta de se modelar um domínio, existindo diversas alternativas a serem avaliadas. A escolha da forma correta de modelagem, pode ser tomada observando a que melhor se adequa à aplicação desejada.
 
-Além da metodologia, foi utilizado algumas idéias para apoiar o processo de avaliação do resultado da ontologia. Tom Gruber (1995) expõe que para guiar e avaliar uma ontologia, necessitamos de critérios objetivos para com o propósito requerido, e então propõe um conjunto de critérios para que possam ser usados para avaliação de ontologias que possuam o propósito de compartilhar conhecimento e interoperar programas, são:
+	Além da metodologia, foram utilizadas propostas para apoiar o processo de avaliação do resultado da ontologia. Tom Gruber (1995) expõe que para guiar e avaliar uma ontologia, necessita-se de critérios objetivos para com o propósito requerido. Propõe-se então, um conjunto de critérios, utilizados na avaliação de ontologias com enfoque no compartilhamento de conhecimento e interoperabilidade de programas. Os critérios citados são:
 
-	Clareza, uma ontologia deve efetivamente comunicar o significado intencionado nos termos definidios
+	1. clareza, uma ontologia deve efetivamente comunicar o significado intencionado nos termos definidios;
 
-	Coerência, isso deve aprovar inferências que são consistêntes com as definições
+	2. coerência, isso deve aprovar inferências que são consistêntes com as definições;
 
-	Extensibilidade, uma ontologia deve ser desenvolvida para antecipar vocabulário compartilhado
+	3. extensibilidade, uma ontologia deve ser desenvolvida para antecipar vocabulário compartilhado;
 
-	Mínima tendência ao código, a conceitualização deve ser especificada em um nivel de abstração do conhecimento, sem ser tendênciosa para com puramente implementação 
+	4. mínima tendência ao código, a conceitualização deve ser especificada em um nivel de abstração do conhecimento, sem ser tendênciosa para com puramente implementação;
 
-	Mínimo compromisso ontologico com o domínio, uma ontologia deve fazer o minimo de reivindicações do mundo sendo modelado, deixando livre a outras ontologias a especializarem
+	5. mínimo compromisso ontológico com o domínio, uma ontologia deve fazer o mínimo de reivindicações do mundo sendo modelado, deixando livre à outras ontologias a especializarem.
