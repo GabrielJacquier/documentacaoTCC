@@ -1,36 +1,35 @@
 ﻿Introdução
 
-	Atualmente, um dos grandes desafios para a área de Sistemas de Informação, é a efetiva interpretação terminológica das áreas de domínio que se objetiva desenvolver uma solução computacional. A dificuldade para sistemas de informação lidarem com grande variedade de termos das áreas de interesse, é gerado pela desorganização do conhecimento e a inexistência de um vocabulário padrão, tornando difícil a tarefa do processamento das informações por agentes de software.
+	A necessidade da interpretação da informação, se mostra em processo crescimento.
 
-	No contexto da web o tratamento e disponibilização da informação se encontra em processo de conformação, Segundo Breitman (2005) em seu predomínio os recursos presentes na Web se encontram em linguagem natural, que são interpretadas somente por humanos, por meio de diferentes inferências realizadas, como, associação, comparação, ambiente e outros fatores presentes na característica intrinsicamente humana.
+	No contexto da web o tratamento e disponibilização da informação se encontra em processo de conformação. Segundo Breitman (2005) em seu predomínio os recursos presentes na web se encontram em linguagem natural, que são interpretadas somente por humanos, por meio de diferentes inferências realizadas, como, associação, comparação, ambiente e outros fatores presentes na característica intrinsicamente humana. Mesmo com a evolução dos recursos presentes na web, percebe-se que a afirmação de Breitman para grande parte da web persiste até hoje.
 
-	Uma área que apresenta o problema posto é a de abertura de MEI (Microempreendedor Individual), para se realizar a abertura é necessário apresentar dados e documentos, um deles chamado CNAE (Classificação Nacional de Atividades Econômicas), um código que corresponde às atividades realizadas por um MEI, e pode ser encontrado através de documentos fornecidos pelo Governo ou sites especializados no assunto. A definição do CNAE para um MEI se torna difícil, quando é necessário identificá-lo através de um nome informal da atividade, ou seja, um nome que não está contido na especificação dos documentos fornecidos pelo governo, gerando dificuldade na obtenção do CNAE correto, para com as atividades do microempreendedor.
+	Uma área que apresenta o problema posto é a de abertura de MEI (Microempreendedor Individual). Para se realizar a abertura é necessário apresentar dados e documentos, um deles pertencente à CNAE (Classificação Nacional de Atividades Econômicas), um código que corresponde às atividades realizadas por um MEI, e pode ser encontrado através de sites governamentais e especializados no assunto. A definição do código da CNAE para um MEI se torna difícil, quando é necessário identificá-lo através de um nome informal da atividade, isto é, um nome que não está contido na especificação fornecida pelo governo, gerando dificuldade na obtenção do código correto, para com as atividades do microempreendedor.
 
-	Uma abordagem utilizada para esse gênero de problema tem sido a utilização de ontologias, segundo Guarino (2009) uma ontologia pode ser definida como um objeto de informação ou um artefato computacional (...) são um meio para modelar formalmente a estrutura de um sistema, entidades e relações que emergem da observação, que são relevantes para um propósito.
+	Uma abordagem utilizada para esse gênero de problema tem sido a utilização de ontologias. Segundo Guarino (2009) uma ontologia pode ser definida como um objeto de informação ou artefato computacional (...) é um meio para modelar formalmente a estrutura de um sistema, entidades e relações que emergem da observação, que são relevantes para um propósito.
 
-	Com base nisto, está monografia contempla uma proposta de solução computacional, se utilizando de uma ontologia de aplicação, com objetivo de modelar formalmente os conceitos encontrados no dominio de CNAE para MEI, com enfoque na problemática da semântica.
+	Com base nisso, este trabalho contempla uma proposta de solução computacional, se utilizando de uma ontologia de aplicação, com objetivo de modelar formalmente os conceitos encontrados no domínio de CNAE para MEI, com enfoque na problemática da semântica.
 
 
-Objetivos específicos e objetivos gerais
+Objetivos
 
-	
-	O objetivo geral deste trabalho é o de efetuar a modelagem e representação do conhecimento de CNAE (Classificação Nacional de Atividades Econômicas), com a concepção e desenvolvimento de uma ontologia de aplicação com foco na aplicabilidade junto as empresas MEI’s (Micro empreendedores individuais).
+	O objetivo geral deste trabalho é o de formalizar a estrutura para CNAE`s no ambito das MEI`s, possibilitando maior eficácia na busca e compartilhamento de informações, facilitando assim processos burocráticos d governo federal do Brasil.
 
 Os objetivos específicos são:
 
-Análise e estudo da área de MEI’s e sua relação com o CNAE, através de toda documentação disponibilizada pelo governo federal do Brasil;
+analisar e estudar a área de MEI’s e sua relação com o CNAE, através de toda documentação disponibilizada pelo governo federal do Brasil;
 
-Levantamento e modelagem dos dados, formando com isso informação para iniciar o processo de estruturação do modelo da ontologia de aplicação;
+levantar e modelar os dados, formando informação para iniciar o processo de modelagem da ontologia de aplicação;
 
-Validação das informações junto ao sistema web “cnae – ibge”, mantido pelo IBGE (Instituto Brasileiro de Geografia e Estatística);
+validar as informações junto ao sistema web “cnae – ibge”, mantido pelo IBGE (Instituto Brasileiro de Geografia e Estatística);
 
- Construção da Ontologia de aplicação no ambiente de desenvolvimento PROTÉGÉ;
+contruir uma ontologia de aplicação no ambiente de desenvolvimento Protégé;
 
-Validação da estrutura e semântica da ontologia utilizando a linguagem orientada a dados SPARQL;
+validar a estrutura e a semântica da ontologia, utilizando a linguagem orientada a dados SPARQL;
 
-Efetuar a integração junto a ferramenta Apache Jena;
+efetuar a integração junto a ferramenta Apache Jena;
 
-Desenvolvimento de uma API (Application Programming Interface) para disponibilizar o conhecimento da ontologia para que sistemas terceiros possam consumilo;
+desenvolver uma API (Application Programming Interface) para disponibilizar o conhecimento da ontologia para utilização de sistemas terceiros.
 
 
 
