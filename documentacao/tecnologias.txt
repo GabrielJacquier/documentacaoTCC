@@ -1,13 +1,21 @@
-﻿Neste capítulo será abordado as tecnologias escolhidas para desenvolvimento da ontologia de aplicação, assim como, para a API fornecida para integração com a ontologia por sistemas terceiros. As seções a seguir detalham caracteristicas, objetivo e justificativa para as tecnologias escolhidas.
+﻿Neste capítulo será abordado as tecnologias escolhidas para desenvolvimento da ontologia de aplicação, assim como, para a API fornecida para integração com a ontologia. As seções a seguir detalham caracteristicas, objetivo e justificativa para as tecnologias escolhidas.
 
 
 Protégé
 
 	A plataforma Protégé é um ambiente para desenvolvimento de ontologias, possuindo um conjunto de ferramentas para auxiliar a construção de modelos de domínio e aplicações baseadas em conhecimento.
-	Conforme Gennari et al. (2003) seu desenvolvimento iniciou-se com Mark Musen em 1987, tendo no inicio seu escopo destinado a construção de ferramentas à alguns programas de planejamento médico para terapias. Ao longo dos anos, o desenvolvimento da ferrmenta teve seu escopo ampliado, tornando possível gerar modelos de conhecimento para propósitos mais gerais. 
-	Conforme M. A. (2015) o Protégé tournou-se atualmente a plataforma mais utilizada pela comunidade de desenvolvimento de ontologias. O projeto veem mostrando amadurecimento, através da utilização por projetos governamentais importantes como National Cancer Institute Thesaurus e World Health Organization’s International Classification. O projeto também possuí alguns números de utilização da plataforma, já registrando 250 mil usuários e 500 empresas. 
+	Conforme Gennari et al. (2003) seu desenvolvimento iniciou-se com Mark Musen em 1987, tendo no inicio seu escopo destinado a construção de ferramentas à alguns programas de planejamento médico para terapias. Ao longo dos anos, o desenvolvimento da ferramenta teve seu escopo ampliado, tornando possível gerar modelos de conhecimento para propósitos mais gerais. 
+	Conforme M. A. (2015) o Protégé tournou-se atualmente a plataforma mais utilizada pela comunidade de desenvolvimento de ontologias. O projeto veem mostrando amadurecimento, através da utilização por projetos governamentais importantes como National Cancer Institute Thesaurus e World Health Organization’s International Classification. O projeto também possuí alguns números de utilização da plataforma, já registrando 250 mil usuários e 500 empresas.
 	A plataforma Protégé atualmente é open source, assim sendo, é mantida pela Universidade de Stanford e por uma comunidade ativa, que contribui com testes, documentação, sugestões de melhorias e plugins para a plataforma.
-	Além do Protege, foram encontradas outras plataformas para desenvolvimento de ontologias como a Ontolingua, OntoEdit, WebODE
+	Outras plataformas para desenvolvimento de ontologias foram encontradas tal como Ontolingua, OntoEdit, Hozo e OilEd. O Protégé se destaca das demais plataformas, analisando algumas características suas como: 
+
+	arquitetura flexível, é possível adicionar novas funcionalidades através da extensão por plugins;
+
+	total suporte a linguagem OWL, o Protégé possui suporte a ultima versão da linguagem OWL 2 e a especificação RDF da W3C World Wide Web Consortium;
+
+	comunidade ativa, a comunidade do Protégé é presente, através de fóruns de dúvida, assim como em sugestões para encaminhamento do projeto.
+
+	
 
 
 
