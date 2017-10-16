@@ -1,3 +1,7 @@
+﻿Neste capítulo será abordado as tecnologias escolhidas para desenvolvimento da ontologia, assim
+
+
+
 Tecnologias para representação grafica de instâncias da ontologia. 
 Foram encontradas muito poucas
 
