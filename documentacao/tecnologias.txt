@@ -15,7 +15,10 @@ Protégé
 
 	comunidade ativa, a comunidade do Protégé é presente, através de fóruns de dúvida, assim como em sugestões para encaminhamento do projeto.
 
-	
+
+A Figura 1 apresenta o ambiente de desenvolvimento Protégé em sua versão 5.2.
+
+FiguraAmbienteProtege
 
 
 
@@ -23,11 +26,12 @@ VOWL
 
 	A VOWL (Visual Notation for OWL Ontologies) é uma especificação de liguagem visual utilizada para representação orientada a usuários de ontologias. Esta linguagem define uma representação visual de muitos elementos da linguagem OWL, de forma a permitir a visualização gráfica de um grafo direcionado, representando a estrutura da ontologia.
 
-	Foram encontradas duas implementações dessa especificação, uma delas disponibilizada como um plugin do Protégé, e outra disponibilizada online. Além da VOWL foram encontradas outras ferramentas para visualização gráfica de ontologias como: a Navig OWL Protege, disponibilizado como plugin do protégé; a SIMILE, ferramenta disponibilizada online; a Lodlive disponibilizada online, possui funcionalidades interessantes como a visualização de grafos RDF, permitindo a visualização das intâncias da ontologia e seus relacionamentos, porém ainda está em fase de desenvolvimento, dificultando sua utilização.
+	Foram realizados testes com duas das implementações dessa especificação, uma delas disponibilizada como um plugin do Protégé, e outra disponibilizada online. Além da VOWL foram encontradas outras ferramentas para visualização gráfica de ontologias como: a Navig OWL Protege, disponibilizado como plugin do protégé; a SIMILE, ferramenta disponibilizada online; a Lodlive disponibilizada online, possui funcionalidades interessantes como a visualização das intâncias da ontologia e seus relacionamentos, porém, ainda está em fase de desenvolvimento, dificultando sua utilização.
 
-	Em comparação com as outras ferramentas a VOWL disponibilizada online foi analisada como a mais robusta, permitindo diversos tipos de filtros  para visualização dos componentes da ontologia, permitindo-se grande flexibilidade e possibilitando a realização de análises na estrutura da ontologia.
+	
+	Em comparação com as outras ferramentas a VOWL disponibilizada online foi analisada como a mais robusta, permitindo diversos tipos de filtros  para visualização dos componentes da ontologia. A ferramenta também permite grande flexibilidade, possibilitando a realização de análises na estrutura da ontologia. A Figura 2 ilustra a utilização da ferramenta em uma ontologia de exemplo.
 
-
+FiguraVOWL
 
 SPARQL
 
