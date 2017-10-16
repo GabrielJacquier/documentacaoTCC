@@ -21,20 +21,11 @@ Protégé
 
 VOWL
 
-Tecnologias para representação grafica de instâncias da ontologia.
-Foram encontradas muito poucas
+	A VOWL (Visual Notation for OWL Ontologies) é uma especificação de liguagem visual utilizada para representação orientada a usuários de ontologias. Esta linguagem define uma representação visual de muitos elementos da linguagem OWL, de forma a permitir a visualização gráfica de um grafo direcionado, representando a estrutura da ontologia.
 
-Navig OWL Protege - Plugin do protege
-SIMILE -  ferramenta disponivel para download
-Lodlive - ferramenta que possui o que era necessario, porém ainda em faze de desenvolvimento, e não aberta a utilização de ontologias por upload, somente de ontologias disponiveis online.
+	Foram encontradas duas implementações dessa especificação, uma delas disponibilizada como um plugin do Protégé, e outra disponibilizada online. Além da VOWL foram encontradas outras ferramentas para visualização gráfica de ontologias como: a Navig OWL Protege, disponibilizado como plugin do protégé; a SIMILE, ferramenta disponibilizada online; a Lodlive disponibilizada online, possui funcionalidades interessantes como a visualização de grafos RDF, permitindo a visualização das intâncias da ontologia e seus relacionamentos, porém ainda está em fase de desenvolvimento, dificultando sua utilização.
 
-Utilizar Draw.io para representação das intancias por falta de detalhes das ferramentas disponíveis encontradas.
-
-Para visualização de classes da ontologia
-
-Plugin Protege - OWLViz
-Plugin Protege - OntoGraph
-Plugin Protege e disponível Web – VOWL
+	Em comparação com as outras ferramentas a VOWL disponibilizada online foi analisada como a mais robusta, permitindo diversos tipos de filtros  para visualização dos componentes da ontologia, permitindo-se grande flexibilidade e possibilitando a realização de análises na estrutura da ontologia.
 
 
 
