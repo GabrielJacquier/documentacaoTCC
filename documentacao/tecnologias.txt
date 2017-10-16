@@ -1,8 +1,19 @@
-﻿Neste capítulo será abordado as tecnologias escolhidas para desenvolvimento da ontologia, assim
+﻿Neste capítulo será abordado as tecnologias escolhidas para desenvolvimento da ontologia de aplicação, assim como, para a API fornecida para integração com a ontologia por sistemas terceiros. As seções a seguir detalham caracteristicas, objetivo e justificativa para as tecnologias escolhidas.
+
+
+Protégé
+
+	A plataforma Protégé é um ambiente para desenvolvimento de ontologias, possuindo um conjunto de ferramentas para auxiliar a construção de modelos de domínio e aplicações baseadas em conhecimento.
+	Conforme Gennari et al. (2003) seu desenvolvimento iniciou-se com Mark Musen em 1987, tendo no inicio seu escopo destinado a construção de ferramentas à alguns programas de planejamento médico para terapias. Ao longo dos anos, o desenvolvimento da ferrmenta teve seu escopo ampliado, tornando possível gerar modelos de conhecimento para propósitos mais gerais. 
+	Conforme M. A. (2015) o Protégé tournou-se atualmente a plataforma mais utilizada pela comunidade de desenvolvimento de ontologias. O projeto veem mostrando amadurecimento, através da utilização por projetos governamentais importantes como National Cancer Institute Thesaurus e World Health Organization’s International Classification. O projeto também possuí alguns números de utilização da plataforma, já registrando 250 mil usuários e 500 empresas. 
+	A plataforma Protégé atualmente é open source, assim sendo, é mantida pela Universidade de Stanford e por uma comunidade ativa, que contribui com testes, documentação, sugestões de melhorias e plugins para a plataforma.
+	Além do Protege, foram encontradas outras plataformas para desenvolvimento de ontologias como a Ontolingua, OntoEdit, WebODE
 
 
 
-Tecnologias para representação grafica de instâncias da ontologia. 
+VOWL
+
+Tecnologias para representação grafica de instâncias da ontologia.
 Foram encontradas muito poucas
 
 Navig OWL Protege - Plugin do protege
@@ -15,4 +26,19 @@ Para visualização de classes da ontologia
 
 Plugin Protege - OWLViz
 Plugin Protege - OntoGraph
-Plugin Protege e disponível Web - VOWL
+Plugin Protege e disponível Web – VOWL
+
+
+
+SPARQL
+
+
+
+Apache Jena
+
+
+
+JAX-RS
+
+
+
