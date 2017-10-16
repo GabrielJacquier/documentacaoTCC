@@ -7,7 +7,7 @@ Protégé
 	Conforme Gennari et al. (2003) seu desenvolvimento iniciou-se com Mark Musen em 1987, tendo no inicio seu escopo destinado a construção de ferramentas à alguns programas de planejamento médico para terapias. Ao longo dos anos, o desenvolvimento da ferramenta teve seu escopo ampliado, tornando possível gerar modelos de conhecimento para propósitos mais gerais. 
 	Conforme M. A. (2015) o Protégé tournou-se atualmente a plataforma mais utilizada pela comunidade de desenvolvimento de ontologias. O projeto veem mostrando amadurecimento, através da utilização por projetos governamentais importantes como National Cancer Institute Thesaurus e World Health Organization’s International Classification. O projeto também possuí alguns números de utilização da plataforma, já registrando 250 mil usuários e 500 empresas.
 	A plataforma Protégé atualmente é open source, assim sendo, é mantida pela Universidade de Stanford e por uma comunidade ativa, que contribui com testes, documentação, sugestões de melhorias e plugins para a plataforma.
-	Outras plataformas para desenvolvimento de ontologias foram encontradas tal como Ontolingua, OntoEdit, Hozo e OilEd. O Protégé se destaca das demais plataformas, analisando algumas características suas como: 
+	Outras plataformas para desenvolvimento de ontologias foram encontradas tal como Ontolingua, OntoEdit, Hozo e OilEd. O Protégé se destaca das demais plataformas, pela análise de algumas características como: 
 
 	arquitetura flexível, é possível adicionar novas funcionalidades através da extensão por plugins;
 
@@ -24,17 +24,26 @@ FiguraAmbienteProtege
 
 VOWL
 
-	A VOWL (Visual Notation for OWL Ontologies) é uma especificação de liguagem visual utilizada para representação orientada a usuários de ontologias. Esta linguagem define uma representação visual de muitos elementos da linguagem OWL, de forma a permitir a visualização gráfica de um grafo direcionado, representando a estrutura da ontologia.
+	Segundo Steffen Lohmann, Stefan Negru, Florian Haag, & Thomas Ertl. (2016) a VOWL (Visual Notation for OWL Ontologies) é uma especificação de liguagem visual utilizada para representação orientada a usuários de ontologias. Esta linguagem define uma representação visual de muitos elementos da linguagem OWL, de forma a permitir a visualização gráfica de um grafo direcionado, representando a estrutura da ontologia.
 
-	Foram realizados testes com duas das implementações dessa especificação, uma delas disponibilizada como um plugin do Protégé, e outra disponibilizada online. Além da VOWL foram encontradas outras ferramentas para visualização gráfica de ontologias como: a Navig OWL Protege, disponibilizado como plugin do protégé; a SIMILE, ferramenta disponibilizada online; a Lodlive disponibilizada online, possui funcionalidades interessantes como a visualização das intâncias da ontologia e seus relacionamentos, porém, ainda está em fase de desenvolvimento, dificultando sua utilização.
+	Foram realizados testes com duas das implementações dessa especificação, uma delas disponibilizada como um plugin do Protégé, e outra disponibilizada online. 
+
+	Além da VOWL foram encontradas outras ferramentas para visualização gráfica de ontologias como: a Navig OWL Protege, disponibilizado como plugin do protégé; a SIMILE, ferramenta disponibilizada online; a Lodlive disponibilizada online, possui funcionalidades interessantes como a visualização das intâncias da ontologia e seus relacionamentos, porém, ainda está em fase de desenvolvimento, dificultando sua utilização.
 
 	
-	Em comparação com as outras ferramentas a VOWL disponibilizada online foi analisada como a mais robusta, permitindo diversos tipos de filtros  para visualização dos componentes da ontologia. A ferramenta também permite grande flexibilidade, possibilitando a realização de análises na estrutura da ontologia. A Figura 2 ilustra a utilização da ferramenta em uma ontologia de exemplo.
+	Em comparação com as outras ferramentas a VOWL disponibilizada online foi analisada como a mais robusta, permitindo diversos tipos de filtros  para visualização dos componentes da ontologia. Desta forma, a ferramenta permite a realização de análises na estrutura da ontologia, para entre outras finalidades, identificar problemas de modelagem e facilitar o entendimento de terceiros sobre a estrutura da ontologia. A Figura 2 ilustra a utilização da ferramenta em uma ontologia de exemplo.
 
 FiguraVOWL
 
+
 SPARQL
 
+	A SPARQL (SPARQL Protocol and RDF Query Language) é composta por um conjunto de especificações, uma delas é definida como uma linguagem para consulta a recursos RDF (Resource Description Framework). Foi criada pela W3C, dentro de um conjunto de especificações com a finalidade de contribuir para melhorias na arquitetura da web.
+	Sua utilização é de fácil entendimento, tendo suas clausulas básicas muita semelhança com as da linguagem amplamente utilizada SQL, o que facilita o aprendizado de sua estrutura.
+	A sua utilização para buscas é divida em duas clausulas, ‘SELECT’ onde se informa o que se deseja buscar e a clausula ‘WHERE’ onde é realizado os filtros através de definições de triplas. Uma tripla é composta por: sujeito, predicado e objeto, permitindo se utilizar de variáveis em qualquer um dos elementos da tripla. Dessa forma é obtido somente os recursos RDF que correspondem corretamente as triplas definidas na clausula ‘WHERE’.
+	A Figura 3 apresenta um exemplo de utilização da linguagem.
+
+FiguraSPARQL
 
 
 Apache Jena

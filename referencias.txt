@@ -19,6 +19,8 @@ Web Semantics: Science, Services and Agents on the World Wide Web
 Bridging the semantic Web and Web 2.0 with Representational State Transfer (REST) 
 6, 61–69, 2008.
 
+Steffen Lohmann, Stefan Negru, Florian Haag, & Thomas Ertl. (2016). Visualizing ontologies with VOWL. Semantic Web, 7(4), 399–419.
+
 
 
 
