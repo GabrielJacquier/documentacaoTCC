@@ -35,7 +35,7 @@ FiguraTermosRelevantes1
 
 Experimentação Inicial
 
-Utilizou-se os passos especificados na metodologia 101 para a implementação de uma solução inicial. Esta experimentação, teve como objetivo, a criação de uma ontologia somente se utilizando dos termos levantados, a fim de avaliar suficiência para com os requisitos do escopo. A Figura 1 apresenta o diagrama da  solução proposta, através da ferramenta VOWL.
+Utilizou-se os passos especificados na metodologia 101 para a implementação de uma solução inicial. Esta experimentação, teve como objetivo, a criação de uma ontologia somente se utilizando dos termos levantados, a fim de avaliar suficiência para com os requisitos do escopo. A Figura 1 apresenta o diagrama da solução proposta, através da ferramenta VOWL.
 
 FiguraApresentacaoImplementacao1
 
@@ -71,6 +71,12 @@ Propriedades de valores
 As propriedades de valores, são utilizadas quando a propriedade objetiva ligar um indivíduo da base de conhecimento, com um valor primitivo. A Figura 6 expõe as propriedades de valores implementados no Protégé.
 
 FiguraPropriedadeValor2
+
+Visualização da implementação
+
+A Figura 7 exibe a visualização da solução aplicada na ontologia através da ferramenta VOWL.
+
+FiguraVOWLFinal4
 
 
 Instâncias
