@@ -76,7 +76,11 @@ Visualização da implementação
 
 A Figura 7 exibe a visualização da solução aplicada na ontologia através da ferramenta VOWL.
 
-FiguraVOWLFinal4
+FiguraVOWLFinal2
+
+Uma visão mais genérica pode ser obtida com a ferramenta VOWL, de modo a visualizar somente as classes mais genéricas. A Figura 8 apresenta uma segunda visualização da ontologia implementada.
+
+FiguraVOWLFinal9
 
 
 Instâncias
