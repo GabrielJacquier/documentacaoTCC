@@ -39,8 +39,8 @@ FiguraVOWL
 SPARQL
 
 	A SPARQL (SPARQL Protocol and RDF Query Language) é composta por um conjunto de especificações, uma delas é definida como uma linguagem para consulta a recursos RDF (Resource Description Framework). Foi criada pela W3C, dentro de um conjunto de especificações com a finalidade de contribuir para melhorias na arquitetura da web.
-	Sua utilização é de fácil entendimento, tendo suas clausulas básicas muita semelhança com as da linguagem amplamente utilizada SQL, o que facilita o aprendizado de sua estrutura.
-	A sua utilização para buscas é divida em duas clausulas, ‘SELECT’ onde se informa o que se deseja buscar e a clausula ‘WHERE’ onde é realizado os filtros através de definições de triplas. Uma tripla é composta por: sujeito, predicado e objeto, permitindo se utilizar de variáveis em qualquer um dos elementos da tripla. Dessa forma é obtido somente os recursos RDF que correspondem corretamente as triplas definidas na clausula ‘WHERE’.
+	Sua utilização é de fácil entendimento, tendo suas clausulas básicas muita semelhança com as da linguagem amplamente utilizada SQL, o que facilita o aprendizado de sua estrutura. Além disso por se tratar de uma especificação W3C é amplamente usado e recomendado pela comunidade de desenvolvimento.
+	A sua utilização para buscas é divida em duas clausulas, a clausula ‘SELECT’ que define as variaveis das triplas que se deseja buscar e a clausula ‘WHERE’ que define os filtros através de triplas. Uma tripla é composta por: sujeito, predicado e objeto, assim, pode-se uitlizar de variáveis em qualquer um dos elementos da tripla, de forma a obter somente os recursos RDF que correspondam corretamente às triplas.
 	A Figura 3 apresenta um exemplo de utilização da linguagem.
 
 FiguraSPARQL
@@ -48,7 +48,9 @@ FiguraSPARQL
 
 Apache Jena
 
+	Apache Jena é um framework Java para construção de Aplicações com enfoque na web semântica, isto é, fornece bibliotecas Java para auxiliar o desenvolvimento de aplicações que necessitem utilizar RDF, RDFS, OWL e SPARQL, seguindo as recomendações da W3C. Também fornece um mecanismo de inferência para trabalhar com ontologias, além de diferentes estratégias para armazenamento de triplas RDF.
 
+	
 
 JAX-RS
 
