@@ -50,9 +50,9 @@ Apache Jena
 
 	Apache Jena é um framework Java para construção de Aplicações com enfoque na web semântica, isto é, fornece bibliotecas Java para auxiliar o desenvolvimento de aplicações que necessitem utilizar RDF, RDFS, OWL e SPARQL, seguindo as recomendações da W3C. Também fornece um mecanismo de inferência para trabalhar com ontologias, além de diferentes estratégias para armazenamento de triplas RDF.
 
-	
 
 JAX-RS
 
-
-
+	A especificação JAX-RS define um conjunto de Java APIs para desenvolvimento de serviços web construídos de acordo com a arquitetura Representational State Transfer (REST).
+	A escolha dessa especificação foi tomada, analisando a facilidade para se criar serviços e a total compatibilidade com outras especificações da Java Enterprise Edition (Java EE), assim não necessitando para o projeto adicionar bibliotecas terceiras. Se tratando de uma especificação Java é fácil o acesso para informações como documentação e tutorias de utilização, e sua utilização já é fornecida por implementações contidas na maioria dos servidores de aplicação utilizados atualmente.
+	
