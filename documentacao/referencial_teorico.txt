@@ -55,7 +55,8 @@ Tipos de ontologia
 
 Figura 02
 
-
+
+
 	De outro modo a ontologia de aplicação deve conter por padrão especializações dos termos das ontologias de domínio e de tarefa correspondentes. Pode-se descrever resumidamente cada tipo de ontologia com base na Tabela 01 (Pensando em ser uma tabela ou apenas uma lista como vou colocar abaixo).
 
 
@@ -124,7 +125,12 @@ Generalidade
 
 Tipo de informação
 
+
+
+
 Linguagens
+
+	Para se trabalhar com ontologias é necessário antes representá-las em uma linguagem ou formalismo. Diferentes linguagens ontológicas são comparadas em quanto às suas capacidades de representação do conhecimento e inferência. O domínio de conhecimento é formado pelos componentes ontológicos citados anteriormente. Por fim, o processo de raciocínio proporcionado por uma ontologia é executado sobre o seu domínio de conhecimento. São exemplos de linguagens ontológicas: Ontolingua, OCML, OWL, LOOM, F-Logic e OIL.
 
 OWL
 
