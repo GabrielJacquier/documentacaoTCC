@@ -1,158 +1,26 @@
-﻿Referencial Teórico
+﻿﻿Referencial Teórico	Neste capitulo será elucidado a base bibliográfica do trabalho. Os temas apresentados neste capítulo compreendem os assuntos relacionados ao desenvolvimento das ontologias. Estão presentes as definições, conceitos, classificação, tipos e seus formatos de representação, linguagens e artefatos utilizados para construção da ontologia deste trabalho.Ontologias	Atualmente as ontologias veem sendo utilizadas em diversos ambientes e contextos, a disseminação das ontologias está amparada a sua grande possibilidade de prover o compartilhamento e entendimento comum de áreas de domínio de conhecimento que possa ser comunicado entre pessoas e computadores. Está definição será amparada ao decorrer deste capítulo, expondo a palavra de autores com grande base bibliográfica no assunto “Ontologias” e a visão alcançada pela busca de um significado que melhor seja aplicado a concepção e criação da ontologia deste trabalho, há qual será aplicada na área de domínio da Classificação Nacional de Atividades Econômicas (CNAE) no ambito do Microempreendedor Individual (MEI).	
+Segundo Xavier e Costa (2010), o conhecimento advém da disponibilização da informação, partindo do pressuposto que a geração do conhecimento produzirá mais informação e assim sucessivamente, contudo, nem sempre este conhecimento se torna acessível, para que isto ocorra é necessário que o conhecimento seja registrado, armazenado, organizado e disponibilizado para recuperação por quem venha a utiliza-lo.	Segundo Guarino (2009) uma ontologia pode ser definida como um objeto de informação ou um artefato computacional (...) são um meio para modelar formalmente a estrutura de um sistema, entidades e relações que emergem da observação, que são relevantes para um propósito, em consonância Tom Gruber (2007) complementa, no contexto das ciências da computação e ciências da informação, uma ontologia é definida por meio de um conjunto de artefatos primitivos com os quais é possível conceber a modelagem de um domínio de conhecimento. Os artefatos primitivos que constituem basicamente uma ontologia são: classes (ou conjuntos), atributos (ou propriedades) e relacionamentos (relações entre as classes), conforme podemos ver na Figura 01.Figura 01. Partindo desta concepção Gruber abstrai ontologia com o seguinte dizer:“Ontologias são especificações formais e explícitas de conceitualizações compartilhadas” (GRUBER, 1993).		Partindo deste princípio amparado a constante contribuição da Ciência da Computação, relacionada aos avanços no compartilhamento do conhecimento, pelas ontologias, em que o conhecimento representado leva em consideração uma visão comum de agentes inseridos em determinado domínio, utilizando-se de conceitos previamente estabelecidos, possibilita ampliarmos a visão da realidade e considerar além dos espectros físicos e do conhecimento subjetivo, passando a reconhecer um terceiro, relacionado ao conhecimento objetivo e que permite, de fato, sua representação pela visão coletiva.	Sendo assim, a utilização das ontologias, tanto por máquinas quanto porhumanos, possibilita compartilhar conhecimento sobre um domínio, isto é, compartilhar conhecimento a respeito de áreas específicas como medicina e engenharia civil ou a respeito de ações específicas como o conserto de automóveis, fabricação de peças para a indústria, entre outras, como sugerido por Moreiro Gonzáles (2011).	Uschold e Jasper (1999) especificam a conceituação de ontologias de uma maneira mais ampla, segundo os autores a ontologia tem a capacidade de apropriar-se de diversos formatos, incluindo-se um vocabulário de termos e algumas especificações de significância.	Partindo da conceitualização mais ampla de Uscholde e Jasper (Inserir data correta) e com base na  pesquisa e abordagem criada por BERNERS-LEE, HENDLER; LASSILA (2011), na qual  contempla-se o ambiente da web semântica, acredita-se que com adoção das ontologias seja possível dar um salto qualitativo na utilização de motores de busca, ou seja, ao em vez da busca ser por palavras-chave, serão utilizados agentes de software inteligentes pelo uso de conceitos, permitindo migrar de uma simples recuperação para a obtenção de respostas precisas a consultas.	Mais detalhadamente Guarino e Giaretta (1995) demonstram seteinterpretações em relação ao termo ‘ontologia’, a partir disto, expõe-se diferentes abordagens sobre o tema e as que mais se aproximam desta pesquisa:1. Ontologia como o vocabulário utilizado por uma teoria lógica. 2. Ontologia como um sistema conceitual informal. 3. Ontologia como uma descrição semântica formal. 4. Ontologia como uma especificação de uma “conceituação.” 5. Ontologia como uma representação de um sistema conceitual através de uma teoria lógica. 5.1 caracterizada por propriedades formais específicas;5.2 caracterizada apenas por propósitos específicos.6. Ontologia como uma (meta-nível) especificação de uma teoria lógica.Tipos de ontologia	As ontologias devem de acordo com Jasper e Uschold (1999) possuir uma variedade de formas, sendo necessário incluir um vocabulário de termos, e juntamente uma especificação de seus significados. A interrelação e definição destes conceitos devem ser explicitadas, incorporando assim, uma estrutura no domínio a qual restringe as possíveis diferentes interpretações relacionadas aos termos.	Com o decorrer do estudo na área de conhecimento das ontologias Guarino (1998) propõe que a construção das ontologias tenham base em seu nível de generalidade, sendo que, os conceitos de uma ontologia de domínio ou de tarefa sejam especializações de termos de uma ontologia. Percebe-se que por meio de uma necessidade iniciou-se o processo de separação das ontologias em tipos, sendo que, as mesmas se organizam conforme podemos observar na  Figura 02.Figura 02	De outro modo a ontologia de aplicação deve conter por padrão especializações dos termos das ontologias de domínio e de tarefa correspondentes. Pode-se descrever resumidamente cada tipo de ontologia com base na Tabela 01 (Pensando em ser uma tabela ou apenas uma lista como vou colocar abaixo).• Ontologias genéricas (top-level ontologies): Efetuar a descrição de conceitos gerais como espaço, tempo, matéria, objeto, evento, ação, etc., que são independestes de um problema ou domínio particular.• Ontologias de domínio e tarefa: Efetuar a descrição respectivamente do vocabulário relacionado a um domínio como medicina, direito, etc., ou uma tarefa ou atividade como diagnóstico, vendas, especializando os termos introduzidos no nível superior.• Ontologias de aplicação: Efetuar a descrição de conceitos que são dependentes de um determinado domínio e tarefa particular. Os conceitos frequentemente correspondem aos papeis desempenhados por entidades do domínio ao executar uma determinada atividade.Com a função de efetuar uma classificação de acordo com o nível de expressividade, Lassila e MacGuinnes (2003) elucidam um esquema ao qual intitulam de (“Espectro Ontologico”) que abrange instrumentos de baixo nível de expressividade semântica até instrumentos que possam possibilitar a definição de relações consideradas mais complexas, conforme pode-se observar na Figura 03.Figura 03Conforme podemos observar temos diferentes níveis nesta classificação, a qual podemos detalhar:	• Catálogo: lista de termos e acrônimos de um determinado domínio e suasrespectivas interpretações.• Glossário: lista de termos com seus respectivos significados especificados emlinguagem natural.• Tesauros: vocabulário controlado que incorpora semântica por meio das relações entre termos. Embora não apresente explicitamente uma forma hierarquia, esta pode ser deduzida por meio das relações de generalização e especialização.• “é-um” informal: hierarquias que utilizam relacionamentos informais, de modoque conceitos podem ser livremente associados a uma categoria, mesmo queformalmente não faça parte da mesma.• “é-um” formal: incluem relações estritas de subclasse, que permitem incorporar o conceito de herança.• “instância” formal: utilizam formalmente relacionamentos classe-instância.• Frames: as classes possuem propriedades específicas, possibilitandocontextualizar informações em um determinado domínio, sendo herdadas por subclasses e instâncias.• Restrições de valor: definem restrições para os valores assumidos pelaspropriedades.• Restrições lógicas genéricas: possibilitam a definição de restrições lógicasutilizando valores de propriedades de diversas classes ou instâncias;• “Parte-de”, disjunção, inverso: permitem especificar classes disjuntas,relacionamentos inversos e relacionamentos do tipo parte-todo.	 	Nota-se a existência de uma barra inclinada na Figura 03, a qual é utilizada para separar os instrumentos comumente utilizados por humanos daqueles que são descritos em linguagens formais, desenvolvidos especificamente para serem utilizados em ambientes computacionais.	Partindo disto Daconta, Obrst e Smith (2003) entende que “Espectro Ontológico”	 é a apresentação de conceitos relacionados a questões de representação, classificação e especificação semântica. De acordo com os autores, o termo “ontologia” pode assumir diferentes modelos e tipos, como por exemplo: uma simples taxonomia para um modelo mais lógico mais complexo ou ainda um tesauro ou um modelo de lógica descritiva, conforme podemos observar na Figura 04, a qual temos a passagem da semântica mais fraca para a semântica mais forte.
 
-	Neste capitulo será elucidado a base bibliográfica do trabalho. Os temas apresentados neste capítulo compreendem os assuntos relacionados ao desenvolvimento das ontologias. Estão presentes as definições, conceitos, classificação, tipos e seus formatos de representação, linguagens e artefatos utilizados para construção da ontologia deste trabalho.
+Figura 04.
 
 
-Ontologias
+GeneralidadeTipo de informação
 
 
-	Atualmente as ontologias veem sendo utilizadas em diversos ambientes e contextos, a disseminação das ontologias está amparada a sua grande possibilidade de prover o compartilhamento e entendimento comum de áreas de domínio de conhecimento que possa ser comunicado entre pessoas e computadores. Está definição será amparada ao decorrer deste capítulo, expondo a palavra de autores com grande base bibliográfica no assunto “Ontologias” e a visão alcançada pela busca de um significado que melhor seja aplicado a concepção e criação da ontologia deste trabalho, há qual será aplicada na área de domínio da Classificação Nacional de Atividades Econômicas (CNAE) no ambito do Microempreendedor Individual (MEI).
+Linguagens	Para se trabalhar com ontologias necessita-se a atribuição de uma forma de representá-las, de modo que apresente um grau de formalismo e que seja compreensível por meio de uma linguagem. 
 
-	Segundo Xavier e Costa (2010), o conhecimento advém da disponibilização da informação, partindo do pressuposto que a geração do conhecimento produzirá mais informação e assim sucessivamente, contudo, nem sempre este conhecimento se torna acessível, para que isto ocorra é necessário que o conhecimento seja registrado, armazenado, organizado e disponibilizado para recuperação por quem venha a utiliza-lo.
+Diferentes linguagens ontológicas são comparadas em quanto às suas capacidades de representação do conhecimento e inferência. O domínio de conhecimento é formado pelos componentes ontológicos citados anteriormente. Por fim, o processo de raciocínio proporcionado por uma ontologia é executado sobre o seu domínio de conhecimento. São exemplos de linguagens ontológicas: OCML, OWL, LOOM, F-Logic e OIL.
 
-	Segundo Guarino (2009) uma ontologia pode ser definida como um objeto de informação ou um artefato computacional (...) são um meio para modelar formalmente a estrutura de um sistema, entidades e relações que emergem da observação, que são relevantes para um propósito, em consonância Tom Gruber (2007) complementa, no contexto das ciências da computação e ciências da informação, uma ontologia é definida por meio de um conjunto de artefatos primitivos com os quais é possível conceber a modelagem de um domínio de conhecimento. Os artefatos primitivos que constituem basicamente uma ontologia são: classes (ou conjuntos), atributos (ou propriedades) e relacionamentos (relações entre as classes), conforme podemos ver na Figura 01.
+....... o consorcio W3C em seu documento “OWL Web Ontology Language Guide” elaborado por “ Web Ontology Working Group as part of the W3C Semantic Web Activity (Activity Statement, Group Charter)”, define que : 
+  
+“O OWL  (Web Ontology Language) destina-se a fornecer uma linguagem que possa ser usada para descrever as classes e as relações entre elas inerentes aos documentos e aplicações  Web” W3C (2004) – Tradução Livre.
 
+De acordo com Breittman (2005)  a linguagem ontológica OWL foi desenvolvida para suprir diversas necessidades e requisitos colhidos em diversas fontes, sendo Tim Berners Lee e Robert Cailau os idealizadores por proporcionar a crescente e constante demanda.  
 
+A linguagem ontológica OWL isoladamente, não possibilita a utilização ou desenvolvimento de uma ontologia, para tanto Berners Lee   
+ 
 
 
 
-Figura 01. 
 
-
-Partindo desta concepção Gruber abstrai ontologia com o seguinte dizer:
-
-“Ontologias são especificações formais e explícitas de conceitualizações compartilhadas” (GRUBER, 1993).
-
-	
-	Partindo deste princípio amparado a constante contribuição da Ciência da Computação, relacionada aos avanços no compartilhamento do conhecimento, pelas ontologias, em que o conhecimento representado leva em consideração uma visão comum de agentes inseridos em determinado domínio, utilizando-se de conceitos previamente estabelecidos, possibilita ampliarmos a visão da realidade e considerar além dos espectros físicos e do conhecimento subjetivo, passando a reconhecer um terceiro, relacionado ao conhecimento objetivo e que permite, de fato, sua representação pela visão coletiva.
-
-	Sendo assim, a utilização das ontologias, tanto por máquinas quanto por
-humanos, possibilita compartilhar conhecimento sobre um domínio, isto é, compartilhar conhecimento a respeito de áreas específicas como medicina e engenharia civil ou a respeito de ações específicas como o conserto de automóveis, fabricação de peças para a indústria, entre outras, como sugerido por Moreiro Gonzáles (2011).
-
-	Uschold e Jasper (1999) especificam a conceituação de ontologias de uma maneira mais ampla, segundo os autores a ontologia tem a capacidade de apropriar-se de diversos formatos, incluindo-se um vocabulário de termos e algumas especificações de significância.
-
-	Partindo da conceitualização mais ampla de Uscholde e Jasper (Inserir data correta) e com base na  pesquisa e abordagem criada por BERNERS-LEE, HENDLER; LASSILA (2011), na qual  contempla-se o ambiente da web semântica, acredita-se que com adoção das ontologias seja possível dar um salto qualitativo na utilização de motores de busca, ou seja, ao em vez da busca ser por palavras-chave, serão utilizados agentes de software inteligentes pelo uso de conceitos, permitindo migrar de uma simples recuperação para a obtenção de respostas precisas a consultas.
-
-	Mais detalhadamente Guarino e Giaretta (1995) demonstram sete
-interpretações em relação ao termo ‘ontologia’, a partir disto, expõe-se diferentes abordagens sobre o tema e as que mais se aproximam desta pesquisa:
-
-1. Ontologia como o vocabulário utilizado por uma teoria lógica. 
-2. Ontologia como um sistema conceitual informal. 
-3. Ontologia como uma descrição semântica formal. 
-4. Ontologia como uma especificação de uma “conceituação.” 
-5. Ontologia como uma representação de um sistema conceitual através de uma teoria lógica. 
-5.1 caracterizada por propriedades formais específicas;
-5.2 caracterizada apenas por propósitos específicos.
-6. Ontologia como uma (meta-nível) especificação de uma teoria lógica.
-
-
-Tipos de ontologia
-
-	As ontologias devem de acordo com Jasper e Uschold (1999) possuir uma variedade de formas, sendo necessário incluir um vocabulário de termos, e juntamente uma especificação de seus significados. A interrelação e definição destes conceitos devem ser explicitadas, incorporando assim, uma estrutura no domínio a qual restringe as possíveis diferentes interpretações relacionadas aos termos.
-
-	Com o decorrer do estudo na área de conhecimento das ontologias Guarino (1998) propõe que a construção das ontologias tenham base em seu nível de generalidade, sendo que, os conceitos de uma ontologia de domínio ou de tarefa sejam especializações de termos de uma ontologia. Percebe-se que por meio de uma necessidade iniciou-se o processo de separação das ontologias em tipos, sendo que, as mesmas se organizam conforme podemos observar na  Figura 02.
-
-
-Figura 02
-
-
-	De outro modo a ontologia de aplicação deve conter por padrão especializações dos termos das ontologias de domínio e de tarefa correspondentes. Pode-se descrever resumidamente cada tipo de ontologia com base na Tabela 01 (Pensando em ser uma tabela ou apenas uma lista como vou colocar abaixo).
-
-
-• Ontologias genéricas (top-level ontologies): Efetuar a descrição de conceitos gerais como espaço, tempo, matéria, objeto, evento, ação, etc., que são independestes de um problema ou domínio particular.
-
-• Ontologias de domínio e tarefa: Efetuar a descrição respectivamente do vocabulário relacionado a um domínio como medicina, direito, etc., ou uma tarefa ou atividade como diagnóstico, vendas, especializando os termos introduzidos no nível superior.
-
-• Ontologias de aplicação: Efetuar a descrição de conceitos que são dependentes de um determinado domínio e tarefa particular. Os conceitos frequentemente correspondem aos papeis desempenhados por entidades do domínio ao executar uma determinada atividade.
-
-
-Com a função de efetuar uma classificação de acordo com o nível de expressividade, Lassila e MacGuinnes (2003) elucidam um esquema ao qual intitulam de (“Espectro Ontologico”) que abrange instrumentos de baixo nível de expressividade semântica até instrumentos que possam possibilitar a definição de relações consideradas mais complexas, conforme pode-se observar na Figura 03.
-
-
-Figura 03
-
-
-Conforme podemos observar temos diferentes níveis nesta classificação, a qual podemos detalhar:	
-
-• Catálogo: lista de termos e acrônimos de um determinado domínio e suas
-respectivas interpretações.
-
-• Glossário: lista de termos com seus respectivos significados especificados em
-linguagem natural.
-
-• Tesauros: vocabulário controlado que incorpora semântica por meio das relações entre termos. Embora não apresente explicitamente uma forma hierarquia, esta pode ser deduzida por meio das relações de generalização e especialização.
-
-• “é-um” informal: hierarquias que utilizam relacionamentos informais, de modo
-que conceitos podem ser livremente associados a uma categoria, mesmo que
-formalmente não faça parte da mesma.
-
-• “é-um” formal: incluem relações estritas de subclasse, que permitem incorporar o conceito de herança.
-
-• “instância” formal: utilizam formalmente relacionamentos classe-instância.
-
-• Frames: as classes possuem propriedades específicas, possibilitando
-contextualizar informações em um determinado domínio, sendo herdadas por subclasses e instâncias.
-
-• Restrições de valor: definem restrições para os valores assumidos pelas
-propriedades.
-
-• Restrições lógicas genéricas: possibilitam a definição de restrições lógicas
-utilizando valores de propriedades de diversas classes ou instâncias;
-
-• “Parte-de”, disjunção, inverso: permitem especificar classes disjuntas,
-relacionamentos inversos e relacionamentos do tipo parte-todo.
-	 
-
-
-	Nota-se a existência de uma barra inclinada na Figura 03, a qual é utilizada para separar os instrumentos comumente utilizados por humanos daqueles que são descritos em linguagens formais, desenvolvidos especificamente para serem utilizados em ambientes computacionais.
-
-	Partindo disto Daconta, Obrst e Smith (2003) entende que “Espectro Ontológico”	 é a apresentação de conceitos relacionados a questões de representação, classificação e especificação semântica. De acordo com os autores, o termo “ontologia” pode assumir diferentes modelos e tipos, como por exemplo: uma simples taxonomia para um modelo mais lógico mais complexo ou ainda um tesauro ou um modelo de lógica descritiva, conforme podemos observar na Figura 04, a qual temos a passagem da semântica mais fraca para a semântica mais forte.
-
-
-Figura 04.
-
-
-
-
-
-
-
-
-
-
-Generalidade
-
-Tipo de informação
-
-Linguagens
-
-OWL
-
-Conclusões
-
-
-
-
-
-
-
-
-
-
-
-
-
-		
-
-
-
-
-
-	
-
-	
- .
-
-	
-
-
+“”OWLConclusões
