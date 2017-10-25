@@ -243,38 +243,36 @@ Figura 04.
 
 
 
-
-
-
-
-
-
-
-
-Generalidade
-
-
-
-Tipo de informação
-
-
-
-
-
-
-
-
-
-
-
-
 Linguagens
 
 
 
-	Para se trabalhar com ontologias necessita-se a atribuição de uma forma de representá-las, de modo que apresente um grau de formalismo e que seja compreensível por meio de uma linguagem. 
+	Para se trabalhar com ontologias necessita-se a atribuição de uma forma de representá-las, de modo que apresente um grau de formalismo e que seja compreensível por meio de uma linguagem.
 
-Diferentes linguagens ontológicas são comparadas em quanto às suas capacidades de representação do conhecimento e inferência. O domínio de conhecimento é formado pelos componentes ontológicos citados anteriormente. Por fim, o processo de raciocínio proporcionado por uma ontologia é executado sobre o seu domínio de conhecimento. São exemplos de linguagens ontológicas: OCML, OWL, LOOM, F-Logic e OIL.
+ 	Diante da diferença entre os tipos de ontologias e seu nível de expressividade, necessita-se de um meio (artefato computacional) que tenha a capacidade de captar este ambiente criado, para isto existem diferentes linguagens, conceitos e ambientes para se adaptar e suprir as necessidades exigidas, nas próximas subseções (inserir numeração das subseções que serão exploradas – inicialmente RDF, RDFS E OWL)os padrões que tiveram a sua real utilização na concepção, implantação e desenvolvimento da 
+
+	RDF
+
+	O RDF (Resource Description Framework) é uma linguagem de propósito
+geral para representação de recursos na Web, baseada em semântica, para a escrita de ontologias. RDF tem como bloco básico a tripla objeto-atributo-valor, ou seja, um objeto O tem um atributo A cujo valor é V, conforme podemos observar na figura 05.
+
+
+Figura 05
+
+
+
+
+
+
+
+	
+
+
+
+
+ 
+
+	Diferentes linguagens ontológicas são comparadas em quanto às suas capacidades de representação do conhecimento e inferência. O domínio de conhecimento é formado pelos componentes ontológicos citados anteriormente. Por fim, o processo de raciocínio proporcionado por uma ontologia é executado sobre o seu domínio de conhecimento. São exemplos de linguagens ontológicas: OCML, OWL, LOOM, F-Logic e OIL.
 
 ....... o consorcio W3C em seu documento “OWL Web Ontology Language Guide” elaborado por “ Web Ontology Working Group as part of the W3C Semantic Web Activity (Activity Statement, Group Charter)”, define que : 
   
@@ -285,7 +283,7 @@ De acordo com Breittman (2005)  a linguagem ontológica OWL foi desenvolvida par
 	A linguagem ontológica OWL isoladamente, não possibilita a utilização ou desenvolvimento de uma ontologia, para tanto Berners Lee idealizou o chamado “bolo de noiva”, integrando assim a Rede semântica, a qual as ontologias e todas as suas tecnologias dependentes tem grande importância. Esta estrutura é constituída conforme a figura 05.
 
 
-Figura 05.
+Figura 06.
 
 
 
@@ -297,16 +295,6 @@ Figura 05.
 
 
  
-
-
-
-
-
-“”
-
-
-OWL
-
 
 
 Conclusões
