@@ -254,23 +254,40 @@ Linguagens
 	RDF
 
 	O RDF (Resource Description Framework) é uma linguagem de propósito
-geral para representação de recursos na Web, baseada em semântica, para a escrita de ontologias. RDF tem como bloco básico a tripla objeto-atributo-valor, ou seja, um objeto O tem um atributo A cujo valor é V, conforme podemos observar na figura 05.
+geral para representação de recursos na Web, baseada em semântica, para a escrita de ontologias. RDF tem como bloco básico a tripla objeto-atributo-valor, ou seja, um objeto O tem um atributo A cujo valor é V, constitui-se em uma arquitetura genérica de metadados que permite representar informações sobre recursos na World Wide Web (WWW ou
+Web), tais como título(objeto), autor(atributo) e data de atualização de uma página(valor),conforme podemos observar na figura 05.
 
 
 Figura 05
 
 
+	Segundo os autores Asuncion Gómes-Perez et al. (2004), a linguagem RDF é basicamente constituída por três componentes:
+
+1. Sujeito: São dados ou coisas das quais queremos falar sobre. São  concebidos por URI (“Uniform Resource Identifier”) ou URL (“Unified Resource Locator”);  
+2. Predicado: São definidos por atributos ou relacionamentos usados para descrever os Recursos;
+3. Predicado: é compreendido por valores de uma Propriedade em um determinado recurso, possível contextualiza com frases em Português/Brasil onde temos a composição por Sujeito, Verbo e Objeto.
 
 
 
+Enquanto uma linguagem natural, como o português, é adequada para a comunicação intrinsicamente humana, RDF é adequado para expressar descrições (declarações) a respeito de recursos, de forma a se tornar um facilitador para o processamento automatizado por máquinas. Segundo Manola e Miller (2004), este processamento automatizado necessita de:
 
 
+• Um sistema automatizado que consiga identificar o sujeito, o predicado e/ou o objeto em
+uma declaração sem ambigüidade;
+
+• Uma linguagem para representar estas descrições que facilite o intercâmbio de informa-
+ções entre máquinas.
 	
 
 
 
 
- 
+
+
+
+
+
+	OWL
 
 	Diferentes linguagens ontológicas são comparadas em quanto às suas capacidades de representação do conhecimento e inferência. O domínio de conhecimento é formado pelos componentes ontológicos citados anteriormente. Por fim, o processo de raciocínio proporcionado por uma ontologia é executado sobre o seu domínio de conhecimento. São exemplos de linguagens ontológicas: OCML, OWL, LOOM, F-Logic e OIL.
 
