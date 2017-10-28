@@ -2,34 +2,35 @@
 
 	Com o aumento da necessidade à fácil acesso a informação, as instituições governamentais veem utilizando sistemas de informação para disponibilização de serviços à população. Neste processo, percebe-se dificuldade de interpretação efetiva da informação por agentes de software, geradas pela falta de estruturas eficientes para organização da informação. A dificuldade em se organizar a informação, torna-se visível, quando é necessário adequar-se à necessidade dos usuários em meio a enormes volumes de dados. Assim, torna-se crucial a existência de propostas eficientes para armazenamento e tratamento da informação, buscando oferecer maior semântica para interpretação da informação.
 
-	No contexto da web, o tratamento e disponibilização da informação se encontra em processo de conformação. Segundo Breitman (2005) em seu predomínio os recursos presentes na web se encontram em linguagem natural, que são interpretadas somente por humanos, por meio de diferentes inferências realizadas, como, associação, comparação, ambiente e outros fatores presentes na característica intrinsicamente humana. Mesmo com a evolução dos recursos presentes na web, percebe-se que a afirmação de Breitman persiste até hoje.
+	No contexto da web, o tratamento e disponibilização da informação se encontram em processo de conformação. Segundo Breitman (2005) em seu predomínio os recursos presentes na web se encontram em linguagem natural, que são interpretadas somente por humanos, por meio de diferentes inferências realizadas, como, associação, comparação, ambiente e outros fatores presentes na característica intrinsicamente humana. Mesmo com a evolução dos recursos presentes na web, percebe-se que a afirmação de Breitman persiste até hoje.
 
-	Uma área que apresenta o problema posto é a de abertura de MEI (Microempreendedor Individual). Para se realizar a abertura é necessário apresentar dados e documentos, um deles pertencente à CNAE (Classificação Nacional de Atividades Econômicas), um código que corresponde às atividades realizadas por um MEI, e pode ser encontrado através de sites governamentais e especializados no assunto. A definição do código da CNAE para um MEI se torna difícil, quando é necessário identificá-lo através de um nome informal da atividade, isto é, um nome que não está contido na especificação fornecida pelo governo, gerando dificuldade na obtenção do código correto, para com as atividades do microempreendedor.
+	Uma área que apresenta o problema posto é a de abertura de MEI (Microempreendedor Individual). Para se realizar a abertura é necessário apresentar dados e documentos, um deles pertencentes à CNAE (Classificação Nacional de Atividades Econômicas), um código que corresponde às atividades realizadas por um MEI, e pode ser encontrado através de sites governamentais ou sites especializados no assunto. A definição do código da CNAE para um MEI se torna difícil, quando é necessário identificá-lo através de um nome informal da atividade, isto é, um nome que não está contido na especificação fornecida pelo governo, gerando dificuldade na obtenção do código correto para com as atividades do microempreendedor.
 
 	Uma abordagem utilizada para esse gênero de problema tem sido a utilização de ontologias. Segundo Guarino (2009) uma ontologia pode ser definida como um objeto de informação ou artefato computacional (...) é um meio para modelar formalmente a estrutura de um sistema, entidades e relações que emergem da observação, que são relevantes para um propósito.
 
-	Com base nisso, este trabalho contempla uma proposta de solução computacional, se utilizando de uma ontologia de aplicação, com objetivo de modelar formalmente os conceitos encontrados no domínio de CNAE para MEI, com enfoque na problemática da semântica.
+	
+Com base nisso, este trabalho contempla uma proposta de solução computacional, se utilizando de uma ontologia de aplicação, com objetivo de modelar formalmente os conceitos encontrados no domínio de CNAE para MEI, com enfoque na problemática da semântica.
 
 
-Objetivos
+1.1	Objetivos
 
-	O objetivo geral deste trabalho é o de formalizar a estrutura para CNAE`s no ambito das MEI`s, possibilitando maior eficácia na busca e compartilhamento de informações, facilitando assim processos burocráticos d governo federal do Brasil.
+	O objetivo geral deste trabalho é o de formalizar uma estrutura para a Classificação Nacional de Atividades Econômicas (CNAE) no âmbito dos Microempreendedores (MEI), possibilitando maior eficácia na busca e compartilhamento de informações, facilitando assim processos burocráticos do governo federal do Brasil.
 
 Os objetivos específicos são:
 
-analisar e estudar a área de MEI’s e sua relação com o CNAE, através de toda documentação disponibilizada pelo governo federal do Brasil;
+•	analisar e estudar a área do MEI e sua relação com o CNAE, através de toda documentação disponibilizada pelo governo;
 
-levantar e modelar os dados, formando informação para iniciar o processo de modelagem da ontologia de aplicação;
+•	levantar e modelar os dados, obtendo a  informação necessária para iniciar o processo de modelagem da ontologia de aplicação;
 
-validar as informações junto ao sistema web “cnae – ibge”, mantido pelo IBGE (Instituto Brasileiro de Geografia e Estatística);
+•	validar as informações junto ao sistema web “cnae – ibge”, mantido pelo IBGE (Instituto Brasileiro de Geografia e Estatística);
 
-contruir uma ontologia de aplicação no ambiente de desenvolvimento Protégé;
+•	construir uma ontologia de aplicação no ambiente de desenvolvimento Protégé;
 
-validar a estrutura e a semântica da ontologia, utilizando a linguagem orientada a dados SPARQL;
+•	validar a estrutura e a semântica da ontologia, utilizando a linguagem orientada a dados SPARQL;
 
-efetuar a integração junto a ferramenta Apache Jena;
+•	efetuar a integração junto a ferramenta Apache Jena;
 
-desenvolver uma API (Application Programming Interface) para disponibilizar o conhecimento da ontologia para utilização de sistemas terceiros.
+•	desenvolver uma API (Application Programming Interface) para disponibilizar o conhecimento da ontologia para utilização de sistemas terceiros.
 
 
 
