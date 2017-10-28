@@ -1,22 +1,22 @@
-Neste capítulo, apresenta-se a construção de uma ontologia de aplicação, para a área de domínio de atividades para MEI. O processo de desenvolvimento da ontologia teve como base os passos sugeridos na Metodologia 101. Os subcapítulos seguintes, apresentam as etapas realizadas para implementação da ontologia.
+﻿Neste capítulo, apresenta-se a construção de uma ontologia de aplicação, para a área de domínio de atividades para MEI. O processo de desenvolvimento da ontologia teve como base os passos sugeridos na Metodologia 101. Os subcapítulos seguintes, apresentam as etapas realizadas para implementação da ontologia.
 
 6.1	Escopo
 
 
 Para realizar a definição do escopo, utilizaram-se questões que permitiram elucidar o entendimento sobre o domínio. O conteúdo das questões serviu de base para realização de todas as outras etapas do desenvolvimento da ontologia.
 
-	Que domínio se deseja cobrir com a ontologia?
+	Que domínio se deseja cobrir com a ontologia?
 o	A Classificação Nacional de Atividades Econômicas (CNAE) permitidas para o Micro Empreendedor Individual (MEI) no governo federal do Brasil.
 
-	Com que propósito será utilizada a ontologia?
+	Com que propósito será utilizada a ontologia?
 o	Disponibilização de uma estrutura extensível e reutilizável para aplicações que desejam obter informações sobre atividades permitidas para MEI.
 
-	Que informações a ontologia deve fornecer?
+	Que informações a ontologia deve fornecer?
 o	Quais atividades são permitidas para uma CNAE
 o	Qual CNAE corresponde a uma ocupação
 o	Qual CNAE permite a realização de determinada atividade
 
-	Quem vai utilizar a ontologia?
+	Quem vai utilizar a ontologia?
 o	Aplicações que necessitam de maior semântica na obtenção de informações sobre atividades permitidas para MEI, assim como a validação se determinadas atividades que podem ser realizadas por um CNAE.
 
 6.2	Reuso e Ontologias de base
@@ -27,19 +27,19 @@ A avaliação do reuso de outras ontologias é importante para a reutilização 
 
 	O levantamento dos termos é importante para o início da construção da ontologia. A definição dos termos, facilita a conceitualização do problema, orientando o desenvolvedor nas decisões de design da solução para implementação da ontologia. Os termos levantados na área de domínio estudada nesse trabalho foram:
 
-•	Seção
+•	Seção: conjunto da estrutura da CNAE, abrange todos os outros subconjuntos recorrentes.
 
-•	Divisão
+•	Divisão: conjunto da estrutura da CNAE é um subconjunto direto do conjunto seção.
 
-•	Grupo
+•	Grupo: conjunto da estrutura da CNAE é um subconjunto direto do conjunto divisão.
 
-•	Classe
+•	Classe: conjunto da estrutura da CNAE é um subconjunto direto do conjunto grupo.
 
-•	Subclasse
+•	Subclasse: conjunto da estrutura da CNAE é um subconjunto direto do conjunto classe, é o ultimo conjunto da hierarquia e agrupa um conjunto de atividades normalmente relacionadas a uma ocupação ou profissão.
 
-•	Atividade
+•	Atividade: representa qualquer atividade econômica que posssa ser executada no âmbito nacional. Exemplos de atividades podem ser: “produçaõ de mudas de eucalipto”; “conservação de peixe no próprio barco”; “extração de carvão mineral”.
 
-•	Ocupação
+•	Ocupação: representa uma profissão formal ou informal, exemplos de ocupação são: alfaiate, cabeleireiro, vendedor de sapatos e etc.
 
 
 6.4	Experimento Inicial
