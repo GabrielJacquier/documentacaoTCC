@@ -25,23 +25,25 @@ FiguraAmbienteProtege
 
 VOWL
 
-	Segundo Steffen Lohmann, Stefan Negru, Florian Haag, & Thomas Ertl. (2016) a VOWL (Visual Notation for OWL Ontologies) é uma especificação de liguagem visual utilizada para representação orientada a usuários de ontologias. Esta linguagem define uma representação visual de muitos elementos da linguagem OWL, de forma a permitir a visualização gráfica de um grafo direcionado, representando a estrutura da ontologia.
+	Segundo Steffen Lohmann, Stefan Negru, Florian Haag, & Thomas Ertl. (2016) a VOWL (Visual Notation for OWL Ontologies) é uma especificação de linguagem visual utilizada para representação orientada a usuários de ontologias. Esta linguagem define uma representação visual de muitos elementos da linguagem OWL, de forma a permitir a visualização gráfica de um grafo direcionado, representando a estrutura da ontologia.
 
-	Foram realizados testes com implementações dessa especificação, uma delas disponibilizada como um plugin do Protégé, e outra disponibilizada online. 
+	Foram realizados testes com implementações dessa especificação, uma disponibilizada como um plugin do Protégé, e outra disponibilizada online. 
 
-	Além da VOWL foram encontradas outras ferramentas para visualização gráfica de ontologias como: a Navig OWL Protege, disponibilizado como plugin do protégé; a SIMILE, ferramenta disponibilizada online; a Lodlive disponibilizada online, possuindo funcionalidades interessantes como a visualização das intâncias da ontologia e seus relacionamentos, porém, se encontra em fase de desenvolvimento, dificultando assim sua utilização.
-	
-	Em comparação com as outras ferramentas a VOWL disponibilizada online foi analisada como a mais robusta, permitindo diversos tipos de filtros  para visualização dos componentes da ontologia. Desta forma, a ferramenta permite a realização de análises na estrutura da ontologia, para entre outras finalidades, identificar problemas de modelagem e facilitar o entendimento de terceiros sobre a estrutura da ontologia. A Figura 2 ilustra a utilização da ferramenta, utilizando uma ontologia de exemplo.
+	Além da VOWL foram encontradas outras ferramentas para visualização gráfica de ontologias como: a Navig OWL Protege, disponibilizado como plugin do Protégé; a SIMILE, ferramenta disponibilizada online; a Lodlive disponibilizada online, possuindo funcionalidades interessantes como a visualização de instâncias de ontologia e seus relacionamentos, porém, se encontra em fase de desenvolvimento, dificultando assim sua utilização.
+
+	Em comparação com as outras ferramentas a VOWL disponibilizada online foi analisada como a mais robusta, permitindo diversos tipos de filtros para visualização dos componentes da ontologia. Desta forma, a ferramenta permite a realização de análises na estrutura da ontologia, para entre outras finalidades, identificar problemas de modelagem e facilitar o entendimento de terceiros sobre o modelo criado. A Figura 7 apresenta a visualização de uma ontologia de exemplo utilizando-se da ferramenta.
+
 
 FiguraVOWL
 
 
 SPARQL
 
-	A SPARQL (SPARQL Protocol and RDF Query Language) é composta por um conjunto de especificações, uma delas é definida como uma linguagem para consulta a recursos RDF (Resource Description Framework). Foi criada pela W3C, dentro de um conjunto de especificações com a finalidade de contribuir para melhorias na arquitetura da web.
-	Sua utilização é de fácil entendimento, tendo suas clausulas básicas semelhanças com as da linguagem SQL, facilitando assim o sua utilização. Além disso, por se tratar de uma especificação W3C é amplamente usada e recomendada pela comunidade de desenvolvimento.
-	A sua utilização pode ser divida em duas clausulas, a clausula ‘SELECT’ que define as variáveis que se deseja buscar e a clausula ‘WHERE’ que define os filtros, utilizando-se triplas RDF. Uma tripla é composta por: sujeito, predicado e objeto, assim, pode-se utlizar de variáveis em qualquer um dos elementos da tripla, de forma a obter somente os recursos RDF que correspondam corretamente às triplas.
-	A Figura 3 apresenta um exemplo de utilização da linguagem.
+	A SPARQL (SPARQL Protocol and RDF Query Language) é composta por um conjunto de especificações, uma delas definida como uma linguagem para consulta a recursos RDF (Resource Description Framework). Foi criada pela W3C, dentro de um conjunto de especificações com a finalidade de contribuir para melhorias na arquitetura da web.
+	Sua utilização é de fácil entendimento, tendo suas clausulas básicas semelhanças com as da linguagem SQL, facilitando assim sua utilização. Além disso, por se tratar de uma especificação W3C é amplamente utilizada e recomendada pela comunidade de desenvolvimento.
+	Sua utilização pode ser divida em duas clausulas: a clausula ‘SELECT’ define as variáveis que se deseja buscar; a clausula ‘WHERE’ define os filtros, utilizando-se de triplas RDF. 
+	Uma tripla é composta por: sujeito, predicado e objeto, assim, pode-se utilizar de parâmetros em qualquer um dos elementos da tripla, de forma a obter somente os recursos RDF que correspondam corretamente a afirmação. A Tabela 1 apresenta um exemplo de utilização da linguagem.
+
 
 FiguraSPARQL
 
@@ -54,5 +56,5 @@ Apache Jena
 JAX-RS
 
 	A especificação JAX-RS define um conjunto de Java APIs para desenvolvimento de serviços web, construídos de acordo com a arquitetura Representational State Transfer (REST).
-	A escolha dessa especificação, foi tomada analisando a facilidade para criação de serviços web e a total compatibilidade com outras especificações da Java Enterprise Edition (Java EE). Assim se tratando de uma especificação Java torna-se fácil o acesso para documentação e tutorias. Sua utilização já é fornecida por implementações contidas na maioria dos servidores de aplicação, tornando desnecessario a utilização de bibliotecas de terceiros.
+A escolha dessa especificação foi tomada analisando a facilidade para criação de serviços web e a total compatibilidade com outras especificações da Java Enterprise Edition (Java EE). Assim se tratando de uma especificação Java torna-se fácil o acesso para documentação e tutorias. Sua utilização já é permitida por implementações contidas na maioria dos servidores de aplicação, tornando desnecessária a utilização de bibliotecas de terceiros.
 	
