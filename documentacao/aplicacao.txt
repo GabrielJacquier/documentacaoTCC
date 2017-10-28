@@ -27,7 +27,7 @@ A avaliação do reuso de outras ontologias é importante para a reutilização 
 
 	O levantamento dos termos é importante para o início da construção da ontologia. A definição dos termos, facilita a conceitualização do problema, orientando o desenvolvedor nas decisões de design da solução para implementação da ontologia. Os termos levantados na área de domínio estudada nesse trabalho foram:
 
-•	Seção: conjunto da estrutura da CNAE, abrange todos os outros subconjuntos recorrentes.
+•	Seção: conjunto da estrutura da CNAE abrange todos os outros subconjuntos recorrentes.
 
 •	Divisão: conjunto da estrutura da CNAE é um subconjunto direto do conjunto seção.
 
