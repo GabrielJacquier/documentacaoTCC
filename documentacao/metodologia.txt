@@ -1,9 +1,9 @@
 ﻿
 					Metodologia
 
-	A existência de metodologias para contrução de ontologias, cada vez mais se mostra necessária. Conforme Karin Breitman (2005) os cientistas tem realizado  buscas por metodologias mais adequadas para o desenvolvimento de ontologias.
+	A existência de metodologias para construção de ontologias, cada vez mais se mostra necessária. Conforme Karin Breitman (2005) os cientistas tem realizado buscas por metodologias mais adequadas para o desenvolvimento de ontologias.
 
-	Como metodologia desse trabalho, foi utilizado a metodologia descrita por Noy, N e McGuinness, D. (2001). O trabalho propõe, uma metodologia guia para quem está iniciando na contrução de ontologias. O método propõe para auxilio a utilização de sete etapas:
+	Como metodologia desse trabalho, foi utilizado a metodologia descrita por Noy, N e McGuinness, D. (2001). O trabalho propõe, uma metodologia guia para quem está iniciando na construção de ontologias. O método propõe para auxilio a utilização de sete etapas:
 
 	1. determinar o domínio e o escopo da ontologia;
 	2. considerar o reuso de outras ontologias;
@@ -13,16 +13,17 @@
 	6. definir os valores das propriedades;
 	7. criar instâncias.
 
-	Nesse trabalho as autoras citam que não existe uma forma correta de se modelar um domínio, existindo diversas alternativas a serem avaliadas. A escolha da forma correta de modelagem, pode ser tomada observando a que melhor se adequa à aplicação desejada.
+	Nesse trabalho as autoras citam que não existe uma forma correta de se modelar um domínio, existindo diversas alternativas a serem avaliadas. A escolha da forma correta da modelagem pode ser tomada observando a que melhor se adequa à aplicação desejada.
 
-	Além da metodologia, foram utilizadas propostas para apoiar o processo de avaliação do resultado da ontologia. Tom Gruber (1995) expõe que para guiar e avaliar uma ontologia, necessita-se de critérios objetivos para com o propósito requerido. Propõe-se então, um conjunto de critérios, utilizados na avaliação de ontologias com enfoque no compartilhamento de conhecimento e interoperabilidade de programas. Os critérios citados são:
+	Além da metodologia, foram utilizadas propostas para apoiar o processo de avaliação do resultado da ontologia. Tom Gruber (1995) expõe que para guiar e avaliar uma ontologia necessita-se de critérios objetivos para com o propósito requerido. Propõe-se então, um conjunto de critérios, utilizados na avaliação de ontologias com enfoque no compartilhamento de conhecimento e interoperabilidade de programas. Os critérios citados são:
 
-	1. clareza, uma ontologia deve efetivamente comunicar o significado intencionado nos termos definidios;
+1. clareza, uma ontologia deve efetivamente comunicar o significado intencionado nos termos definidos;
 
-	2. coerência, isso deve aprovar inferências que são consistêntes com as definições;
+2. coerência, isso deve aprovar inferências que são consistentes com as definições;
 
-	3. extensibilidade, uma ontologia deve ser desenvolvida para antecipar vocabulário compartilhado;
+3. extensibilidade, uma ontologia deve ser desenvolvida para antecipar vocabulário compartilhado;
 
-	4. mínima tendência ao código, a conceitualização deve ser especificada em um nivel de abstração do conhecimento, sem ser tendênciosa para com puramente implementação;
+4. mínima tendência ao código, a conceitualização deve ser especificada em um nível de abstração do conhecimento, sem ser tendenciosa para com puramente implementação;
 
-	5. mínimo compromisso ontológico com o domínio, uma ontologia deve fazer o mínimo de reivindicações do mundo sendo modelado, deixando livre à outras ontologias a especializarem.
+5. mínimo compromisso ontológico com o domínio, uma ontologia deve fazer o mínimo de reivindicações do mundo sendo modelado, deixando livre à outras ontologias a especializarem.
+
