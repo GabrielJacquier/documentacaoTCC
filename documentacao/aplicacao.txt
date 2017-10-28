@@ -1,45 +1,54 @@
-﻿Neste capítulo, apresenta-se a construção de uma ontologia de aplicação, para a área de domínio de atividades para MEIs. O processo de desenvolvimento da ontologia, teve como base os passos sugeridos na Metodologia 101. Os sub-capítulos seguintes, apresentam as etapas realizadas para implementação da ontologia.
+Neste capítulo, apresenta-se a construção de uma ontologia de aplicação, para a área de domínio de atividades para MEI. O processo de desenvolvimento da ontologia teve como base os passos sugeridos na Metodologia 101. Os subcapítulos seguintes, apresentam as etapas realizadas para implementação da ontologia.
 
-Escopo
-
-Para realizar a definição do escopo, utilizou-se questões que permitiram melhor entendimento sobre o domínio. O conteúdo das questões, serviu de base para realização de todas as outras etapas do desenvolvimento da ontologia.
-
-Que domínio se deseja cobrir com a ontologia?
-A Classificação Nacional de Atividades Econômicas (CNAE) permitidas para o Micro Empreendedor Individual (MEI) no Brasil.
-
-Com que propósito será utilizada a ontologia?
-Disponibilizar uma estrutura extensível e reutilizável para aplicações que desejam obter informações sobre atividades permitidas para MEIs.
-
-Que informações a ontologia deve fornecer?
-Quais atividades são permitidas para uma CNAE
-Qual CNAE corresponde a uma ocupação
-Qual CNAE permite determinada atividade
-
-Quem vai utilizar a ontologia?
-Aplicações que necessitam de maior semântica na obtenção de informações sobre atividades permitidas para MEI, assim como a validação se determinadas atividades podem ser realizadas por um CNAE.
+6.1	Escopo
 
 
-Reuso de outras ontologias
+Para realizar a definição do escopo, utilizaram-se questões que permitiram elucidar o entendimento sobre o domínio. O conteúdo das questões serviu de base para realização de todas as outras etapas do desenvolvimento da ontologia.
 
-A avaliação do reuso de outras ontologias, é importante para a reutilização de conhecimento. Assim permite-se a diminuição do trabalho manual e a agregação de conceitos já validados por outros desenvolvedores à ontologia em desenvolvimento. 
+	Que domínio se deseja cobrir com a ontologia?
+o	A Classificação Nacional de Atividades Econômicas (CNAE) permitidas para o Micro Empreendedor Individual (MEI) no governo federal do Brasil.
 
-Realizou-se uma pesquisa em repositórios online como Knoodl, Schemapedia e no repositório do Protégé, porém não foram encontradas ontologias que poderiam ser reutilizadas para o domínio abordado no projeto.
+	Com que propósito será utilizada a ontologia?
+o	Disponibilização de uma estrutura extensível e reutilizável para aplicações que desejam obter informações sobre atividades permitidas para MEI.
+
+	Que informações a ontologia deve fornecer?
+o	Quais atividades são permitidas para uma CNAE
+o	Qual CNAE corresponde a uma ocupação
+o	Qual CNAE permite a realização de determinada atividade
+
+	Quem vai utilizar a ontologia?
+o	Aplicações que necessitam de maior semântica na obtenção de informações sobre atividades permitidas para MEI, assim como a validação se determinadas atividades que podem ser realizadas por um CNAE.
+
+6.2	Reuso e Ontologias de base
+
+A avaliação do reuso de outras ontologias é importante para a reutilização de conhecimento. Assim permite-se a diminuição do trabalho manual e a agregação de conceitos já validados por outros desenvolvedores à ontologia em desenvolvimento. Realizou-se uma pesquisa em repositórios online como Knoodl, Schemapedia e no repositório do Protégé, porém não foram encontradas ontologias que poderiam ser reutilizadas para o domínio abordado no projeto.
+
+6.3	Termos importantes
+
+	O levantamento dos termos é importante para o início da construção da ontologia. A definição dos termos, facilita a conceitualização do problema, orientando o desenvolvedor nas decisões de design da solução para implementação da ontologia. Os termos levantados na área de domínio estudada nesse trabalho foram:
+
+•	Seção
+
+•	Divisão
+
+•	Grupo
+
+•	Classe
+
+•	Subclasse
+
+•	Atividade
+
+•	Ocupação
 
 
-Termos relevantes
+6.4	Experimento Inicial
 
-O levantamento dos termos, é importante para o início da construção da ontologia. A definição dos termos, facilita a conceitualização do problema, orientando o desenvolvedor na implementação da ontologia.
-
-FiguraTermosRelevantes1
-
-
-Experimentação Inicial
-
-Utilizou-se os passos especificados na metodologia 101 para a implementação de uma solução inicial. Esta experimentação, teve como objetivo, a criação de uma ontologia somente se utilizando dos termos levantados, a fim de avaliar suficiência para com os requisitos do escopo. A Figura 1 apresenta o diagrama da solução proposta, através da ferramenta VOWL.
+Utilizou-se os passos especificados na metodologia 101 para a implementação de uma solução inicial. Esta experimentação teve como objetivo, a criação de uma ontologia básica somente se utilizando dos termos levantados, a fim de avaliar suficiência para com os requisitos do escopo. A Figura apresenta o diagrama da proposta, através da ferramenta VOWL.
 
 FiguraApresentacaoImplementacao1
 
-Observou-se nesta implementação inicial, problemas na busca de informações sobre atividades. A deficiência se mostra, quando é necessário relacionar sinônimos aos termos da atividade, ou, realizar qualquer inferência sobre os mesmos. Para se chegar a esta observação, foram utilizados os critérios de clareza e extensibilidade sugeridos por Tom Gruber (1995). A Figura 2 apresenta uma query realizada com a linguagem orientada a dados SPARQL, demonstrando o teste realizado.
+Observou-se nesta implementação inicial, problemas na busca de informações sobre atividades. A deficiência se mostra, quando é necessário relacionar sinônimos aos termos da atividade, ou, realizar qualquer inferência sobre os mesmos. Para se chegar a esta observação, foram utilizados os critérios de clareza e extensibilidade sugeridos por Tom Gruber (1995). A Tabela 2 apresenta uma query realizada com a linguagem orientada a dados SPARQL, demonstrando o teste realizado.
 
 FiguraSparqlCnaePorAtividade1
 
@@ -48,37 +57,37 @@ Conceitualização da Solução
 
 Com o conhecimento obtido no experimento realizado, buscou-se uma nova conceitualização, tendo como objetivo, solucionar o problema semântico encontrado na consulta às atividades.
 
-Foi então proposto a decomposição do conceito de atividade. A proposta foi realizada através da observação da estrutura das CNAEs, a fim de obter para estas, uma representação suficientemente genérica. A Figura 3 apresenta um diagrama exemplificando a solução, utilizou-se para exemplo o CNAE de código 1412-6/02, que possui a descrição “Confecção, sob medida, de artigos do vestuário, exceto roupas íntimas”.
+Foi então proposta a decomposição do conceito de atividade. A proposta foi realizada através da observação da estrutura das CNAEs, a fim de obter para estas, uma representação suficientemente genérica. A Figura 9 apresenta um diagrama exemplificando a solução, utilizou-se para exemplo o CNAE de código 1412-6/02, que possui a descrição “Confecção, sob medida, de artigos do vestuário, exceto roupas íntimas”.
 
 FiguraConceitualizaçãoSolução2
 
 Classes
 
-A definição das classes, foi realizada sobre a abordagem combinada, que tem como definição a fusão das abordagens bottom-up e top-down. Classificou-se primeiro os termos que mais se destacam, para após realizar o processo de generalização ou especialização. A Figura 4 apresenta as classes implementadas através da ferramenta Protégé, com base na conceitualização criada.
+A definição das classes foi realizada sobre a abordagem combinada, que tem como definição a fusão das abordagens bottom-up e top-down. Classificou-se primeiro os termos que mais se destacam, para após ser realizado o processo de generalização ou especialização. A Figura 10 apresenta as classes implementadas através da ferramenta Protégé, com base na conceitualização criada.
 
 FiguraClasse2
 
 
 Propriedades das classes
 
-As propriedades das classes, representam a ligação entre os indivíduos na base de conhecimento. A Figura 5 apresenta as propriedades implementadas através da ferramenta Protégé.
+As propriedades das classes representam a ligação entre os indivíduos na base de conhecimento. As Figuras 11 e 12 apresentam as propriedades implementadas através da ferramenta Protégé.
 
 FiguraPropriedadeClasse2
 
 
 Propriedades de valores
 
-As propriedades de valores, são utilizadas quando a propriedade objetiva ligar um indivíduo da base de conhecimento, com um valor primitivo. A Figura 6 expõe as propriedades de valores implementados no Protégé.
+As propriedades de valores são utilizadas quando a propriedade objetiva ligar um indivíduo da base de conhecimento, com um valor primitivo. A Figura 13 expõe as propriedades de valores criadas no Protégé.
 
 FiguraPropriedadeValor2
 
 Visualização da implementação
 
-A Figura 7 exibe a visualização da solução aplicada na ontologia através da ferramenta VOWL.
+A Figura 14 exibe a visualização da solução aplicada na ontologia através da ferramenta VOWL.
 
 FiguraVOWLFinal2
 
-Uma visão mais genérica pode ser obtida com a ferramenta VOWL, de modo a visualizar somente as classes mais genéricas. A Figura 8 apresenta uma segunda visualização da ontologia implementada.
+Uma visão mais genérica pode ser obtida com a ferramenta VOWL, de modo a visualizar somente as classes mais genéricas. A Figura 15 apresenta uma segunda visualização da ontologia implementada.
 
 FiguraVOWLFinal9
 
@@ -87,11 +96,11 @@ Instâncias
 
 Amostra
 
-Para criação das instâncias, utilizou-se uma amostra das CNAEs permitidas para MEI. Esta decisão, foi tomada pelo motivo do tempo necessário, para realizar a modelagem de todas CNAEs. 
+Para criação das instâncias, utilizou-se uma amostra das CNAEs permitidas para MEI. Esta decisão foi tomada pelo motivo do tempo necessário, para realizar a modelagem de todas CNAEs existentes no escopo do trabalho. 
 
-No processo de seleção das CNAEs, não foram utilizados métodos estatísticos. Preferiu-se para efeito de enriquecimento dos testes, a escolha selecionada das CNAEs. Também deu-se importância para a diversidade da amostra, desse modo, permitiu-se aos testes maior credibilidade, com relação a generalidade da ontologia.
+No processo de seleção das CNAEs, não foram utilizados métodos estatísticos. Preferiu-se para efeito de enriquecimento dos testes, a escolha selecionada das CNAEs. Também se deu importância para a diversidade da amostra, desse modo, permitiu-se aos testes maior credibilidade, com relação à generalidade da ontologia.
 
-Foi contabilizado aproximadamente 500 CNAEs como permitidas para MEI, decidiu-se utilizar uma amostra de aproximadamente 4%, totalizando 20 CNAEs. Para assegurar a diversidade proposta, foram escolhidas CNAEs de diferentes seções. A Figura 7 apresenta as seções de maior representatividade.
+Foi contabilizado aproximadamente 500 CNAEs como permitidas para MEI, decidiu-se utilizar uma amostra de aproximadamente 4%, totalizando 20 CNAEs. Para assegurar a diversidade proposta, foram escolhidas CNAEs de diferentes seções. A tabela 3 apresenta as seções de maior representatividade.
 
 FiguraAmostraSecaoEscolhida1
 
@@ -100,32 +109,28 @@ O processo da escolha das CNAEs foi realizado sob as seções selecionadas. A Fi
 FiguraAmostraCnaesEscolhida1
 
 
-Implementação
+Instâncias
 
-A criação das instâncias da base de conhecimento se faz utilizando-se as classes e propriedades implementadas. A Figura 9 apresenta parte das instâncias criadas utilizando-se a ferramenta Protégé.
+A criação das instâncias da base de conhecimento se faz utilizando-se as classes e propriedades implementadas. A Figura 16 apresenta parte das instâncias criadas utilizando-se a ferramenta Protégé.
 
 FiguraIndividuos1
 
-Para melhorar o suporte na busca por indivíduos na base, utilizou-se o recurso da linguagem OWL para se vincular dois indivíduos como iguais, de modo que qualquer restrição verdadeira sobre um, torna-se verdadeira sobre o outro. A Figura 10 apresenta esse recurso sendo utilizado sobre o indivíduo “lojista” na ferramenta protégé.
+Para melhorar o suporte na busca por indivíduos na base, utilizou-se o recurso da linguagem OWL para se vincular dois indivíduos como equivalentes, de modo que qualquer restrição verdadeira sobre um, torna-se verdadeira para o outro. A Figura 17 apresenta esse recurso sendo utilizado sobre o indivíduo “lojista” para o indivíduo “comerciante”  na ferramenta Protégé.
 
 FiguraIndividuosSameAs1
 
 
 Avaliação da modelagem
 
-A avaliação da modelagem será feita realizando consultas a base de conhecimento, utilizando-se da linguagem orientada a dados SPARQL. Buscou-se atender os requisitos especificados na etapa de definição do escopo. 
-
-A Figura 11, apresenta uma query criada para se buscar quais atividades são permitidas para determinada  CNAE.
+A avaliação da modelagem será feita realizando consultas a base de conhecimento, utilizando-se da linguagem orientada a dados SPARQL. Buscou-se atender os requisitos especificados na etapa de definição do escopo. A Tabela 4 apresenta uma query criada para se buscar quais atividades são permitidas para determinada CNAE.
 
 FiguraSparqlAtividadesPermitidas1
 
-A Figura 12, apresenta uma query que realiza a busca de um CNAE para determinada  ocupação.
+A Tabela 5 apresenta uma query que realiza a busca de um CNAE para determinada ocupação. Observa-se certa flexibilidade gerada pelo recurso “sameAs” da linguagem OWL, gerando maior semântica na busca por ocupações. Esse recurso permite facilidade para acrescentar sinônimos para um indivíduo, simplificando a busca por diferentes termos. 
 
 FiguraSparqlCnaesPorOcupacao1
 
-Observa-se certa flexibilidade gerada pelo recurso “sameAs” da linguagem OWL, gerando maior semântica na busca por ocupações. Esse recurso, permite facilidade para acrescentar sinònimos para um indivíduo, simplificando a busca por diferentes termos.
-
-A Figura 13, apresenta uma query que realiza a busca de uma CNAE, informando o produto e serviço de uma atividade.
+A Tabela 6 apresenta uma query que realiza a busca de uma CNAE informando o produto e serviço de uma atividade.
 
 FiguraSparqlCnaePorProdutoServico2
 
