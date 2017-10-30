@@ -15,7 +15,7 @@ Ontologias
 
 
 
-	Atualmente as ontologias veem sendo utilizadas em diversos ambientes e contextos, a disseminação das ontologias está amparada a sua grande possibilidade de prover o compartilhamento e entendimento comum de áreas de domínio de conhecimento que possa ser comunicado entre pessoas e computadores. Está definição será amparada ao decorrer deste capítulo, expondo a palavra de autores com grande base bibliográfica no assunto “Ontologias” e a visão alcançada pela busca de um significado que melhor seja aplicado a concepção e criação da ontologia deste trabalho, há qual será aplicada na área de domínio da Classificação Nacional de Atividades Econômicas (CNAE) no ambito do Microempreendedor Individual (MEI).
+	Atualmente as ontologias vêm sendo utilizadas em diversos ambientes e contextos, a disseminação das ontologias está amparada a sua grande possibilidade de prover o compartilhamento e entendimento comum de áreas de domínio de conhecimento que possa ser comunicado entre pessoas e computadores. Está definição será amparada ao decorrer deste capítulo, expondo a palavra de autores com grande base bibliográfica no assunto “Ontologias” e a visão alcançada pela busca de um significado que melhor seja aplicado a concepção e criação da ontologia deste trabalho, há qual será aplicada na área de domínio da Classificação Nacional de Atividades Econômicas (CNAE) no ambito do Microempreendedor Individual (MEI).
 
 
 
