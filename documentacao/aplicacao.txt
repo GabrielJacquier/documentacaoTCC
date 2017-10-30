@@ -138,7 +138,7 @@ API REST
 
 	A criação da API REST teve como objetivo disponibilizar as informações armazenadas na ontologia para integração com sistemas terceiros. Utilizou-se a linguagem Java 8 para desenvolvimento da API assim como de algumas de suas especificações e frameworks.
 
-	Para consumo da ontologia criada, utilizou-se da ferramenta Protégé para realizar a exportação da ontologia. A exportação é realizada pela execução dos axiomas da ontologia, assim, a ferramenta Protégé infere através um motor de inferência novas triplas para a ontologia. Desta forma, permitiu-se a API consumir a ontologia sem a necessidade de utilização de um motor de inferência. Foi utilizado o motor de inferência FaCT++ 1.6.5 para geração das inferências realizadas na ontologia. A Figura 18 demonstra a exportação da ontologia realizada na ferramenta Protégé.
+	Para consumo da ontologia criada, utilizou-se da ferramenta Protégé para realizar a exportação da ontologia. A exportação é realizada pela execução dos axiomas da ontologia, assim, a ferramenta Protégé infere novas triplas para a ontologia através um motor de inferência. Desta forma, permitiu-se a API consumir a ontologia sem a necessidade de utilização de um motor de inferência. Foi utilizado o motor de inferência FaCT++ 1.6.5 para geração das inferências realizadas na ontologia. A Figura 18 demonstra a exportação da ontologia realizada na ferramenta Protégé.
 
 	 FiguraAxiomInferedProtege
 
