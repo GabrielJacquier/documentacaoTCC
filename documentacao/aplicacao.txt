@@ -134,5 +134,16 @@ A Tabela 6 apresenta uma query que realiza a busca de uma CNAE informando o prod
 
 FiguraSparqlCnaePorProdutoServico2
 
+API REST
+
+	A criação da API REST teve como objetivo disponibilizar as informações armazenadas na ontologia para integração com sistemas terceiros. Utilizou-se a linguagem Java 8 para desenvolvimento da API assim como algumas de suas especificações e frameworks.
+
+	Para consumir a ontologia criada, utilizou-se a opção no Protégé para exportação da ontologia gerada pela execução de seus axiomas. Assim, a ferramenta Protégé utiliza um motor de inferência com o objetivo de inferir novas triplas para a ontologia, baseando-se nos axiomas então especificados. Desta forma, permitiu-se a API consumir a ontologia sem a necessidade de utilização de um motor de inferência. Foi utilizado o motor de inferência FaCT++ 1.6.5 para geração das inferências realizadas na ontologia. A Figura 18 demonstra a exportação da ontologia realizada na ferramenta Protégé.
+
+	 FiguraAxiomInferedProtege
+
+	Para a criação dos endpoints da API procurou-se atender aos requisitos definidos no escopo da aplicação. Entre os endpoints foi desenvolvido um onde permiti-se enviar uma descrição em texto livre de uma atividade, assim o endpoint recebe a descrição e procura atividades que permitam a realização do conjunto de termos extraídos. A Tabela 6 apresenta a resposta fornecida pelo endpoint passando-se como parâmetro o literal “confecção de shorts”
+
+	TabelaJsonEndpointDescricao
 
 
