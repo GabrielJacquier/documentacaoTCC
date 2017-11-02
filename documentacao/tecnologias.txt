@@ -1,13 +1,13 @@
-﻿	Neste capítulo serão abordadas as tecnologias utilizadas no desenvolvimento do projeto. As tecnologias escolhidas englobam tecnologias com enfoque na: construção de ontologias de aplicação; criação de uma API REST; visualização gráfica de ontologias; manipulação de recursos de ontologias por aplicações. As seções a seguir detalham as características e justificativas de cada tecnologia escolhida.
+﻿	Neste capítulo serão abordadas as tecnologias utilizadas no desenvolvimento do projeto. As tecnologias escolhidas englobam: construção de ontologias de aplicação; criação de uma API REST; visualização gráfica de ontologias; manipulação de recursos de ontologias por aplicações. As seções a seguir detalham as características de cada tecnologia escolhida.
 
 
 4.1	Protégé
 
 
-A plataforma Protégé, é um ambiente para desenvolvimento de ontologias. Possui um conjunto de ferramentas para auxiliar na construção de modelos de domínio e aplicações baseadas em conhecimento.
+A plataforma Protégé é um ambiente para desenvolvimento de ontologias, pssuindo um conjunto de ferramentas para auxiliar na construção de modelos de domínio e aplicações baseadas em conhecimento.
 	Conforme Gennari et al. (2003) o desenvolvimento da ferramenta iniciou-se com Mark Musen em 1987, tendo no inicio seu escopo destinado a construção de ferramentas de programas de planejamento médico para terapias. Ao longo dos anos, o desenvolvimento da ferramenta teve seu escopo ampliado, tornando possível gerar modelos de conhecimento para propósitos gerais. 
-	Conforme M. A. (2015) o Protégé tornou-se atualmente a plataforma mais utilizada pela comunidade de desenvolvimento de ontologias. Os projetos veem mostrando amadurecimento, através da utilização por projetos governamentais importantes como National Cancer Institute Thesaurus e World Health Organization’s International Classification. O projeto também possui alguns números de utilização da plataforma, já registrando 250 mil usuários e 500 empresas.
-	A plataforma atualmente é open source, assim sendo, é mantida pela Universidade de Stanford e por uma comunidade ativa, que contribui com testes, documentação, sugestões de melhorias e com o desenvolvimento de plugins.
+	Conforme M. A. (2015) o Protégé tornou-se atualmente a plataforma mais utilizada pela comunidade de desenvolvimento de ontologias. Os projetos vêm mostrando amadurecimento, através da utilização em projetos governamentais importantes como National Cancer Institute Thesaurus e World Health Organization’s International Classification. O projeto também possui alguns números de utilização da plataforma, registrando 250 mil usuários e 500 empresas.
+	A plataforma atualmente é open source, assim sendo, é mantida pela Universidade de Stanford e por uma comunidade ativa, que contribui com testes, documentação, sugestões de melhorias e com o desenvolvimento de novos plugins.
 	Outras plataformas para desenvolvimento de ontologias foram encontradas tal como Ontolingua, OntoEdit, Hozo e OilEd. O Protégé se destaca das demais plataformas, pela análise de algumas características: 
 
 •	arquitetura flexível, é possível adicionar novas funcionalidades através da extensão por plugins;
@@ -25,11 +25,11 @@ FiguraAmbienteProtege
 
 VOWL
 
-	Segundo Steffen Lohmann, Stefan Negru, Florian Haag, & Thomas Ertl. (2016) a VOWL (Visual Notation for OWL Ontologies) é uma especificação de linguagem visual utilizada para representação orientada a usuários de ontologias. Esta linguagem define uma representação visual de muitos elementos da linguagem OWL, de forma a permitir a visualização gráfica de um grafo direcionado, representando a estrutura da ontologia.
+	Segundo Steffen Lohmann, Stefan Negru, Florian Haag, & Thomas Ertl. (2016) a VOWL (Visual Notation for OWL Ontologies) é uma especificação de linguagem visual utilizada para representação orientada a usuários de ontologias. Esta linguagem define uma representação visual de elementos da linguagem OWL, de forma a permitir a visualização gráfica de um grafo direcionado representando a estrutura da ontologia.
 
-	Foram realizados testes com implementações dessa especificação, uma disponibilizada como um plugin do Protégé, e outra disponibilizada online. 
+	Foram realizados testes com implementações dessa especificação, uma disponibilizada como um plugin do Protégé e outra disponibilizada online. 
 
-	Além da VOWL foram encontradas outras ferramentas para visualização gráfica de ontologias como: a Navig OWL Protege, disponibilizado como plugin do Protégé; a SIMILE, ferramenta disponibilizada online; a Lodlive disponibilizada online, possuindo funcionalidades interessantes como a visualização de instâncias de ontologia e seus relacionamentos, porém, se encontra em fase de desenvolvimento, dificultando assim sua utilização.
+	Além da VOWL foram encontradas outras ferramentas para visualização gráfica de ontologias como: a Navig OWL Protege, disponibilizado como plugin do Protégé; a SIMILE, ferramenta disponibilizada online; a Lodlive disponibilizada online, possuindo funcionalidades interessantes como a visualização de instâncias de ontologia e seus relacionamentos, porém, se encontra em fase de desenvolvimento dificultando assim sua utilização.
 
 	Em comparação com as outras ferramentas a VOWL disponibilizada online foi analisada como a mais robusta, permitindo diversos tipos de filtros para visualização dos componentes da ontologia. Desta forma, a ferramenta permite a realização de análises na estrutura da ontologia, para entre outras finalidades, identificar problemas de modelagem e facilitar o entendimento de terceiros sobre o modelo criado. A Figura 7 apresenta a visualização de uma ontologia de exemplo utilizando-se da ferramenta.
 
@@ -41,8 +41,7 @@ SPARQL
 
 	A SPARQL (SPARQL Protocol and RDF Query Language) é composta por um conjunto de especificações, uma delas definida como uma linguagem para consulta a recursos RDF (Resource Description Framework). Foi criada pela W3C, dentro de um conjunto de especificações com a finalidade de contribuir para melhorias na arquitetura da web.
 	Sua utilização é de fácil entendimento, tendo suas clausulas básicas semelhanças com as da linguagem SQL, facilitando assim sua utilização. Além disso, por se tratar de uma especificação W3C é amplamente utilizada e recomendada pela comunidade de desenvolvimento.
-	Sua utilização pode ser divida em duas clausulas: a clausula ‘SELECT’ define as variáveis que se deseja buscar; a clausula ‘WHERE’ define os filtros, utilizando-se de triplas RDF. 
-	Uma tripla é composta por: sujeito, predicado e objeto, assim, pode-se utilizar de parâmetros em qualquer um dos elementos da tripla, de forma a obter somente os recursos RDF que correspondam corretamente a afirmação. A Tabela 1 apresenta um exemplo de utilização da linguagem.
+	Para entendimento da utilização, a estrutura da linguagem pode ser divida em duas clausulas: a clausula ‘SELECT’ define as variáveis que se deseja buscar; a clausula ‘WHERE’ define os filtros, utilizando-se de triplas RDF. Uma tripla é composta por: sujeito, predicado e objeto, assim, pode-se utilizar de parâmetros em qualquer um dos elementos da tripla, de forma a obter somente os recursos RDF que correspondam corretamente à afirmação. A Tabela 1 apresenta um exemplo de utilização da linguagem.
 
 
 FiguraSPARQL
@@ -50,11 +49,11 @@ FiguraSPARQL
 
 Apache Jena
 
-	Apache Jena é um framework Java para construção de Aplicações com enfoque na web semântica, isto é, fornece bibliotecas Java para auxiliar o desenvolvimento de aplicações que necessitem utilizar RDF, RDFS, OWL e SPARQL seguindo as recomendações da W3C. Além disso, fornece um mecanismo de inferência para trabalhar com ontologias e diferentes estratégias para armazenamento de triplas RDF.
+	Apache Jena é um framework Java para construção de aplicações com enfoque na web semântica, isto é, fornece bibliotecas na linguagem Java para auxiliar o desenvolvimento de aplicações que necessitem utilizar RDF, RDFS, OWL e SPARQL seguindo as recomendações da W3C. Além disso, fornece um mecanismo de inferência para trabalhar com ontologias e diferentes estratégias para armazenamento de triplas RDF.
 
 
 JAX-RS
 
-	A especificação JAX-RS define um conjunto de Java APIs para desenvolvimento de serviços web, construídos de acordo com a arquitetura Representational State Transfer (REST).
-A escolha dessa especificação foi tomada analisando a facilidade para criação de serviços web e a total compatibilidade com outras especificações da Java Enterprise Edition (Java EE). Assim se tratando de uma especificação Java torna-se fácil o acesso para documentação e tutorias. Sua utilização já é permitida por implementações contidas na maioria dos servidores de aplicação, tornando desnecessária a utilização de bibliotecas de terceiros.
+	A especificação JAX-RS define um conjunto de Java APIs para desenvolvimento de serviços web de acordo com a arquitetura Representational State Transfer (REST).
+A escolha dessa especificação foi tomada analisando a facilidade para criação de serviços web e a total compatibilidade com outras especificações da Java Enterprise Edition (Java EE). Assim, se tratando de uma especificação Java torna-se fácil o acesso para documentação e tutorias. Sua utilização já é permitida por implementações contidas na maioria dos servidores de aplicação, tornando desnecessária a utilização de bibliotecas de terceiros.
 	

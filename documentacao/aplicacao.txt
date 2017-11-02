@@ -25,7 +25,7 @@ A avaliação do reuso de outras ontologias é importante para a reutilização 
 
 6.3	Termos importantes
 
-	O levantamento dos termos é importante para o início da construção da ontologia. A definição dos termos, facilita a conceitualização do problema, orientando o desenvolvedor nas decisões de design da solução para implementação da ontologia. Os termos levantados na área de domínio estudada nesse trabalho foram:
+	O levantamento dos termos é importante para o início da construção da ontologia. A definição dos termos, facilita a conceitualização do problema, orientando o desenvolvedor nas decisões de design e implementação da ontologia. Os termos levantados na área de domínio estudada nesse trabalho foram:
 
 •	Seção: conjunto da estrutura da CNAE abrange todos os outros subconjuntos recorrentes.
 
@@ -96,11 +96,11 @@ Instâncias
 
 Amostra
 
-Para criação das instâncias, utilizou-se uma amostra das CNAEs permitidas para MEI. Esta decisão foi tomada pelo motivo do tempo necessário, para realizar a modelagem de todas CNAEs existentes no escopo do trabalho. 
+Para criação das instâncias, utilizou-se uma amostra dos códigos da CNAE permitidos para MEIs. Esta decisão foi tomada pelo motivo do tempo necessário para realizar a modelagem dos códigos da CNAE existentes no escopo do trabalho.
 
-No processo de seleção das CNAEs, não foram utilizados métodos estatísticos. Preferiu-se para efeito de enriquecimento dos testes, a escolha selecionada das CNAEs. Também se deu importância para a diversidade da amostra, desse modo, permitiu-se aos testes maior credibilidade, com relação à generalidade da ontologia.
+No processo de seleção dos códigos da CNAE, não foram utilizados métodos estatísticos. Preferiu-se para efeito de enriquecimento dos testes, a escolha selecionada dos códigos. Também se deu importância para a diversidade da amostra, desse modo, permitiu-se aos testes maior credibilidade com relação à generalidade da ontologia.
 
-Foi contabilizado aproximadamente 500 CNAEs como permitidas para MEI, decidiu-se utilizar uma amostra de aproximadamente 4%, totalizando 20 CNAEs. Para assegurar a diversidade proposta, foram escolhidas CNAEs de diferentes seções. A tabela 3 apresenta as seções de maior representatividade.
+Foram contabilizados aproximadamente 500 códigos da CNAE como permitidos para MEI, decidiu-se utilizar uma amostra de aproximadamente 4%, totalizando 20 códigos. Para assegurar a diversidade proposta, foram escolhidas códigos de diferentes seções. A tabela 3 apresenta as seções de maior representatividade.
 
 FiguraAmostraSecaoEscolhida1
 
@@ -111,11 +111,11 @@ FiguraAmostraCnaesEscolhida1
 
 Instâncias
 
-A criação das instâncias da base de conhecimento se faz utilizando-se as classes e propriedades implementadas. A Figura 16 apresenta parte das instâncias criadas utilizando-se a ferramenta Protégé.
+A criação das instâncias da base de conhecimento se fez utilizando-se as classes e propriedades implementadas. A Figura 16 apresenta parte das instâncias criadas utilizando-se a ferramenta Protégé.
 
 FiguraIndividuos1
 
-Para melhorar o suporte na busca por indivíduos na base, utilizou-se o recurso da linguagem OWL para se vincular dois indivíduos como equivalentes, de modo que qualquer restrição verdadeira sobre um, torna-se verdadeira para o outro. A Figura 17 apresenta esse recurso sendo utilizado sobre o indivíduo “lojista” para o indivíduo “comerciante”  na ferramenta Protégé.
+Para melhorar o suporte na busca por indivíduos na base, utilizou-se o recurso da linguagem OWL para se vincular dois indivíduos como equivalentes, de modo que qualquer restrição verdadeira sobre um, torna-se verdadeira para o outro. A Figura 17 apresenta esse recurso sendo utilizado sobre o indivíduo “lojista” com o indivíduo “comerciante”  na ferramenta Protégé.
 
 FiguraIndividuosSameAs1
 
@@ -138,10 +138,11 @@ API REST
 
 	A criação da API REST teve como objetivo disponibilizar as informações armazenadas na ontologia para integração com sistemas terceiros. Utilizou-se a linguagem Java 8 para desenvolvimento da API assim como de algumas de suas especificações e frameworks.
 
-	Para consumo da ontologia criada, utilizou-se da ferramenta Protégé para realizar a exportação da ontologia. A exportação é realizada pela execução dos axiomas da ontologia, assim, a ferramenta Protégé infere novas triplas para a ontologia através um motor de inferência. Desta forma, permitiu-se a API consumir a ontologia sem a necessidade de utilização de um motor de inferência. Foi utilizado o motor de inferência FaCT++ 1.6.5 para geração das inferências realizadas na ontologia. A Figura 18 demonstra a exportação da ontologia realizada na ferramenta Protégé.
+	Para consumo da ontologia criada, utilizou-se da ferramenta Protégé para realizar a exportação da ontologia. A exportação é realizada pela execução dos axiomas da ontologia, assim, a ferramenta Protégé infere novas triplas para a ontologia através um motor de inferência. Desta forma, permitiu-se a API consumir a ontologia sem a necessidade de realizar inferências para cada processamento sobre a ontologia. Foi utilizado o motor de inferência FaCT++ 1.6.5 para geração das inferências realizadas. A Figura 18 demonstra a exportação realizada na ferramenta Protégé.
 
 	 FiguraAxiomInferedProtege
 
-	Para a criação dos endpoints da API procurou-se atender aos requisitos definidos no escopo da aplicação. Dentre os endpoints desenvolvidos na API, encontra-se um onde permiti-se o envio uma descrição de atividade em texto livre e obtem-se como retorno as atividades relacionadas a descrição. Para realizar este processo o endpoint recebe a descrição e procura atividades que permitam a realização do conjunto de termos extraídos da descrição, utilizando-se da estrutura da ontologia para obter maior semântica para as respostas. Um exemplo é a inferência realizada para termos específicos não encontrados na descrição da atividade e que são permitidos pela atividade. Como exemplo a Tabela 6 apresenta a resposta fornecida pelo endpoint. Forneceu-se como parâmetro o literal “confecção de shorts”, que contém o termo “shorts” este não encontrado na descrição da atividade, porém, correspondente ao requisito “artigos de vestuário”.
+	Para a criação dos endpoints da API procurou-se atender aos requisitos definidos no escopo da aplicação. Dentre os endpoints desenvolvidos na API, encontra-se um onde se permite o envio de uma descrição de atividade em texto livre e obtém-se como retorno as atividades relacionadas a descrição. Para realizar este processo o endpoint recebe a descrição e procura atividades que permitam a realização do conjunto de termos extraídos da descrição, utilizando-se da estrutura da ontologia para obter maior semântica para as respostas. Um exemplo disso é observado na inferência de termos não encontrados na descrição da atividade e que são específicos para termos permitidos da atividade. Como exemplo a Tabela 6 apresenta a resposta fornecida pelo endpoint, forneceu-se como parâmetro o literal “confecção de shorts”, que contém o termo “shorts”, não encontrado na descrição da atividade, porém, específico para a condição “artigos do vestuário”.
+
 
 	TabelaJsonEndpointDescricao
