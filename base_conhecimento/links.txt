@@ -37,6 +37,21 @@ Link sobre o latex, para aprender
 https://github.com/abntex/abntex2/wiki/PorOndeComecar
 
 
+LIVRO ESSENCIAL muito muito bom para um overview sobre ontologia voltada para organização do conhecimento
+http://ceweb.br/livros/dados-abertos-conectados/
+
+Site do governo disponibilizando dados seguindo o conceito de dados abertos
+http://dados.gov.br/
+
+Formato JSON com foco em linked-data
+https://json-ld.org/
+
+Maior base de linked data para corporações do mundo(dados conectados )
+https://opencorporates.com/
+
+Link para HTML gerado pelo RDFa, que permite a geração de vários formatos a partir dele adicionando-os metatags
+http://5stardata.info/en/examples/gtd-4/
+
 Links:
 
 http://www.ibge.gov.br/home/estatistica/populacao/acessoainternet/default.shtm#
