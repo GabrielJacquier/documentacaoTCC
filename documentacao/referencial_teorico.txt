@@ -15,7 +15,7 @@ Ontologias
 
 
 
-	Atualmente as ontologias vêm sendo utilizadas em diversos ambientes e contextos, a disseminação das ontologias está amparada a sua grande possibilidade de prover o compartilhamento e entendimento comum de áreas de domínio de conhecimento que possa ser comunicado entre pessoas e computadores. Está definição será amparada ao decorrer deste capítulo, expondo a palavra de autores com grande base bibliográfica no assunto “Ontologias” e a visão alcançada pela busca de um significado que melhor seja aplicado a concepção e criação da ontologia deste trabalho, há qual será aplicada na área de domínio da Classificação Nacional de Atividades Econômicas (CNAE) no ambito do Microempreendedor Individual (MEI).
+	Atualmente as ontologias veem sendo utilizadas em diversos ambientes e contextos, a disseminação das ontologias está amparada a sua grande possibilidade de prover o compartilhamento e entendimento comum de áreas de domínio de conhecimento que possa ser comunicado entre pessoas e computadores. Está definição será amparada ao decorrer deste capítulo, expondo a palavra de autores com grande base bibliográfica no assunto “Ontologias” e a visão alcançada pela busca de um significado que melhor seja aplicado à concepção da ontologia desse trabalho. A ontologia criada será aplicada na área de domínio da Classificação Nacional de Atividades Econômicas (CNAE) no âmbito do Microempreendedor Individual (MEI).
 
 
 
@@ -74,25 +74,14 @@ humanos, possibilita compartilhar conhecimento sobre um domínio, isto é, compa
 
 interpretações em relação ao termo ‘ontologia’, a partir disto, expõe-se diferentes abordagens sobre o tema e as que mais se aproximam desta pesquisa:
 
-
-
 1. Ontologia como o vocabulário utilizado por uma teoria lógica. 
-
 2. Ontologia como um sistema conceitual informal. 
-
-3. Ontologia como uma descrição semântica formal. 
-
-4. Ontologia como uma especificação de uma “conceituação.” 
-
-5. Ontologia como uma representação de um sistema conceitual através de uma teoria lógica. 
-
-5.1 caracterizada por propriedades formais específicas;
-
-5.2 caracterizada apenas por propósitos específicos.
-
+3. Ontologia como uma descrição semântica formal.
+4. Ontologia como uma especificação de uma “conceituação.”.
+5. Ontologia como uma representação de um sistema conceitual através de uma teoria lógica.
+a. Caracterizada por propriedades formais específicas.
+b. Caracterizada apenas por propósitos específicos.
 6. Ontologia como uma (meta-nível) especificação de uma teoria lógica.
-
-
 
 
 
@@ -291,7 +280,7 @@ uma declaração sem ambigüidade;
 
 	Diferentes linguagens ontológicas são comparadas em quanto às suas capacidades de representação do conhecimento e inferência. O domínio de conhecimento é formado pelos componentes ontológicos citados anteriormente. Por fim, o processo de raciocínio proporcionado por uma ontologia é executado sobre o seu domínio de conhecimento. São exemplos de linguagens ontológicas: OCML, OWL, LOOM, F-Logic e OIL.
 
-....... o consorcio W3C em seu documento “OWL Web Ontology Language Guide” elaborado por “ Web Ontology Working Group as part of the W3C Semantic Web Activity (Activity Statement, Group Charter)”, define que : 
+	O consorcio W3C em seu documento “OWL Web Ontology Language Guide” elaborado por “ Web Ontology Working Group as part of the W3C Semantic Web Activity (Activity Statement, Group Charter)”, define que : 
   
 “O OWL  (Web Ontology Language) destina-se a fornecer uma linguagem que possa ser usada para descrever as classes e as relações entre elas inerentes aos documentos e aplicações  Web” W3C (2004) – Tradução Livre.
 
@@ -303,18 +292,9 @@ De acordo com Breittman (2005)  a linguagem ontológica OWL foi desenvolvida par
 Figura 06.
 
 
-
-
-
-
-
-
-
-
- 
-
-
 Conclusões
+
+Para se trabalhar com ontologias necessita-se a atribuição de uma forma de representá-las, de modo que apresente um grau de formalismo e que seja compreensível por meio de uma linguagem. 
 
 
 
