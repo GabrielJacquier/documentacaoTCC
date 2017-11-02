@@ -174,15 +174,15 @@ RDFS
 
 	Conforme Isotani e Bittencourt (2015) o RDFS (Resource Description Framework Schema) é uma extensão da linguagem RDF que possibilita a descrição semântica dos recursos presentes na web. Assim, a RDFS permite a definição de conjuntos de recursos e suas propriedades (definidas como classes) organizando-os em taxonomias.
 
-	Segundo a W3C (2014) o sistema para definição das propriedades e classes é similar ao classicamente encontrado no paradigma orientado a objeto com apenas algumas diferenças. Uma diferença é encontrada na definição da propriedades, onde, na orientação a objeto é descrito em uma classe quais são as propriedades de uma instância, enquanto na linguagem RDFS é descrito o dominio e range de uma propriedade individualmente. Desta forma, torna-se desnecessário redefinir a estrutura de uma classe em caso de adição ou remoção de propriedades.
+	Segundo a W3C (2014) o sistema para definição das propriedades e classes é similar ao classicamente encontrado no paradigma orientado a objeto com apenas algumas diferenças. Uma diferença encontrada é a definição da propriedades, onde, na orientação a objeto é descrito em uma classe quais são as propriedades de uma instância, enquanto na linguagem RDFS é descrito o Dominio e Range de uma propriedade individualmente. Desta forma, torna-se desnecessário redefinir a estrutura de uma classe em caso de adição ou remoção de propriedades.
 
-	Para possibilitar a relação semântica dos recursos, a RDFS introduziu novas estruturas de definição, sendo elas e suas relações demonstradas na Figura 06.
+	Para possibilitar a relação semântica dos recursos, a RDFS introduziu novas estruturas de definição, sendo algumas delas e suas relações demonstradas na Figura 06.
 
 Figura 06
 Fonte: Livro do sotani e Bittencourt (2015)
 
 
-	É observado na figura as ligações entre os recursos presentes na RDFS, assim como a divisão dos recursos por cores mais escuras e claras. Os recursos idêntificados como mais claros são propriedades e os mais escuros como classes. Segundo a W3C (2014) conceitos de classes e propriedades podem ser definidos como:
+	É observado na figura as ligações entre os recursos presentes na RDFS, assim como a divisão dos recursos por cores mais claras e escuras. Os recursos idêntificados como mais claros são propriedades e os mais escuros como classes. Segundo a W3C (2014) conceitos de classes e propriedades podem ser definidos como:
 
 Classe: um grupo de recursos, os recursos encontrados neste grupo são definidos como instâncias da classe.
 
