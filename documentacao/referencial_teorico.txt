@@ -62,7 +62,7 @@ Tipos de ontologia
 	Com o decorrer do estudo na área de conhecimento das ontologias Guarino (1998) propõe que a construção das ontologias tenham base em seu nível de generalidade, sendo que, os conceitos de uma ontologia de domínio ou de tarefa sejam especializações de termos de outra ontologia. Percebe-se que por meio de uma necessidade iniciou-se o processo de separação das ontologias em tipos, sendo que, as mesmas se organizam conforme podemos observar na  Figura 02.
 
 
-Figura 01
+Figura 02
 
 
 
@@ -81,7 +81,7 @@ Figura 01
 Com a função de efetuar uma classificação de acordo com o nível de expressividade, Lassila e MacGuinnes (2003) elucidam um esquema ao qual intitulam de (“Espectro Ontologico”) que abrange instrumentos de baixo nível de expressividade semântica até instrumentos que possam possibilitar a definição de relações consideradas mais complexas, conforme pode-se observar na Figura 03.
 
 
-Figura 032
+Figura 03
 
 
 Conforme podemos observar temos diferentes níveis nesta classificação, a qual podemos detalhar:	
@@ -131,39 +131,62 @@ relacionamentos inversos e relacionamentos do tipo parte-todo.
 
 	Partindo disto Daconta, Obrst e Smith (2003) entende que “Espectro Ontológico”	 é a apresentação de conceitos relacionados a questões de representação, classificação e especificação semântica. De acordo com os autores, o termo “ontologia” pode assumir diferentes modelos e tipos, como por exemplo: uma simples taxonomia para um modelo mais lógico mais complexo ou ainda um tesauro ou um modelo de lógica descritiva, conforme podemos observar na Figura 04, a qual temos a passagem da semântica mais fraca para a semântica mais forte.
 
-Figura 03.
+Figura 04.
 
 
 Linguagens
 
-	Para se trabalhar com ontologias necessita-se a atribuição de uma forma de representá-las, de modo que estas apresentem um grau de formalismo que seja compreensível por humanos e agentes de software.
+	A introdução de linguagens para construção de ontologias assim como sua variedade é compreensível pelas diferentes necessidades semânticas requeridas por ontologias. Deste modo, as linguagens para representação de ontologias visam possibilitar a utilização adequada da informação para humanos e agentes de software.
 
- 	Diante da diferença entre os tipos de ontologias e seu nível de expressividade, necessita-se de diferentes linguagens para se adaptar e suprir as necessidades exigidas. Nas próximas subseções seram apresentadas as linguagens essenciais para a construção da ontologia proposta nesse trabalho.
+	As principais linguagens para construção de ontologias como a RDF (Resource Description Framework), RDFS (Resource Description Framework Schema) e OWL (Ontology Web Language) têm sua origem e desenvolvimento ligados a expansão da web e ao aumento da necessidade de disponibilização de seus recursos de forma semântica. Nas próximas subseções seram apresentadas essas linguagens que compreendem as utilizadas para construção da ontologia proposta nesse trabalho.
+
 
 	RDF
 
+	Segundo Isotani e Bittencourt (2015) a RDF (Resource Description Framework) é uma linguagem de propósito geral para representação de recursos na Web, permitindo assim que recursos sejam descritos formalmente e acessíveis por maquinas. A prmeira versão da linguagem 1.0 foi proposta em 2004 e atualmente a linguagem se encontra na versão 1.1 proposta em 2011.
 
-	O RDF (Resource Description Framework) é uma linguagem de propósito
-geral para representação de recursos na Web, baseada em semântica, para a escrita de ontologias. RDF tem como bloco básico a tripla objeto-atributo-valor, ou seja, um objeto O tem um atributo A cujo valor é V, constitui-se em uma arquitetura genérica de metadados que permite representar informações sobre recursos na World Wide Web (WWW ou
-Web), tais como título(objeto), autor(atributo) e data de atualização de uma página(valor),conforme podemos observar na figura 05.
+	Para a descrição dos recursos a RDF tem como bloco básico a tripla “sujeito predicado objeto”, ou seja, um sujeito O tem um predicado A cujo o objeto é V. Constitui-se assim, uma arquitetura genérica de metadados que permite representar relações entre os recursos na World Wide Web (WWW ou Web), esta estrutura em forma de tripla é chamada de Grafo RDF. Um exemplo de Grafo RDF pode ser dado pela relação dos recursos “As Crônicas de Gelo e Fogo” (objeto), “temAutor” (predicado), “George R. R. Martin” (objeto), conforme podemos observar na Figura 05.
 
 Figura 05
 
-	Segundo os autores Asuncion Gómes-Perez et al. (2004), a linguagem RDF é basicamente constituída por três componentes:
+	Asuncion Gómes-Perez et al. (2004) reforça a definição da composição da tripla RDF como:
 
-1. Sujeito: São dados ou coisas das quais queremos falar sobre. São  concebidos por URI (“Uniform Resource Identifier”) ou URL (“Unified Resource Locator”);  
-2. Predicado: São definidos por atributos ou relacionamentos usados para descrever os Recursos;
-3. Predicado: é compreendido por valores de uma Propriedade em um determinado recurso, possível contextualiza com frases em Português/Brasil onde temos a composição por Sujeito, Verbo e Objeto.
+1. Sujeito: são recursos que queremos identificar, sendo concebidos por URI (“Uniform Resource Identifier”) ou URL (“Unified Resource Locator”).
 
-Enquanto uma linguagem natural, como o português, é adequada para a comunicação intrinsicamente humana, RDF é adequado para expressar descrições (declarações) a respeito de recursos, de forma a se tornar um facilitador para o processamento automatizado por máquinas. Segundo Manola e Miller (2004), este processamento automatizado necessita de:
+2. Predicado: São recursos nomeados, podem ser definidos por atributos ou relacionamentos usados para descrever a relação entre os recursos.
 
-• Um sistema automatizado que consiga identificar o sujeito, o predicado e/ou o objeto em
-uma declaração sem ambigüidade;
+3. Objeto: O objeto pode ser um recurso identificado por uma URI ou URL, um literal (uma descrição textual, um carater representando um número, etc) ou pode não existir representando assim o desconhecimento do dado.
 
-• Uma linguagem para representar estas descrições que facilite o intercâmbio de informa-
-ções entre máquinas.
+	Desta forma, do modo em que uma linguagem natural como o português, é adequada para a comunicação humana, RDF é adequado para expressar descrições (declarações) a respeito de recursos, de forma a se tornar um facilitador para o processamento automatizado por máquinas. Segundo Manola e Miller (2004), este processamento automatizado necessita de:
+
+• Um sistema automatizado que consiga identificar o sujeito, o predicado e/ou o objeto em uma declaração sem ambigüidade;
+
+• Uma linguagem para representar estas descrições que facilite o intercâmbio de informações entre máquinas.
+
+	No intuito do processamento por maquinas e a disponibilização em diferentes formatos para o entendimento humano da informação, a RDF possibilita diferentes formas de ser visualizada ou serializada. Isto possibilita maior compatibilidade com os mais diversos formatos de dados existentes. Isotani e Bittencourt (2015) afirmam que essa caracteristica é uma das grandes diferenças encontradas na transição da versão 1.0 para a 1.1 da linguagem, a Figura 05.5 apresenta a diferença dos formatos possíveis de serialização entre as duas versões.
+
+Figura 05.5
+
+	Percebemos assim que a linguagem RDF possui a estrutura básica para se atingir o objetivo da disponibilização dos dados na web. Tornando assim acessível o processamento por máquinas e o entendimento das informações por humanos.
 
 
+RDFS
+
+	Conforme Isotani e Bittencourt (2015) o RDFS (Resource Description Framework Schema) é uma extensão da linguagem RDF que possibilita a descrição semântica dos recursos presentes na web. Assim, a RDFS permite a definição de conjuntos de recursos e suas propriedades (definidas como classes) organizando-os em taxonomias.
+
+	Segundo a W3C (2014) o sistema para definição das propriedades e classes é similar ao classicamente encontrado no paradigma orientado a objeto com apenas algumas diferenças. Uma diferença é encontrada na definição da propriedades, onde, na orientação a objeto é descrito em uma classe quais são as propriedades de uma instância, enquanto na linguagem RDFS é descrito o dominio e range de uma propriedade individualmente. Desta forma, torna-se desnecessário redefinir a estrutura de uma classe em caso de adição ou remoção de propriedades.
+
+	Para possibilitar a relação semântica dos recursos, a RDFS introduziu novas estruturas de definição, sendo elas e suas relações demonstradas na Figura 06.
+
+Figura 06
+Fonte: Livro do sotani e Bittencourt (2015)
+
+
+	É observado na figura as ligações entre os recursos presentes na RDFS, assim como a divisão dos recursos por cores mais escuras e claras. Os recursos idêntificados como mais claros são propriedades e os mais escuros como classes. Segundo a W3C (2014) conceitos de classes e propriedades podem ser definidos como:
+
+Classe: um grupo de recursos, os recursos encontrados neste grupo são definidos como instâncias da classe.
+
+Propriedade: a relação entre recursos de sujeitos para com recursos de objetos.
 
 	OWL
 
@@ -175,7 +198,7 @@ uma declaração sem ambigüidade;
 
 De acordo com Breittman (2005)  a linguagem ontológica OWL foi desenvolvida para suprir diversas necessidades e requisitos colhidos em diversas fontes, sendo Tim Berners Lee e Robert Cailau os idealizadores por proporcionar a crescente e constante demanda.  
 
-	A linguagem ontológica OWL isoladamente, não possibilita a utilização ou desenvolvimento de uma ontologia, para tanto Berners Lee idealizou o chamado “bolo de noiva”, integrando assim a Rede semântica, a qual as ontologias e todas as suas tecnologias dependentes tem grande importância. Esta estrutura é constituída conforme a figura 05.
+	A linguagem ontológica OWL isoladamente, não possibilita a utilização ou desenvolvimento de uma ontologia, para tanto Berners Lee idealizou o chamado “bolo de noiva”, integrando assim a Rede semântica, a qual as ontologias e todas as suas tecnologias dependentes tem grande importância. Esta estrutura é constituída conforme a figura 06.
 
 
 Figura 06.

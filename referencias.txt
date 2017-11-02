@@ -21,6 +21,7 @@ Bridging the semantic Web and Web 2.0 with Representational State Transfer (REST
 
 Steffen Lohmann, Stefan Negru, Florian Haag, & Thomas Ertl. (2016). Visualizing ontologies with VOWL. Semantic Web, 7(4), 399–419.
 
+https://www.w3.org/TR/rdf-schema/#ch_introduction
 
 
 
