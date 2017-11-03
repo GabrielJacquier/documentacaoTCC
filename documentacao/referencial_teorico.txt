@@ -199,9 +199,9 @@ Propriedade: a relação entre recursos de sujeitos para com recursos de objetos
 
 	OWL
 
-	A linguagem OWL (Web Ontology Language) foi criada pelo Ontology Working Group da W3C no intuito de possibilitar definições mais expressivas para a criação de ontologias. Segundo Antoniou. G. e Harmelen. V. F. (2004) a linguagem RDFS permite a divisão de recursos na web em taxonomias, o que é considerado interessante do ponto de vista da semântica, porém, em muitos casos foi observada a necessidade de mais expressividade, fazendo com que a linguagem RDFS se mostra-se limitada para tal. Com isso foi gerada a necessidade da criação de uma linguagem ontológica mais expressiva.
+	A linguagem OWL (Web Ontology Language) foi criada pelo Ontology Working Group instituído pela W3C no intuito de possibilitar definições mais expressivas para a criação de ontologias. Segundo Antoniou. G. e Harmelen. V. F. (2004) a linguagem RDFS permite a divisão de recursos na web em taxonomias, o que é considerado interessante do ponto de vista da semântica, porém, em muitos casos foi observada a necessidade de mais expressividade, fazendo com que a linguagem RDFS se mostra-se limitada para tal. Com isso foi gerada a necessidade da criação de uma linguagem ontológica mais expressiva.
 
-	Desta forma, conferme a W3C (2004) a construção da OWL foi realizada sobre a revisão do projeto  DAML+OIL web language e utilizou-se das linguagens RDF e RDFS como base, herdando assim uma sintaxe bem definida e estruturas semânticas que permitissem a criação de taxônomias entre os recursos e propriedades. Com isso, além das estruturas herdadas foram obtidas novas estruturas semânticas. Algumas dessas são comentadas por Antoniou. G. e Harmelen. V. F. (2004) sendo elas:
+	Desta forma, conforme a W3C (2004) a construção da OWL foi realizada sobre a revisão do projeto  DAML+OIL web language e utilizou-se das linguagens RDF e RDFS como base, herdando assim uma sintaxe bem definida assim como estruturas semânticas que permitissem a criação de taxônomias entre os recursos e propriedades. Com isso, além das estruturas herdadas foram obtidos novos recursos na linguagem a fim de possibilitar maior expressividade em suas definições. Alguns desses recursos são comentadas por Antoniou. G. e Harmelen. V. F. (2004) sendo eles:
 
 	
 	1. Escopo local de propriedades: permite a restrição de uma relação com somente algumas classes, até então não possibilitada pelas linguagens RDF e RDFS. Um exemplo é a definição da tripla “vaca” “come” “somente planta”, esta definição para a linguagem RDFS não seria possível, logo que outros animais podem comer carne também.
@@ -215,11 +215,17 @@ Propriedade: a relação entre recursos de sujeitos para com recursos de objetos
 	5. Características especiais de propriedades: pode ser útil definir propriedades como transitivas, únicas ou inversas a outras propriedades.
 
 
-	O conjunto de todas essas caracteristicas para a linguagem, trouxe a necessidade de sua divisão em sublinguagens: a OWL Lite, OWL DL e a OWL Full. Cada uma dessas sublinguagens com aspectos diferentes referente ao seu grau de formalismo e conjunto de restrições. A Figura 7 ilustra a divisão tida na linguagem.
+	O conjunto de todas essas caracteristicas para a linguagem, trouxe a necessidade de sua divisão em sublinguagens: a OWL Lite, OWL DL e a OWL Full. Cada uma dessas sublinguagens possuindo aspectos diferentes referentes ao seus graus de formalismo e conjuntos de restrições. A Figura 7 ilustra a divisão tida na linguagem.
 
 Figura 07
 
+	Desta forma a W3C (2004) define cada uma das sublinguagens da OWL como:
 
+	1. OWL lite: suporta classificação hierarquica e simples ligações entre os recursos. É utilizada como uma rápida abordagem para construção de tesauros ou outras taxonomias. Entre as sublinguagens é que possui a menor complexidade formal.
+
+	2. OWL DL: utilizada com o propósito de se ter a maxima expressão permitida retendo as competências computacionais, de forma a todas as conclusões serem possíveis de processamento computacional. Suporta todas as construções existentes na linguagem OWL, porém pode ser utilizada somente sob certas restrições. Essa sublinguagem corresponde ao campo de pesquisa da lógica de descrição que formam a fundação formal da OWL.
+
+	3. OWL Full: A utilização desta sublinguagem é escolhida para aplicações onde se procura obter a máxima expressividade e o livre uso sintático da linguagem, porém com a restrição de não possuir garantias computacionais sobre isto. Um exemplo é uma classe que pode ser tratada simultaneamente como uma coleção de indivíduos e também como um indivíduo.
 
 
 Conclusões
