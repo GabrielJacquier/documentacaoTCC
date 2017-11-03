@@ -140,7 +140,7 @@ Linguagens
 
 	1. Uma sintaxe bem definida, onde está é tida em qualquer linguagem, mesmo as de programação, como requisito básico para tornar possível a interpretação por máquinas.
 
-	2. uma estrutura semântica formal bem definida, onde é precisamente definido o significado de um conhecimento, assim sendo, a semântica não trata de definições subjetivas nem permite diferentes definições por pessoas ou máquinas.
+	2. uma estrutura semântica formal bem definida, onde é precisamente definido o significado de um conhecimento, assim sendo, a semântica não trata de definições subjetivas nem permite diferentes interpretações por pessoas ou máquinas.
 
 	3. eficiente suporte para motores de inferência, permitem a automatização de definições através de regras estabelecidas, fazendo por exemplo a classificação de instâncias para classes assim como a verificação de consistência da base de conhecimento.
 
@@ -152,7 +152,7 @@ Linguagens
 
 	RDF
 
-	Segundo Isotani e Bittencourt (2015) a RDF (Resource Description Framework) é uma linguagem de propósito geral para representação de recursos na Web, permitindo assim que recursos sejam descritos formalmente e acessíveis por maquinas. A prmeira versão da linguagem 1.0 foi proposta em 2004 e atualmente a linguagem se encontra na versão 1.1 proposta em 2011.
+	Segundo Isotani e Bittencourt (2015) a RDF (Resource Description Framework) é uma linguagem de propósito geral para representação de recursos na web, permitindo assim que recursos sejam descritos formalmente e acessíveis por máquinas. A primeira versão da linguagem 1.0 foi proposta em 2004 e atualmente a linguagem se encontra na versão 1.1 proposta em 2011.
 
 	Para a descrição dos recursos a RDF tem como bloco básico a tripla “sujeito predicado objeto”, ou seja, um sujeito O tem um predicado A cujo o objeto é V. Constitui-se assim, uma arquitetura genérica de metadados que permite representar relações entre os recursos na World Wide Web (WWW ou Web), esta estrutura em forma de tripla é chamada de Grafo RDF. Um exemplo de Grafo RDF pode ser dado pela relação dos recursos “As Crônicas de Gelo e Fogo” (objeto), “temAutor” (predicado), “George R. R. Martin” (objeto), conforme podemos observar na Figura 05.
 
@@ -172,18 +172,18 @@ Figura 05
 
 • Uma linguagem para representar estas descrições que facilite o intercâmbio de informações entre máquinas.
 
-	No intuito do processamento por maquinas e a disponibilização em diferentes formatos para o entendimento humano da informação, a RDF possibilita diferentes formas de ser visualizada ou serializada. Isto possibilita maior compatibilidade com os mais diversos formatos de dados existentes. Isotani e Bittencourt (2015) afirmam que essa caracteristica é uma das grandes diferenças encontradas na transição da versão 1.0 para a 1.1 da linguagem, a Figura 05.5 apresenta a diferença dos formatos possíveis de serialização entre as duas versões.
+	No intuito de possibilitar o processamento por máquinas e a disponibilização em diferentes formatos para o entendimento humano da informação, a RDF possibilita diferentes formas de visualização e serialização Isto possibilita maior compatibilidade com os mais diversos formatos de dados existentes. Isotani e Bittencourt (2015) afirmam que essa caracteristica é uma das grandes diferenças encontradas na transição da versão 1.0 para a 1.1 da linguagem, a Figura 05.5 apresenta a diferença dos formatos possíveis de serialização entre as duas versões.
 
 Figura 05.5
 
-	Percebemos assim que a linguagem RDF possui a estrutura básica para se atingir o objetivo da disponibilização dos dados na web. Tornando assim acessível o processamento por máquinas e o entendimento das informações por humanos.
+	Percebemos assim que a linguagem RDF possui a estrutura básica para se atingir o objetivo da disponibilização dos dados na web. Tornando possível o processamento por máquinas e o entendimento das informações por humanos.
 
 
 RDFS
 
-	Conforme Isotani e Bittencourt (2015) o RDFS (Resource Description Framework Schema) é uma extensão da linguagem RDF que possibilita a descrição semântica dos recursos presentes na web. Assim, a RDFS permite a definição de conjuntos de recursos e suas propriedades (definidas como classes) organizando-os em taxonomias.
+	Conforme v o RDFS (Resource Description Framework Schema) é uma extensão da linguagem RDF que possibilita a descrição semântica dos recursos presentes na web. Assim, a RDFS permite a definição de conjuntos de recursos e suas propriedades (definidas como classes) organizando-os em taxonomias.
 
-	Segundo a W3C (2014) o sistema para definição das propriedades e classes é similar ao classicamente encontrado no paradigma orientado a objeto com apenas algumas diferenças. Uma diferença encontrada é a definição da propriedades, onde, na orientação a objeto é descrito em uma classe quais são as propriedades de uma instância, enquanto na linguagem RDFS é descrito o Dominio e Range de uma propriedade individualmente. Desta forma, torna-se desnecessário redefinir a estrutura de uma classe em caso de adição ou remoção de propriedades.
+	Segundo a W3C (2014) o sistema para definição das propriedades e classes é similar ao classicamente encontrado no paradigma orientado a objeto com apenas algumas exceções. Uma diferença encontrada entre os dois sistemas é a definição de propriedades, onde, na orientação a objeto é descrito em uma classe quais são as propriedades de um conjutno de instâncias, enquanto na linguagem RDFS é descrito o Dominio e Range de uma propriedade individualmente. Desta forma, torna-se desnecessário redefinir a estrutura de uma classe em caso de adição ou remoção de propriedades.
 
 	Para possibilitar a relação semântica dos recursos, a RDFS introduziu novas estruturas de definição, sendo algumas delas e suas relações demonstradas na Figura 06.
 
@@ -191,26 +191,46 @@ Figura 06
 Fonte: Livro do sotani e Bittencourt (2015)
 
 
-	É observado na figura as ligações entre os recursos presentes na RDFS, assim como a divisão dos recursos por cores mais claras e escuras. Os recursos idêntificados como mais claros são propriedades e os mais escuros como classes. Segundo a W3C (2014) conceitos de classes e propriedades podem ser definidos como:
+	É observado na figura as ligações entre os recursos presentes na RDFS, assim como a divisão dos recursos por cores mais claras e escuras. Os recursos idêntificados como mais claros são propriedades e os mais escuros como classes. Segundo a W3C (2014) a definição para alguns dos elementos demonstrados são:
 
-Classe: um grupo de recursos, os recursos encontrados neste grupo são definidos como instâncias da classe.
+	Class: um grupo de recursos, os recursos encontrados neste grupo são definidos como instâncias da classe.
 
-Propriedade: a relação entre recursos de sujeitos para com recursos de objetos.
+	Individual: indivíduos são instâncias de classes.
 
-	OWL
+	Property: pode ser utilizada para definir relações entre indivíduos ou entre um indivíduo e um literal (string, número, data).
 
-	A linguagem OWL (Web Ontology Language) foi criada pelo Ontology Working Group instituído pela W3C no intuito de possibilitar definições mais expressivas para a criação de ontologias. Segundo Antoniou. G. e Harmelen. V. F. (2004) a linguagem RDFS permite a divisão de recursos na web em taxonomias, o que é considerado interessante do ponto de vista da semântica, porém, em muitos casos foi observada a necessidade de mais expressividade, fazendo com que a linguagem RDFS se mostra-se limitada para tal. Com isso foi gerada a necessidade da criação de uma linguagem ontológica mais expressiva.
+	subClassOf: utilizada para afirmar que uma classe “Passaro” é sub classe de outra classe ”Animal”, permitindo assim a construção de taxonomias entre as classes. Dessa maneira permite-se computacionalmente inferir que um indivíduo dea classe ”Passaro” também é indivíduo da classe “Animal”.
 
-	Desta forma, conforme a W3C (2004) a construção da OWL foi realizada sobre a revisão do projeto  DAML+OIL web language e utilizou-se das linguagens RDF e RDFS como base, herdando assim uma sintaxe bem definida assim como estruturas semânticas que permitissem a criação de taxônomias entre os recursos e propriedades. Com isso, além das estruturas herdadas foram obtidos novos recursos na linguagem a fim de possibilitar maior expressividade em suas definições. Alguns desses recursos são comentadas por Antoniou. G. e Harmelen. V. F. (2004) sendo eles:
+	subPropertyOf: utilizada para afirmar que uma propriedade é filha de outra,  permitindo assim a construção de taxonomias entre as propriedades. Um exemplo pode ser dado para a propriedade “temIrmão” onde esta é uma sub propriedade de “temParente”.
+
+	domain: o domínio de uma propriedade limita para quais indivíduos uma propriedade pode ser aplicada. Uma aplicação pode ser realizada para a propriedade “éMãe” onde seu dominio seria definido como a classe “Mãe”. Desta forma, caso fosse aplicada a propriedade para o indivíduo “Maria”, seria inferido que “Maria” é uma instãncia da classe “Mãe”.
+
+	range: o range de uma propriedade limita quais indivíduos uma propriedade pode ter como seu valor. Um exemplo pode ser dado para uma propriedade “temIrmão” tendo seu range como a classe “Irmão”. Dessa forma para quaquer indivíduo que seja relacionado como objeto dessa propriedade será inferido que este é uma instãncia da classe “Irmão”.
+
+	
+
+	
+
+OWL
+
+	A linguagem OWL (Web Ontology Language) foi criada pelo Ontology Working Group instituído pela W3C no intuito de possibilitar definições mais expressivas para a criação de ontologias. Segundo Antoniou. G. e Harmelen. V. F. (2004) a linguagem RDFS permite a divisão de recursos na web em taxonomias, o que é considerado interessante do ponto de vista da semântica, porém, em muitos casos foi observada a necessidade de mais expressividade, fazendo com que a linguagem RDFS se mostra-se limitada. Com isso, gerou-se a necessidade da criação de uma linguagem ontológica mais expressiva.
+
+	Desta forma, e a linguagem se encontra na sua versão 2 e conforme a W3C (2004) a primeira versão da OWL foi realizada sobre a revisão do projeto  DAML+OIL web language e utilizou-se das linguagens RDF e RDFS como base, herdando assim uma sintaxe bem definida e estruturas semânticas, permitindo a criação de taxônomias entre os recursos e propriedades. A Figura 6.5 mostra a relação de herança de classes entre a linguagem OWL e a RDFS.
+
+Figura 6.5
+Fonte: Antoniou. G. e Harmelen. V. F. (2004)
+
+
+	Com isso, além das estruturas herdadas foram obtidos novos recursos na linguagem, a fim de possibilitar maior expressividade em suas definições. Alguns desses recursos são comentadas por Antoniou. G. e Harmelen. V. F. (2004) sendo eles:
 
 	
 	1. Escopo local de propriedades: permite a restrição de uma relação com somente algumas classes, até então não possibilitada pelas linguagens RDF e RDFS. Um exemplo é a definição da tripla “vaca” “come” “somente planta”, esta definição para a linguagem RDFS não seria possível, logo que outros animais podem comer carne também.
 
 	2. Classes disjuntas: pode ser necessária a definição de que uma instância de uma classe jamais será de outra. Um exemplo de definição é a de que uma instância da classe Homem jamais será uma instância da classe Mulher.
 
-	3. Classe de combinações boleanas: as vezes é desejavel definir uma classe a partir de um estado tido pelas instâncias, um exemplo pode ser dado na definição da classe Pessoa, que poderia ser definida quando uma instância não é nem uma instância da classse Homem quanto nem uma da classe Mulher.
+	3. Classe de combinações boleanas: as vezes é desejavel definir uma classe a partir de um estado tido pelas instâncias, um exemplo pode ser dado na definição da classe Pessoa, que poderia ser definida quando uma instância não é um recurso da classse Homem e nem um recurso da classe Mulher.
 
-	4. Restrições de cardinalidade: pode-se necessitar em alguns casos da definição de restrições de valores para as propriedades, por exemplo, poder definir que uma pessoa tem exatamente dois parentes.
+	4. Restrições de cardinalidade: pode-se necessitar em alguns casos da definição de restrições de valores para as propriedades, por exemplo, a possibilidade de  definir que uma pessoa tem exatamente dois parentes.
 
 	5. Características especiais de propriedades: pode ser útil definir propriedades como transitivas, únicas ou inversas a outras propriedades.
 
@@ -218,19 +238,57 @@ Propriedade: a relação entre recursos de sujeitos para com recursos de objetos
 	O conjunto de todas essas caracteristicas para a linguagem, trouxe a necessidade de sua divisão em sublinguagens: a OWL Lite, OWL DL e a OWL Full. Cada uma dessas sublinguagens possuindo aspectos diferentes referentes ao seus graus de formalismo e conjuntos de restrições. A Figura 7 ilustra a divisão tida na linguagem.
 
 Figura 07
+Fonte: extraído de HORRIDGE, 2011
 
-	Desta forma a W3C (2004) define cada uma das sublinguagens da OWL como:
+	Desta forma a W3C (2004) define cada uma das sublinguagens da OWL 1 como:
 
 	1. OWL lite: suporta classificação hierarquica e simples ligações entre os recursos. É utilizada como uma rápida abordagem para construção de tesauros ou outras taxonomias. Entre as sublinguagens é que possui a menor complexidade formal.
 
-	2. OWL DL: utilizada com o propósito de se ter a maxima expressão permitida retendo as competências computacionais, de forma a todas as conclusões serem possíveis de processamento computacional. Suporta todas as construções existentes na linguagem OWL, porém pode ser utilizada somente sob certas restrições. Essa sublinguagem corresponde ao campo de pesquisa da lógica de descrição que formam a fundação formal da OWL.
+	2. OWL DL: utilizada com o propósito de se ter a maxima expressão permitida retendo as competências computacionais, de forma a todas as conclusões serem possíveis de processamento computacional. Suporta todas as construções existentes na linguagem OWL, porém, pode ser utilizada somente sob certas restrições. Essa sublinguagem corresponde ao campo de pesquisa da lógica de descrição que formam a fundação formal da OWL.
 
-	3. OWL Full: A utilização desta sublinguagem é escolhida para aplicações onde se procura obter a máxima expressividade e o livre uso sintático da linguagem, porém com a restrição de não possuir garantias computacionais sobre isto. Um exemplo é uma classe que pode ser tratada simultaneamente como uma coleção de indivíduos e também como um indivíduo.
+	3. OWL Full: A utilização desta sublinguagem é escolhida para aplicações onde se procura obter a máxima expressividade e o livre uso sintático da linguagem, porém, com a restrição de não possuir garantias computacionais sobre isto. Um exemplo é uma classe que pode ser tratada simultaneamente como uma coleção de indivíduos e também como um indivíduo, não sendo passível de inferência computacional.
+
+	Segundo Isotani e Bittencourt (2015) a versão OWL 2 trouxe a adição de algumas novas divisões visando atender diferentes capacidades e necessidades computacionais, estas geradas por novos conceitos para semântica adicionados na nova versão. A Figura 8 compara as divisões das duas versões da linguagem.
+
+Figura 8
+Fonte: Isotani e Bittencourt (2015)
+
+Com isso, podemos observar diferentes divisões, cada qual com seu grau de formalismo e grau de aproximação com a linguagem RDFS. Os elementos para relação entre recursos proporcionados por todas as divisões supracitadas possibilitam uma gama enorme de possibilidades para se criar um modelo formal. Conforme a W3C (2004) alguns dos elementos disponibilizados por essas divisões e suas definições podem ser entendidas como:
+
+
+	ObjectProperty: classe utilizada para relacionar dois indivíduos. É uma subclasse da classe Property definida na linguagem RDF.
+
+	DataProperty: classe utilizada para relacionar um indivíduo para um literal. É uma subclasse da classe Property definida na linguagem RDF. 
+		
+	equivalentClass: duas classes podem ser definidas como equivalentes, desta forma, permite-se a criação de sinônimos para classes.
+
+	equivalentproperty: duas propriedades podem ser definidas como equivalentes, desta forma, permite-se relacionar um indivíduo que possui relação a propriedade para outro conjunto de indivíduos relacionados com a propriedade sinônimo.
+
+	sameAs: dois indivíduos podem ser definidos como o mesmo. Esta estrutura é utilizada para possibilitar a criação de sinônimos, aumentando assim a gama de termos e relações referentes a um indivíduo.
+
+	inverseof: uma propriedade pode ser definida como inversa à outra. Desse modo, para uma propriedade P1 inversa à propriedade P2, caso se afirme que X é relacionado a Y por P1, logo Y é relacionado a X por P2.
+
+	transitiveProperty: uma propriedade pode ser definida como transitiva, desse modo, se o par (X, Y) são ligados por uma propriedade transitiva P e outro par (Y, Z) são também ligados pela mesma propriedade, logo infere-se o par (X, Z) ligados pela propriedade P.
+
+	simmetricProperty: uma propriedade pode ser definida como simétrica, assim, para uma propriedade simétrica P, dada o par (X, Y) pode se inferir o par (Y, X).
+
+	functionalProperty: uma propriedade é definida como funcional quando somente pode ter um valor.s Dessa forma, pode-se inferir para dois indivíduos que sejam objetos de uma propriedade P funcional serem iguais, ou seja, todas afirmações definidas sobre um também seram verdadeiras ao outro.
+
+	disjointWith: classes podem ser definidas como disjuntas a outras. Desta forma no caso de uma classe X disjunta a classe Y, não seram permitidas instâncias em comum entre as duas classes. Essa restrição só está disponível para as sublinguagens OWL DL e OWL Full.
+
+	minCardinality, maxCardinality: propriedades podem definir restrições de miníma e máxima cardinalidade, restringindo a quantidade mínima e máxima de elementos que possam ser relacionados pela propriedade.
 
 
 Conclusões
 
-Para se trabalhar com ontologias necessita-se a atribuição de uma forma de representá-las, de modo que apresente um grau de formalismo e que seja compreensível por meio de uma linguagem. 
+	Neste capítulo observamos a grandeza do ecossistema envolvendo ontologias, permitindo ampliarmos a visão sobre soluções computacionais passíveis de serem realizadas com essa ferramenta. Foram levantadas as principais definições do conceito de ontologias, consolidando a visão tida para construção da ontologia deste trabalho.
+
+	Foram levantadas as características intrinsícas a todas as ontologias relacionadas, desde o grau de formalismo presente, ao nível de abstração do dominio de conhecimento modelado. Assim, a ontologia construída para esse trabalho com enfoque na área de dominio de CNAE para MEI, pode ser definida como uma ontologia de aplicação, tratando de uma área de dominio especifica para uma solução computacional. Por permitir a máxima expressividade possível passível de processamento computacional pode ser definida dentro da sublinguagem OWL DL, tendo como sua classificação baseada nas restrições semânticas utilizadas a definição de “Heavyweight”.
+
+	Além disso, neste capítulo foram abordadas as características comuns entre as principais linguagens para construção de ontologias, uma breve explicação de suas origens e a transição da complexidade entre as linguagens de base RDF e RDFS para a linguagem OWL.
+
+	Observa-se a riqueza de recursos encontrada para a implementação de soluções que necessitem de aspectos semãnticos. Sendo assim, os conceitos abordados sobre as ontologis, assim como, os recursos presentes nas linguagens apresentadas, foram de vital importância para possibilitar a solução proposta nesse trabalho. O próximo capítulo aborda a metodologia utilizada para desenvolvimento da ontologia proposta.
+
 
 
 
