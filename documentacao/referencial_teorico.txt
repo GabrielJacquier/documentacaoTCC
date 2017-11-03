@@ -136,9 +136,18 @@ Figura 04.
 
 Linguagens
 
-	A introdução de linguagens para construção de ontologias assim como sua variedade é compreensível pelas diferentes necessidades semânticas requeridas por ontologias. Deste modo, as linguagens para representação de ontologias visam possibilitar a utilização adequada da informação para humanos e agentes de software.
+	A introdução de linguagens para construção de ontologias assim como sua variedade é compreensível pelas diferentes necessidades semânticas requeridas por ontologias. Deste modo, conforme Antoniou. G. e Harmelen. V. F. (2004) as linguagens ontológicas permitem a formalização de modelos de dominio através de algumas das seguintes características, podendo ser atendidas mais ou menos conforme o grau de formalismo da linguagem:
 
-	As principais linguagens para construção de ontologias como a RDF (Resource Description Framework), RDFS (Resource Description Framework Schema) e OWL (Ontology Web Language) têm sua origem e desenvolvimento ligados a expansão da web e ao aumento da necessidade de disponibilização de seus recursos de forma semântica. Nas próximas subseções seram apresentadas essas linguagens que compreendem as utilizadas para construção da ontologia proposta nesse trabalho.
+	1. Uma sintaxe bem definida, onde está é tida em qualquer linguagem, mesmo as de programação, como requisito básico para tornar possível a interpretação por máquinas.
+
+	2. uma estrutura semântica formal bem definida, onde é precisamente definido o significado de um conhecimento, assim sendo, a semântica não trata de definições subjetivas nem permite diferentes definições por pessoas ou máquinas.
+
+	3. eficiente suporte para motores de inferência, permitem a automatização de definições através de regras estabelecidas, fazendo por exemplo a classificação de instâncias para classes assim como a verificação de consistência da base de conhecimento.
+
+	4. suficiente poder de expressividade, as linguagens RDF e RDFS permitem a definição do modelo de algumas ontologias, porém é requerido em algumas situações estruturas de definição mais ricas como as encontradas na OWL.
+
+
+	As principais linguagens para construção de ontologias como a RDF (Resource Description Framework), RDFS (Resource Description Framework Schema) e OWL (Ontology Web Language) têm sua origem e desenvolvimento ligados a expansão da web e ao aumento da necessidade de disponibilização de seus recursos de forma expressiva. Nas próximas subseções seram apresentadas essas linguagens que compreendem as utilizadas para construção da ontologia proposta nesse trabalho.
 
 
 	RDF
@@ -190,18 +199,27 @@ Propriedade: a relação entre recursos de sujeitos para com recursos de objetos
 
 	OWL
 
-	Diferentes linguagens ontológicas são comparadas em quanto às suas capacidades de representação do conhecimento e inferência. O domínio de conhecimento é formado pelos componentes ontológicos citados anteriormente. Por fim, o processo de raciocínio proporcionado por uma ontologia é executado sobre o seu domínio de conhecimento. São exemplos de linguagens ontológicas: OCML, OWL, LOOM, F-Logic e OIL.
+	A linguagem OWL (Web Ontology Language) foi criada pelo Ontology Working Group da W3C no intuito de possibilitar definições mais expressivas para a criação de ontologias. Segundo Antoniou. G. e Harmelen. V. F. (2004) a linguagem RDFS permite a divisão de recursos na web em taxonomias, o que é considerado interessante do ponto de vista da semântica, porém, em muitos casos foi observada a necessidade de mais expressividade, fazendo com que a linguagem RDFS se mostra-se limitada para tal. Com isso foi gerada a necessidade da criação de uma linguagem ontológica mais expressiva.
 
-	O consorcio W3C em seu documento “OWL Web Ontology Language Guide” elaborado por “ Web Ontology Working Group as part of the W3C Semantic Web Activity (Activity Statement, Group Charter)”, define que : 
-  
-“O OWL  (Web Ontology Language) destina-se a fornecer uma linguagem que possa ser usada para descrever as classes e as relações entre elas inerentes aos documentos e aplicações  Web” W3C (2004) – Tradução Livre.
+	Desta forma, conferme a W3C (2004) a construção da OWL foi realizada sobre a revisão do projeto  DAML+OIL web language e utilizou-se das linguagens RDF e RDFS como base, herdando assim uma sintaxe bem definida e estruturas semânticas que permitissem a criação de taxônomias entre os recursos e propriedades. Com isso, além das estruturas herdadas foram obtidas novas estruturas semânticas. Algumas dessas são comentadas por Antoniou. G. e Harmelen. V. F. (2004) sendo elas:
 
-De acordo com Breittman (2005)  a linguagem ontológica OWL foi desenvolvida para suprir diversas necessidades e requisitos colhidos em diversas fontes, sendo Tim Berners Lee e Robert Cailau os idealizadores por proporcionar a crescente e constante demanda.  
+	
+	1. Escopo local de propriedades: permite a restrição de uma relação com somente algumas classes, até então não possibilitada pelas linguagens RDF e RDFS. Um exemplo é a definição da tripla “vaca” “come” “somente planta”, esta definição para a linguagem RDFS não seria possível, logo que outros animais podem comer carne também.
 
-	A linguagem ontológica OWL isoladamente, não possibilita a utilização ou desenvolvimento de uma ontologia, para tanto Berners Lee idealizou o chamado “bolo de noiva”, integrando assim a Rede semântica, a qual as ontologias e todas as suas tecnologias dependentes tem grande importância. Esta estrutura é constituída conforme a figura 06.
+	2. Classes disjuntas: pode ser necessária a definição de que uma instância de uma classe jamais será de outra. Um exemplo de definição é a de que uma instância da classe Homem jamais será uma instância da classe Mulher.
+
+	3. Classe de combinações boleanas: as vezes é desejavel definir uma classe a partir de um estado tido pelas instâncias, um exemplo pode ser dado na definição da classe Pessoa, que poderia ser definida quando uma instância não é nem uma instância da classse Homem quanto nem uma da classe Mulher.
+
+	4. Restrições de cardinalidade: pode-se necessitar em alguns casos da definição de restrições de valores para as propriedades, por exemplo, poder definir que uma pessoa tem exatamente dois parentes.
+
+	5. Características especiais de propriedades: pode ser útil definir propriedades como transitivas, únicas ou inversas a outras propriedades.
 
 
-Figura 06.
+	O conjunto de todas essas caracteristicas para a linguagem, trouxe a necessidade de sua divisão em sublinguagens: a OWL Lite, OWL DL e a OWL Full. Cada uma dessas sublinguagens com aspectos diferentes referente ao seu grau de formalismo e conjunto de restrições. A Figura 7 ilustra a divisão tida na linguagem.
+
+Figura 07
+
+
 
 
 Conclusões

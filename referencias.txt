@@ -23,6 +23,7 @@ Steffen Lohmann, Stefan Negru, Florian Haag, & Thomas Ertl. (2016). Visualizing 
 
 https://www.w3.org/TR/rdf-schema/#ch_introduction
 
+https://www.w3.org/TR/2004/REC-owl-features-20040210/#s1
 
 
 Possíveis Autores e Trabalhos
