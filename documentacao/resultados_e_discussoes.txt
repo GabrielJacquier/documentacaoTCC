@@ -1,7 +1,6 @@
-﻿Resultado e Discussão
+Resultados e Discussões
 
-
-	A solução proposta apresentou coerência com os requisitos levantados no escopo, de modo a garantir à agentes computacionais o processamento das informações contidas nas atividades. A Figura X ilustra as inferências realizadas na ferramenta Protégé para o termo “casaco” demonstrando algumas das relações possíveis a serem obtidas de cada termo inserido na ontologia.
+A solução apresentada neste trabalho apresentou coerência com os requisitos levantados no escopo, de modo a garantir à agentes computacionais qualidade no processamento das informações. A Figura X ilustra as inferências realizadas na ferramenta Protégé para o termo “casaco” demonstrando algumas das relações possíveis a serem obtidas de cada termo inserido na ontologia.
 
 FiguraInferenciaTermosCasaco
 
