@@ -3,7 +3,7 @@
 	
 	Será apresentada neste capítulo a pesquisa realizada sobre o processo de abertura de empresas por microempreendedores, assim como, sua relação com a Classificação Nacional de Atividades Econômicas. Nas seções seguintes, será dado enfoque às partes do processo de maior relevância para o trabalho.
 
-	A abertura de empresas por microempreendedores informais se tornou mais fácil com a modalidade de empresa MEI (Microempreendedor Individual). Esta modalidade é destinada a microempreendedores que possuam uma renda anual de até 60 mil reais e que realizem atividades dentro das mais de 480 atividades permitidas para a modalidade.
+	A abertura de empresas por microempreendedores informais se tornou mais fácil com a modalidade de empresa MEI (Microempreendedor Individual). De acordo com o Serviço Brasileiro e Apoio à micro e pequenas empresas (Sebrae) esta modalidade é destinada a microempreendedores que possuam uma renda anual de até 60 mil reais e que realizem atividades dentro das mais de 480 atividades permitidas para a modalidade.
 
 	Para o microempreendedor informar ao governo suas atividades realizadas como um MEI, é necessário fornecer no cadastro da empresa o código da CNAE (Classificação Nacional de Atividades Econômicas). A CNAE classifica todas as atividades possíveis de serem realizadas por empresas no Brasil. Segundo a receita federal do Brasil - 6ª Região Fiscal (2017) a função da cnae é:
 	
