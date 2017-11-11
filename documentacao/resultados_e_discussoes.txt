@@ -1,0 +1,13 @@
+Resultados
+
+	A aplicação apresentada neste trabalho apresentou coerência com os requisitos levantados no escopo, de modo a garantir à agentes computacionais qualidade no processamento das informações. A Figura X ilustra as inferências realizadas na ferramenta Protégé para o termo “casaco” demonstrando algumas das relações possíveis a serem obtidas de cada termo inserido na ontologia.
+
+FiguraInferenciaTermosCasaco
+
+	Notamos dentro das inferências realizadas a definição do termo “casaco” sendo específico para outros termos como: roupa e artigo. Deste modo, obtem-se ganho semântico em buscas proporcionando riqueza para consulta às informações.
+
+	A fim de esclarecer o benefício gerado pela ontologia na organização da informação, utilizamos um exemplo prático como comparativo entre as informações fornecidas pela ontologia apresentada e as informações fornecidas pelo meio “ibge – cnae” disponível atualmente online. A figura X2 apresenta uma consulta sendo feita utilizando a sentença “acabamento de roupas” onde espera-se que seja retornado o código da CNAE “1412602” que representa a atividade “confecção de artigos do vestuário”.
+
+FiguraIbgeCNAE
+
+	Percebemos a indisponibilidade de resultados para essa sentença no site “ibge – cnae”. O resultado obtido pela ontologia é o esperado, e desmonstra a evolução obtida na utilização da ontologia.
