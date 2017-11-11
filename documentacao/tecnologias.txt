@@ -4,19 +4,23 @@
 4.1	Protégé
 
 
-A plataforma Protégé é um ambiente para desenvolvimento de ontologias, pssuindo um conjunto de ferramentas para auxiliar na construção de modelos de domínio e aplicações baseadas em conhecimento.
+	A plataforma Protégé é um ambiente para desenvolvimento de ontologias, possuindo um conjunto de ferramentas para auxiliar na construção de modelos de domínio e aplicações baseadas em conhecimento. 
+
 	Conforme Gennari et al. (2003) o desenvolvimento da ferramenta iniciou-se com Mark Musen em 1987, tendo no inicio seu escopo destinado a construção de ferramentas de programas de planejamento médico para terapias. Ao longo dos anos, o desenvolvimento da ferramenta teve seu escopo ampliado, tornando possível gerar modelos de conhecimento para propósitos gerais. 
+
 	Conforme M. A. (2015) o Protégé tornou-se atualmente a plataforma mais utilizada pela comunidade de desenvolvimento de ontologias. Os projetos vêm mostrando amadurecimento, através da utilização em projetos governamentais importantes como National Cancer Institute Thesaurus e World Health Organization’s International Classification. O projeto também possui alguns números de utilização da plataforma, registrando 250 mil usuários e 500 empresas.
+
 	A plataforma atualmente é open source, assim sendo, é mantida pela Universidade de Stanford e por uma comunidade ativa, que contribui com testes, documentação, sugestões de melhorias e com o desenvolvimento de novos plugins.
-	Outras plataformas para desenvolvimento de ontologias foram encontradas tal como Ontolingua, OntoEdit, Hozo e OilEd. O Protégé se destaca das demais plataformas, pela análise de algumas características: 
+Outras plataformas para desenvolvimento de ontologias foram encontradas tal como Ontolingua, OntoEdit, Hozo e OilEd. O Protégé se destaca das demais plataformas, pela análise de algumas características: 
 
-•	arquitetura flexível, é possível adicionar novas funcionalidades através da extensão por plugins;
+	· arquitetura flexível, é possível adicionar novas funcionalidades através da extensão por plugins;
 
-•	total suporte a linguagem OWL, o Protégé possui suporte a ultima versão da linguagem OWL 2 e a especificação RDF da W3C World Wide Web Consortium (W3C);
+	· total suporte a linguagem OWL, o Protégé possui suporte a ultima versão da linguagem OWL 2 e a especificação RDF da W3C World Wide Web Consortium (W3C);
 
-•	comunidade ativa, a comunidade do Protégé é presente, através de fóruns de dúvida, assim como em sugestões para evolução do projeto.
+	· comunidade ativa, a comunidade do Protégé é presente, através de fóruns de dúvida, assim como em sugestões para evolução do projeto.
 
-A Figura 6 apresenta o ambiente de desenvolvimento Protégé em sua versão 5.2.
+A Figura 10 apresenta o ambiente de desenvolvimento Protégé em sua versão 5.2.
+
 
 
 FiguraAmbienteProtege
