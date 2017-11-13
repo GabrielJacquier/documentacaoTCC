@@ -1,0 +1,6 @@
+[
+    {
+        "codigoCNAE": "1412602",
+        "descricao": "a confecção, sob medida, de artigos do vestuário masculino, feminino e infantil (blusas, camisas, vestidos, saias, calças, ternos, casacos, etc.), feitos com qualquer tipo de material (tecidos planos, tecidos de malha, couros, etc.)"
+    }
+]

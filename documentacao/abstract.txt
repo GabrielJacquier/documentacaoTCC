@@ -1,0 +1,2 @@
+﻿
+This paper considers the topic ontology, presenting as one of its applications the domain area of the National Classification of Economic Activities within the scope of Individual Microentrepreneurs. A theoretical survey was carried out on the subject and it was used methodologies and tools recognized by the field of study for the construction of an application ontology. The aim of the ontology was to organize the information in the area of  domain chosen with a focus on improving interoperability between systems and on semantic issues.

@@ -1,24 +1,6 @@
 ﻿Resumo
 
 	
-
-
-
-
-
-Palavras para auxílio:
-
-Ontologia:
-
-modelos de recuperação de informação;
-organização semântica da informação;
-conhecimento;
-sistematização dos conceitos e das relações semânticas que se estabelecem entre eles;
-utilizadas para representar o conhecimento relativo a um dado domínio do conhecimento.
-
-
-
-
-	
+	Este trabalho contempla o tema ontologia, apresentando como uma de suas aplicações a área de domínio da Classificação Nacional de Atividades Econômicas no âmbito dos Microempreendedores Individuais. Realizou-se levantamento teórico sobre o tema e utilizou-se de metodologias e ferramentas reconhecidas pelo campo de estudo para a construção de uma ontologia de aplicação. A ontologia teve como objetivo a organização da informação na área de domínio escolhida com enfoque no aprimoramento da interoperabilidade entre sistemas e na problemática da semântica.
 
 
