@@ -1,0 +1,42 @@
+CNAE - Classificação Nacional de Atividades Econômicas
+MEI  - Microempreendedor Individual
+RDF  - Resource Description Framework
+RDFS - Resource Description Framework Schema
+OWL  - Web Ontology Language
+VOWL - Visual Notation for OWL Ontologies
+SPARQL - SPARQL Protocol and RDF Query Language
+API - Application Programming Interface
+REST - Representational State Transfer
+JAX-RS - Java API for RESTful Web Services
+IBGE - Instituto Brasileiro de Geografia e Estatística
+URI - Uniform Resource Identifier
+URL - Unified Resource Locator
+RDFa - Resource Description Framework in Attributes
+XML - eXtensible Markup Language
+Turtle - Terse RDF Triple Language
+N-Triples - formato de texto baseado em linhas para codificar um grafo RDF
+N-Quads - formato de texto baseado em linhas para codificar um conjunto de grafos RDF
+TriG - extensão da linguagem Turtle para representação completa de um conjunto de grafos RDF
+JSON - JavaScript Object Notation
+JSON-LD - JavaScript Object Notation for Linked Data
+W3C - World Wide Web Consortium
+DAML - DARPA agent markup language
+OIL - Ontology Inference Layer
+DAML+OIL - Linguagem que uniu a estrutura da DAML e a OIL
+SQL - Structured Query Language
+JavaEE - Java Enterprise Edition
+SEBRAE - Serviço Brasileiro e Apoio à Micro e Pequenas Empresas
+CNPJ - Cadastro Nacional de Pessoa Jurídica
+IR - Imposto de Renda
+PIS - Programa de Integração Social
+COFINS - Contribuição para o Financiamento da Seguridade Social
+IPI - Imposto sobre produtos Industrializados
+CSLL - Contribuição SOcial sobre o Lucro Líquido
+CONCLA - Comissão Nacional da Classificação
+NPL - Natural Language Processing
+
+
+
+
+
+

@@ -1,0 +1,70 @@
+﻿Referências para o trabalho
+
+Handbook on Ontologies
+International Handbooks on Information Systems 2009
+
+Web Semântica - A Internet do Futuro
+
+Gruber, T. R., Toward Principles for the Design of Ontologies Used for Knowledge Sharing. International Journal Human-Computer Studies, 43(5-6):907-928, 1995.
+
+Guarino, N. Formal Ontology, Conceptual Analysis and Knowledge Representation, International Journal of Human-Computer Studies, 43(5-6):625–640, 1995
+
+Guarino N. Formal ontology and information systems.
+National Research Council, 1-13, 1998
+
+Robert Battle, Edward Benson
+Web Semantics: Science, Services and Agents on the World Wide Web 
+Bridging the semantic Web and Web 2.0 with Representational State Transfer (REST) 
+6, 61–69, 2008.
+
+Steffen Lohmann, Stefan Negru, Florian Haag, & Thomas Ertl. (2016). Visualizing ontologies with VOWL. Semantic Web, 7(4), 399–419.
+
+https://www.w3.org/TR/rdf-schema/#ch_introduction
+
+https://www.w3.org/TR/2004/REC-owl-features-20040210/#s1
+
+Musen, M.A. The Protégé project: A look back and a look forward. AI Matters. Association of Computing Machinery Specific Interest Group in Artificial Intelligence, 1(4), June 2015. DOI: 10.1145/2557001.25757003.
+
+
+Possíveis Autores e Trabalhos
+
+[1] Berners-Lee, T., Hendler, J. and Lassila, O.  The Semantic Web, Scientific American, May 2001.  Also http://www.w3.org/2001/sw/
+
+[2] Gruber, T. R., A Translation Approach to Portable Ontology Specifications. Knowledge Acquisition, 5(2):199-220, 1993.  See also What is an Ontology? http://www-ksl.stanford.edu/kst/what-is-an-ontology.html
+
+[3] Gruber, T. R., Toward Principles for the Design of Ontologies Used for Knowledge Sharing. International Journal Human-Computer Studies, 43(5-6):907-928, 1995.
+
+[4] Guarino, N. Formal Ontology, Conceptual Analysis and Knowledge Representation, International Journal of Human-Computer Studies, 43(5-6):625–640, 1995.
+
+GUARINO, N. Formal ontology in information systems. In: IOS Press, A, editor, FOIS’98, TRENTO, ITALY, p. 3–15, 06 1998.
+
+[5] Hayes, P. J. The Second Naive Physics Manifesto, in Hobbs and Moore (eds.), Formal Theories of the Common-Sense World, Norwood: Ablex, 1985.
+
+[6] McCarthy, J. Circumscription -- A Form of Non-Monotonic Reasoning,
+Artificial Intelligence, 5(13): 27-39, 1980.
+
+[7] McGuinness, D. L. and van Harmelen, F.  OWL Web Ontology Language.  W3C Recommendation 10 February 2004.  http://www.w3.org/TR/owl-features/
+ 
+[8] Neches, R., Fikes, R. E., Finin, T., Gruber, T. R., Patil, R., Senator, T., & Swartout, W. R. Enabling technology for knowledge sharing. AI Magazine, 12(3):16-36, 1991.
+ 
+ [9] Smith, B. and Welty, C.  Ontology---towards a new synthesis.  Proceedings of the International Conference on Formal Ontology in Information Systems (FOIS2001).ACM Press, 2001.
+ 
+[10] Sowa, J. F. Conceptual Structures. Information Processing in Mind and Machine, Reading, MA: Addison Wesley, 1984.
+ 
+[11] Standard Upper Ontology Working Group (SUO) IEEE P1600.1, http://suo.ieee.org/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
