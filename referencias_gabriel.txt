@@ -8,4 +8,14 @@ LASSILA, O. MCGUINNESS, D. The Role of Frame-Based Representation on the Semanti
 
 ISOTANI, S.; BITTENCOURT, I. I. Dados Abertos Conectados. 1. ed. São Paulo: Novatec, 2015. Disponível em: <http://http://ceweb.br/livros/dados-abertos-conectados/>. Acesso em: 14 nov. 2017.
 
-WORLD WIDE WEB CONSORTIUM. RDF Schema 1.1: W3C Recommendation 25 February 2014
+WORLD WIDE WEB CONSORTIUM. RDF Schema 1.1: W3C Recommendation. 2014. Disponível em: <https://www.w3.org/TR/rdf-schema/> Acesso em: 14 nov. 2017.
+
+ANTONIOU, G.; HARMELEN, van F. Web Ontology Language: OWL. In: STAAB, S.; STUDER, R. (Eds.). Handbook on Ontologies. 2nd ed. Berlin Heidelberg: Springer, 2009.
+
+GRUBER, R. T. Toward principles for the design of ontologies used for knowledge sharing?. In: International Journal of Human-Computer Studies. Elsevier, 1995. v. 45. p. 907-928.
+
+GENNARI, H. J. et. al. The evolution of Protégé: an environment for knowledge-based systems development. In: International Journal of Human Computer Studies. Elsevier, 2003. v. 58. p. 89-123.
+
+MUSEN, A. M.; Protégé Team. The Protégé Project: A Look Back and a Look Forward. AI Matters, 2015. v. 1. p. 4-12.
+
+
