@@ -22,4 +22,6 @@ Serviço Brasileiro de Apoio às Micro e Pequenas Empresas (SEBRAE). O que é se
 
 THE RDF WORKING GROUP. RDF Schema 1.1. Disponível em: <https://www.w3.org/TR/rdf-schema/>. Acesso em: 14 nov. 2017.
 
+NOY, F. N.; GUINNESS, D. L. Ontology Development 101: A Guide to Creating Your First Ontology. Stanford: Stanford University, 2001.
+
 
